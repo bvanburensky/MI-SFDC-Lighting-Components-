@@ -1,0 +1,6 @@
+<aura:documentation>
+	<aura:description>Documentation</aura:description>
+	<aura:example name="MI RelatedList" ref="MI_RelatedList" label="MI RelatedList">
+		MI Related list component.  Used to display a related list but with more flexability and options that the out of the box related list
+	</aura:example>
+</aura:documentation>

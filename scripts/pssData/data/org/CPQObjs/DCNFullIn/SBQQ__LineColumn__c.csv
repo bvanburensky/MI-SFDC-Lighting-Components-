@@ -1,0 +1,31 @@
+External_Id__c,Name,SBQQ__Template__r.External_Id__c,SBQQ__Section__r.External_Id__c,SBQQ__Alignment__c,SBQQ__BottomMargin__c,SBQQ__ColumnHeadingField__c,SBQQ__ConditionalPrintField__c,SBQQ__DisplayOrder__c,SBQQ__DynamicNumberScale__c,SBQQ__FieldName__c,SBQQ__FontFamily__c,SBQQ__FontSize__c,SBQQ__FontWeight__c,SBQQ__HeadingTextColor__c,SBQQ__HideOnComponents__c,SBQQ__LeftMargin__c,SBQQ__RightMargin__c,SBQQ__RollUp__c,SBQQ__SeparateLine__c,SBQQ__SubGroupSummaryLabel__c,SBQQ__SummaryFontWeight__c,SBQQ__SummaryFunction__c,SBQQ__SummaryLabel__c,SBQQ__SummaryLevel__c,SBQQ__SummaryShadingColor__c,SBQQ__SummaryTextColor__c,SBQQ__TextColor__c,SBQQ__TopMargin__c,SBQQ__Width__c,SBQQ__WidthDiscardedWhenHidden__c
+20230515.152,CPQ Project Type,EX-000002,EX-000023,Left,3,,,90,false,PDF_BI_Project_Info__c,,,Normal,,false,3,3,false,true,,,,,All,,,,3,90,false
+EX-000002,Geo Code,EX-000002,EX-000023,Left,3,,,20,false,SBQQ__ProductCode__c,,,Normal,,false,3,3,false,false,,,,,All,,,,3,30,false
+EX-000003,List Price,EX-000002,EX-000019,Right,3,,,20,false,Package_or_List_Total__c,,,Normal,,false,3,3,true,false,,,,,All,,,,3,15,false
+EX-000004,Year,EX-000002,EX-000005,Left,3,,,15,false,PDF_Date__c,,,Normal,,false,3,3,false,false,,,,,All,,,,3,15,false
+EX-000005,Quantity,EX-000002,EX-000005,Left,3,,,10,false,SBQQ__Quantity__c,,,Normal,,false,3,3,false,false,,,,,All,,,,3,10,false
+EX-000006,Line Total,EX-000002,EX-000005,Right,3,,PDF_Print_Quote_Total__c,40,false,Output_Net_Total__c,,,Normal,,false,3,3,true,false,,,,,All,,,,3,15,false
+EX-000007,Name,EX-000002,EX-000005,Left,3,,,5,false,Invoice_Description__c,,,Normal,,false,3,3,false,false,,,,,All,,,,3,60,false
+EX-000008,Name,EX-000002,EX-000019,Left,3,,,5,false,Invoice_Description__c,,,Normal,,false,3,3,false,false,,,,,All,,,,3,30,false
+EX-000009,Quantity,EX-000002,EX-000019,Left,3,,,10,false,PDF_Quantity__c,,,Normal,,false,3,3,false,false,,,,,All,,,,3,10,false
+EX-000010,Line Total,EX-000002,EX-000020,Right,3,,PDF_Print_Quote_Total__c,110,false,Output_Net_Total__c,,,Normal,,false,3,3,true,false,,,SUM,,All,eee,,,3,15,false
+EX-000011,Year,EX-000002,EX-000020,Left,3,,,15,false,SBQQ__SegmentLabel__c,,,Normal,,false,3,3,false,false,,,,,All,fff,,,3,20,false
+EX-000012,Quantity,EX-000002,EX-000022,Left,3,,,10,false,SBQQ__EffectiveQuantity__c,,,Normal,,false,3,3,false,false,,,,,All,fff,,,3,10,false
+EX-000013,Date,EX-000002,EX-000019,Right,3,,,15,false,PDF_Date__c,,,Normal,,false,3,3,false,false,,,,,All,,,,3,15,false
+EX-000014,Line Total,EX-000002,EX-000019,Right,3,,PDF_Print_Quote_Total__c,40,false,Output_Net_Total__c,,,Normal,,false,3,3,true,false,,,,,All,,,,3,15,false
+EX-000015,Name,EX-000002,EX-000022,Left,3,,,5,false,Invoice_Description__c,,,Normal,,false,3,3,false,false,,,,,All,fff,,,3,30,false
+EX-000016,List Price,EX-000002,EX-000022,Right,3,,,20,false,Package_or_List_Total__c,,,Normal,,false,3,3,true,false,,,SUM,,All,eee,,,3,15,false
+EX-000017,Discount,EX-000002,EX-000019,Right,3,,,25,false,Output_Discount_Amount__c,,,Normal,,false,3,3,true,false,,,,,All,,,,3,15,false
+EX-000018,Quantity,EX-000002,EX-000020,Left,3,,,30,false,SBQQ__EffectiveQuantity__c,,,Normal,,false,3,3,false,false,,,,,All,fff,,,3,15,false
+EX-000019,Year,EX-000002,EX-000022,Left,3,,,15,false,SBQQ__SegmentLabel__c,,,Normal,,false,3,3,false,false,,,,,All,fff,,,3,15,false
+EX-000020,Line Total,EX-000002,EX-000022,Right,3,,PDF_Print_Quote_Total__c,40,false,Output_Net_Total__c,,,Normal,,false,3,3,true,false,,,SUM,,All,eee,,,3,15,false
+EX-000021,Name,EX-000002,EX-000020,Left,3,,,5,false,Invoice_Description__c,,,Normal,,false,3,3,false,false,,,,,All,fff,,,3,50,false
+EX-000022,Discount,EX-000002,EX-000022,Right,3,,,25,false,Output_Discount_Amount__c,,,Normal,,false,3,3,true,false,,,SUM,,All,eee,,,3,15,false
+EX-000023,Geo Name,EX-000002,EX-000023,Left,3,,,10,false,SBQQ__ProductName__c,,,Normal,,false,3,3,false,false,,,,,All,,,,3,40,false
+EX-20230501,PDF Sub Line Description,EX-000002,EX-000019,Left,3,,,200,false,PDF_Sub_Line_Description__c,,,Normal,,false,3,3,false,true,,,,,All,,,,3,15,false
+EX-20230501.01,PDF Sub Line Description,EX-000002,EX-000005,Left,3,,,200,false,PDF_Sub_Line_Description__c,,,Normal,,false,3,3,false,true,,,,,All,,,,3,15,false
+EX-20230501.02,PDF Sub Line Description,EX-000002,EX-000020,Right,3,,,200,false,PDF_Sub_Line_Description__c,,,Normal,,false,3,3,false,true,,,,,All,,,,3,15,false
+EX-20230501.03,PDF Sub Line Description,EX-000002,EX-000022,Left,3,,,200,false,PDF_Sub_Line_Description__c,,,Normal,,false,3,3,false,true,,,,,All,,,,3,15,false
+EX-20230515.01,CPQ Project Type,EX-000002,EX-000023,Left,3,,,45,false,Project_Type__c,,7,Normal,,false,3,3,false,true,,,,,All,,,,3,100,false
+EX-20230515.02,Project Category,EX-000002,EX-000023,Left,3,,,40,false,Project_Category__c,,,Normal,,false,3,3,false,false,,,,,All,,,,3,30,false
+EX-20231130.01,CPQ Project Type,EX-000002,EX-000023,Left,3,,,120,false,PDF_Sub_Line_Description__c,,,Normal,,false,3,3,false,true,,,,,All,,,,3,90,false

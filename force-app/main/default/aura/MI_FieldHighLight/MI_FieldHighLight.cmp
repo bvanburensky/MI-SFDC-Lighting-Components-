@@ -1,0 +1,81 @@
+<aura:component extends="c:MI_BaseComponent" 
+  implements="flexipage:availableForRecordHome,force:hasRecordId" >
+
+    <aura:handler name="init" value="{! this }" action="{! c.doInit }" />
+
+	<aura:attribute name="displayAsCard" type="boolean" />
+	<aura:attribute name="messageOnly" type="boolean" />
+	<aura:attribute name="message" type="String" />
+
+
+	<aura:attribute name="recordId" type="String" />
+	<aura:attribute name="fieldName1" type="string"  />
+
+ 
+	<aura:attribute name="header" type="string"  />
+	<aura:attribute name="footer" type="string"  />
+	<aura:attribute name="icon" type="string"  />
+
+	<aura:attribute name="fieldName2" type="string"  />
+	<aura:attribute name="field1Out" type="string" default="Hello1"/>
+	<aura:attribute name="field2Out" type="string" default="Hello2"/>
+
+	<aura:attribute name="colorSetting" type="string"  />
+	<aura:attribute name="colorIcon" type="string"  />	
+	<aura:attribute name="sizeSetting" type="string"  />
+
+	<aura:attribute name="cssClass" type="string" default =""/>
+ 
+
+	<aura:attribute name="fields" type="string[]" default="Name" />
+	<aura:attribute name="sObjectFields" type="Object"  />
+	<aura:attribute name="sObjectRec" type="Object"  />
+
+	<aura:attribute name="errors" type="string" default=""/>
+
+ <force:recordData aura:id="sObjectRec" 
+                       mode="VIEW"
+                      recordId="{!v.recordId}" 
+                      targetRecord="{!v.sObjectRec}"
+                      targetFields="{!v.sObjectFields}"
+                      targetError="{!v.errors}" 
+                      fields="{!v.fields}"  
+  recordUpdated="{!c.sObjUpdated}"
+/>
+
+<div class=" "> 
+  <aura:if  isTrue="{!v.displayAsCard}" >
+ 
+	<lightning:card title="{!v.header}" iconName="{!v.icon}"  footer="{!v.footer}"   >
+  <div class="sgfieldhighlight"> 
+	<div class="{!v.cssClass +'   ' }"     data-field="{!v.fieldName1}"> 
+		<aura:if  isTrue="{!!v.messageOnly}" >
+			 <aura:unescapedHtml value="{!v.field1Out}" > 
+			 </aura:unescapedHtml>
+		</aura:if>
+		<aura:if  isTrue="{!v.messageOnly}" >
+			 <aura:unescapedHtml value="{!v.message}" > 
+			 </aura:unescapedHtml>
+		</aura:if>
+	</div>
+</div>
+	</lightning:card> 
+ 
+	</aura:if>
+
+	<aura:if  isTrue="{!!v.displayAsCard}" >
+	<span class="{!v.cssClass}" data-field="{!v.fieldName1}"> 
+	<aura:if  isTrue="{!!v.messageOnly}" >
+	   <aura:unescapedHtml value="{!v.field1Out}" > 
+	   </aura:unescapedHtml>
+	</aura:if>
+	<aura:if  isTrue="{!v.messageOnly}" >
+	   <aura:unescapedHtml value="{!v.message}" > 
+	   </aura:unescapedHtml>
+	</aura:if>
+	</span>
+	</aura:if>
+</div>
+{!v.errors} 
+ 
+</aura:component>

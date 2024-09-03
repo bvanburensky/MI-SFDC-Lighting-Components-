@@ -1,0 +1,49 @@
+<aura:component extends="c:MI_BaseComponent" access="global">
+
+	<!-- method / hanlders -->
+	<aura:handler name="init" value="{!this}" action="{!c.doInit}"  />
+	<aura:handler name="change" value="{!v.acMod}" action="{!c.doRefresh}"  />
+	<aura:registerEvent name="MI_Event" type="c:MI_Event"/>
+	<aura:attribute name="gbId" type="string" access="global"  />
+	<!--attributes set by parent-->
+
+	<aura:attribute name="acMod" type="object" access="global" required="true" />
+	<aura:attribute name="actions" type="string" access="global"  />
+	<aura:attribute name="ready1" type="boolean" access="global"  />
+	<aura:attribute name="ready" type="boolean" access="global"  />
+	<aura:attribute name="test" type="string" access="global"  />
+	<aura:attribute name="acData" type="Object"/>
+	<aura:attribute name="acColumns" type="Object"/>
+	<aura:attribute name="keyField" type="Object" default="name"/>
+	<aura:attribute name="sortedBy" type="string" default="name"/>
+	<aura:attribute name="sortedDirection" type="string" default="asc"/>
+	<aura:attribute name="hideCheckboxColumn" type="boolean" default="true"/>
+	<aura:attribute name="showRowNumberColumn" type="boolean" default="false"/>
+	<aura:attribute name="sortable" type="boolean" default="true"/>
+	<aura:attribute name="debug" type="boolean" default="true"/>
+	<!--private attributes -->
+	<aura:attribute name="sortState" type="object" />
+
+	<aura:attribute name="displayFieldsArray" type="object[]" />
+ 
+	<lightning:datatable
+		data="{!v.acData}"
+		class="ac_borderme slds-table_col-bordered slds-table_striped slds-text-body_small"
+		columns="{!v.acColumns }"
+		keyField="{!v.keyField}"
+		hideCheckboxColumn="{!v.hideCheckboxColumn}"
+		onrowaction="{!c.handleRowAction}"
+		onrowselection="{!c.handleRowSelection}"
+		sortedBy="{!v.sortedBy}"
+    showRowNumberColumn ="{!v.showRowNumberColumn}"
+		onsort="{!c.onsort}"
+		defaultSortDirection="asc"
+		minColumnWidth="7"
+	    onsave="{!c.onSave}"
+/>
+
+<!--	sortedDirection="{!c.sortedDirection}" -->
+
+
+
+</aura:component>

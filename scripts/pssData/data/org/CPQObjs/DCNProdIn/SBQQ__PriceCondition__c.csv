@@ -1,0 +1,136 @@
+External_Id__c,SBQQ__Field__c,SBQQ__FilterFormula__c,SBQQ__FilterType__c,SBQQ__FilterVariable__r.External_Id__c,SBQQ__Index__c,SBQQ__Object__c,SBQQ__Operator__c,SBQQ__Rule__r.External_Id__c,SBQQ__TestedFormula__c,SBQQ__TestedVariable__r.External_Id__c,SBQQ__Value__c
+EX-000002,,,Value,,40,Quote Line,equals,EX-000013,!isblank(Project_Level_of_Detail__c),,TRUE
+EX-000003,Analytics_Geo__c,,Value,,,Quote Line,equals,EX-000026,,,True
+EX-000004,Summary_Line__c,,Value,,40,Quote Line,equals,EX-000021,,,FALSE
+EX-000005,Parent_Horizon_Contract_Number__c,,Value,,40,Quote Line,not equals,EX-000029,,,
+EX-000006,,,Value,,40,Quote,greater than,EX-000031,,EX-000003,5000
+EX-000007,Product Code,,Value,,10,Quote Line,equals,EX-000011,,,DCCSEATS
+EX-000008,Project_Category__c,,Value,,10,Quote Line,not equals,EX-000013,,,
+EX-000009,Bundle_Wrapper__c,,Value,,,Quote Line,equals,EX-000006,,,FALSE
+EX-000010,SBQQ__PriorQuantity__c,,Value,,,Quote Line,greater than,EX-000010,,,0
+EX-000011,Product Code,,Value,,,Quote Line,contains,EX-000004,,,WRAPPER
+EX-000012,Bluebook_Product_On_Quote__c,,Value,,2,Quote,equals,EX-000017,,,True
+EX-000013,,,Value,,,Quote,less or equals,EX-000011,,EX-000003,5000
+EX-000014,SBQQ__UpgradedSubscription__c,,Value,,,Quote Line,equals,EX-000011,,,
+EX-000015,Analytics_Geo__c,,Value,,10,Quote Line,equals,EX-000021,,,False
+EX-000016,SBQQ__ProductName__c,,Value,,80,Quote Line,not equals,EX-000021,,,Output Lines
+EX-000017,SBQQ__SubscriptionPricing__c,,Value,,20,Quote Line,not equals,EX-000020,,,
+EX-000018,Parent_Horizon_License_Number__c,,Value,,10,Quote Line,not equals,EX-000029,,,
+EX-000019,,,Value,,,Quote Line,equals,EX-000014,"ISPICKVAL(SBQQ__RequiredBy__r.SBQQ__Product__r.Revenue_Type__c , '1X')",,true
+EX-000020,SBQQ__ProductFamily__c,,Value,,,Quote Line,contains,EX-000038,,,Advertising
+EX-000021,,,Value,,10,Quote Line,equals,EX-000008,TEXT(SBQQ__Product__r.Zone_Type__c),,DCC County
+EX-000022,Product Code,,Value,,30,Quote Line,equals,EX-000009,,,IMSPRP
+EX-000023,Initial_ARR__c,,Value,,,Quote Line,equals,EX-000019,,,
+EX-000024,Horizon_Contract_Number__c,,Value,,30,Quote Line,equals,EX-000029,,,
+EX-000025,SBQQ__UpgradedSubscription__c,,Value,,,Quote Line,not equals,EX-000010,,,
+EX-000026,SBQQ__ProductFamily__c,,Value,,10,Quote Line,contains,EX-000016,,,Advertising
+EX-000027,Package_Code_Number__c,,Value,,,Quote Line,not equals,EX-000030,,,
+EX-000028,,,Value,,10,Quote Line,equals,EX-000025,"DCC_Geo_List_Price__c = 0 || 
+text(DCC_Geo_List_Price__c) = """"",,true
+EX-000029,SBQQ__ProductName__c,,Value,,,Quote Line,contains,EX-000028,,,Blue Book
+EX-000030,SBQQ__UpgradedSubscription__c,,Value,,10,Quote Line,equals,EX-000020,,,
+EX-000031,Project_Category__c,,Value,,20,Quote Line,not equals,EX-000021,,,
+EX-000032,Revenue_Type__c,,Value,,30,Quote Line,equals,EX-000020,,,1X
+EX-000033,SBQQ__DiscountScheduleType__c,,Value,,,Quote Line,equals,EX-000010,,,Slab
+EX-000033.01,,,Value,,30,Quote Line,equals,EX-000010,SBQQ__UpgradedSubscription__r.SBQQ__ProrateMultiplier__c,,1
+EX-000034,Horizon_License_Number__c,,Value,,20,Quote Line,equals,EX-000029,,,
+EX-000035,SBQQ__RequiredBy__c,,Value,,,Quote Line,not equals,EX-000027,,,
+EX-000036,Product Code,,Value,,,Quote Line,contains,EX-000030,,,WRAPPER
+EX-000037,Product Code,,Value,,20,Quote Line,equals,EX-000009,,,IMSPUP
+EX-000038,Product Code,,Value,,10,Quote Line,equals,EX-000031,,,DCCSEATS
+EX-000039,Product Code,,Value,,40,Quote Line,equals,EX-000009,,,IMSPUPRP
+EX-000040,Data_Content_Line__c,,Value,,50,Quote Line,equals,EX-000021,,,TRUE
+EX-000041,,,Value,,,Summary Variable,greater than,EX-000024,,EX-000004,0
+EX-000042,Data_Content_Line__c,,Value,,,Quote Line,equals,EX-000013,,,TRUE
+EX-000043,Nationwide__c,,Value,,10,Quote Line,equals,EX-000009,,,TRUE
+EX-000044,Product Code,,Value,,,Quote Line,starts with,EX-000007,,,IMSP
+EX-000045,ApprovalStatus__c,,Value,,,Quote,equals,EX-000015,,,Approved
+EX-000046,Geo_Level_of_Detail__c,,Value,,30,Quote Line,not equals,EX-000013,,,
+EX-000047,Project_Type__c,,Value,,30,Quote Line,not equals,EX-000021,,,
+EX-000048,SBQQ__UpgradedSubscription__c,,Value,,20,Quote Line,equals,EX-000031,,,
+EX-000049,AVA_SFCPQ__AvaTaxMessage__c,,Value,,,Quote,not equals,EX-000015,,,Tax Amount Is Up To Date
+EX-000050,,,Value,,30,Quote,less or equals,EX-000031,,EX-000003,50000
+EX-000051,SBQQ__UpgradedSubscription__c,,Value,,,Quote Line,equals,EX-000012,,,
+EX-000052,SBQQ__RequiredBy__c,,Value,,,Quote Line,equals,EX-000006,,,
+EX-000053,Project_Type__c,,Value,,20,Quote Line,not equals,EX-000013,,,
+EX-000054,,,Value,,1,Summary Variable,greater or equals,EX-000017,,EX-000005,1
+EX-000055,SBQQ__Type__c,,Value,,,Quote,equals,EX-000032,,,Renewal
+EX-000056,SBQQ__SubscriptionTerm__c,,Value,,,Quote,not equals,EX-000032,,,
+EX-000057,Additional_Discount__c,,Value,,,Quote,not equals,EX-000033,,,
+EX-000058,SBQQ__UpgradedSubscription__c,,Value,,70,Quote Line,equals,EX-000021,,,
+EX-000059,SBQQ__UpgradedSubscription__c,,Value,,,Quote Line,equals,EX-000026,,,
+EX-000060,SBQQ__UpgradedSubscription__c,,Value,,,Quote Line,equals,EX-000033,,,
+EX-000061,SBQQ__EndDate__c,,Value,,,Quote,not equals,EX-000032,,,
+EX-0230607,,,Value,,10,Quote Line,equals,EX-20230327.01,!isblank( SBQQ__Subscription__c),,true
+EX-0230608,SBQQ__UpgradedSubscription__c,,Value,,20,Quote Line,equals,EX-000008,,,
+EX-2023029.012,,,Value,,10,Quote,not equals,EX-20230526.01,,EX-20230530.01,0
+EX-20230328.01,,,Value,,10,Quote Line,equals,EX-20230328.01,SBQQ__Group__r.Zero_Quantity__c,,true
+EX-20230328.02,,,Value,,10,Quote,equals,EX-20230328.02,Refresh_from_Option_PriceBook__c,,true
+EX-20230328.03,,,Value,,20,Quote Line,equals,EX-20230328.02,SBQQ__Group__r.Refresh_from_Option_PriceBook__c,,true
+EX-20230328.05,SBQQ__UpgradedSubscription__c,,Value,,50,Quote Line,equals,EX-20230328.02,,,
+EX-20230328.10,SBQQ__UpgradedSubscription__c,,Value,,30,Quote Line,equals,EX-20230320.2,,,
+EX-20230328.11,,,Value,,,Quote,equals,EX-20230320.4,Clear_Renewal_Uplift__c,,true
+EX-20230328.20,,,Value,,10,Quote Line,greater than,EX-20230320.2,"blankvalue(SBQQ__Group__r.Group_Discount_Rate__c,0)",,0
+EX-20230328.21,,,Value,,20,Quote Line,equals,EX-20230320.2,SBQQ__Group__r.Group_Discount_Rate__c <> SBQQ__Discount__c,,true
+EX-20230328.222,,,Value,,70,Quote Line,equals,EX-20230328.02,isblank(SBQQ__Group__c),,false
+EX-20230401.01,,,Value,,10,Quote,equals,EX-20230320.30,SBQQ__Opportunity2__r.Type,,Cancellation
+EX-20230401.02,,,Value,,20,Quote Line,greater than,EX-20230320.30,SBQQ__Quantity__c,,0
+EX-20230401.10,,,Value,,10,Quote Line,equals,EX-20230320.3,TBB_Region__c,,
+EX-20230401.20,,,Value,,10,Quote Line,not equals,EX-20230302.0,TBB_Region__c,,
+EX-20230401.21,,,Value,,20,Quote Line,equals,EX-20230302.0,Geo__c,,
+EX-20230401.30,SBQQ__Type__c,,Value,,10,Quote,equals,EX-20230321.1,,,Amendment
+EX-20230505.06,SBQQ__Type__c,,Value,,,Quote,equals,EX-20230505.02,,,Quote
+EX-20230511.01,SBQQ__EffectiveQuantity__c,,Value,,,Quote Line,less or equals,EX-000007,,,0
+EX-20230511.03,SBQQ__EffectiveQuantity__c,,Value,,10,Quote Line,greater than,EX-20230511.01,,,0
+EX-20230511.07,Product Code,,Value,,,Quote Line,starts with,EX-20230511.01,,,IMSP
+EX-20230517.01,,,Value,,10,Quote Line,equals,EX-20230517.01,Is_Geo_Required__c,,true
+EX-20230518.02,,,Value,,10,Quote Line,greater than,EX-20230518.01,"blankvalue(SBQQ__Group__r.Group_Discount_Rate__c,0)",,0
+EX-20230518.05,SBQQ__UpgradedSubscription__c,,Value,,30,Quote Line,equals,EX-20230518.01,,,
+EX-20230518.08,,,Value,,20,Quote Line,equals,EX-20230518.01,SBQQ__Group__r.Group_Discount_Rate__c <> SBQQ__Discount__c,,true
+EX-20230526.25,SBQQ__UpgradedSubscription__c,,Value,,50,Quote Line,equals,EX-20230526.03,,,
+EX-20230526.30,SBQQ__UpgradedSubscription__c,,Value,,60,Quote Line,equals,EX-20230526.01,,,
+EX-20230526.40,,,Variable,EX-20230530.01,15,Quote,not equals,EX-20230526.01,Quote_Discount_Rate__c,,
+EX-20230526.55,,,Value,,15,Quote,not equals,EX-20230526.60,Quote_Discount_Rate__c,,
+EX-20230526.57,,,Value,,30,Quote,equals,EX-20230526.60,SBQQ__TargetCustomerAmount__c,,
+EX-20230526.59,,,Value,,30,Quote,not equals,EX-20230526.01,SBQQ__TargetCustomerAmount__c,,
+EX-20230526.65,,,Value,,30,Quote,equals,EX-20230526.03,SBQQ__TargetCustomerAmount__c,,
+EX-20230526.88,SBQQ__UpgradedSubscription__c,,Value,,50,Quote Line,equals,EX-20230526.60,,,
+EX-20230527.01,,,Value,,10,Quote Line,equals,EX-20230526.60,abs(SBQQ__Number__c) != abs(SBQQ__Quote__r.Bump_Line__c),,true
+EX-20230527.02,,,Value,,20,Quote Line,equals,EX-20230526.03,(abs(SBQQ__Number__c) != abs(SBQQ__Quote__r.Bump_Line__c)),,true
+EX-20230530.60,SBQQ__UpgradedSubscription__c,,Value,,80,Quote Line,equals,EX-20230526.61,,,
+EX-20230531.758,,,Value,,10,Quote,not equals,EX-20230526.03,Quote_Discount_Rate__c,,
+EX-20230605.01,SBQQ__Type__c,,Value,,70,Quote,not equals,EX-20230526.60,,,Amendment
+EX-20230605.02,SBQQ__Type__c,,Value,,70,Quote,not equals,EX-20230526.01,,,Amendment
+EX-20230605.03,SBQQ__Type__c,,Value,,90,Quote,not equals,EX-20230526.03,,,Amendment
+EX-20230605.23,,,Value,,10,Quote Line,not equals,EX-20230605.10,SBQQ__AdditionalDiscountAmount__c,,
+EX-20230605.25,,,Value,,20,Quote Line,not equals,EX-20230605.10,SBQQ__TotalDiscountRate__c,,0
+EX-20230605.50,SBQQ__UpgradedSubscription__c,,Value,,30,Quote Line,not equals,EX-20230605.10,,,
+EX-20230605.55,SBQQ__UpgradedSubscription__c,,Value,,30,Quote Line,not equals,EX-20230605.20,,,
+EX-20230605.555,,,Value,,50,Quote Line,equals,EX-20230605.10,"if(SBQQ__Uplift__c=0,null,SBQQ__Uplift__c)",,
+EX-20230605.56,,,Value,,50,Quote Line,not equals,EX-20230605.20,Discount_Rate__c,,
+EX-20230605.63,,,Value,,40,Quote,greater than,EX-20230605.10,SBQQ__LineItemCount__c,,0
+EX-20230615.10,,,Value,,10,Quote,equals,EX-20230615.10,SBQQ__Opportunity2__r.Type,,Cancellation
+EX-20230615.11,,,Value,,20,Quote,equals,EX-20230615.10,Previous_Opportunity_Type__c,,Trial
+EX-20230615.112,SBQQ__Type__c,,Value,,30,Quote,equals,EX-20230615.10,,,Amendment
+EX-20230619.01,Product Code,,Value,,30,Quote Line,not equals,EX-20230302.0,,,PP
+EX-20230619.02,Product Code,,Value,,40,Quote Line,not equals,EX-20230302.0,,,1P
+EX-20230619.03,Product Code,,Value,,50,Quote Line,not equals,EX-20230302.0,,,BR
+EX-20230619.50,,,Value,,10,Quote Line,equals,EX-20230619.01,Fulfillment_Family__c,,Bluebook
+EX-20230619.51,,,Value,,20,Quote Line,equals,EX-20230619.01,SBQQ__Product__r.SBQQ__HasConfigurationAttributes__c,,false
+EX-20230715.01,,,Value,,20,Quote Line,equals,EX-20230715.01,!isblank(SBQQ__SegmentLabel__c),,true
+EX-20230715.02,,,Value,,10,Quote Line,equals,EX-20230715.01,"SBQQ__SegmentIndex__c != Right(SBQQ__SegmentLabel__c,1)",,true
+EX-20230715.03,SBQQ__Type__c,,Value,,30,Quote,equals,EX-20230715.01,,,Renewal
+EX-20230721.01,,,Value,,10,Quote,equals,EX-20230721.01,SBQQ__Opportunity2__r.Type,,Trial
+EX-20230830.02,SBQQ__ProductCode__c,,Value,,,Quote Line,equals,EX-20230830.01,,,TLSPAL
+EX-20230830.03,,,Value,,10,Quote Line,equals,EX-20230830.01,sbqq__RequiredBy__r.SBQQ__ProductCode__c,,AITCST-B
+EX-20230915.2,,,Value,,,Summary Variable,greater than,EX-20230915.1,,EX-20231004.01,0
+EX-20230915.3,,,Value,,,Summary Variable,equals,EX-20230915.1,,EX-20231004.02,0
+EX-20231019.01,SBQQ__RenewedSubscription__c,,Value,,30,Quote Line,equals,EX-000008,,,
+EX-2023103.01,Bundle_Wrapper__c,,Value,,10,Quote Line,equals,EX-20231004.05,,,true
+EX-20231201.55,,,Value,,,Quote Line,equals,EX-20231201.22,"contains( 'CONS-OP DCN-CLS DCN-DSP DCN-SBBD DDJ-CLS DDJ-DSP DDJ-OP DDJ-SBBD DPB-CLS DPB-DSP DPB-RFB DWB-CLS DWB-DSP GS-CLS-BLDG GS-CLS-ENG GS-DSP-BLDG GS-DSP-ENG GS-RFB-BLDG GS-RFB-ENG',SBQQ__ProductCode__c )",,true
+EX-20231201.65,SBQQ__ProductCode__c,,Value,,,Quote Line,not equals,EX-20231201.22,,,
+EX-20231555,,,Value,,10,Quote Line,equals,EX-20230526.61,( abs(SBQQ__Number__c) = abs(SBQQ__Quote__r.Bump_Line__c) ),,true
+EX-520230530.0,,,Variable,EX-20230530.02,20,Quote Line,equals,EX-20230526.61,SBQQ__SegmentIndex__c,,
+EX-520230530.05,,,Value,,30,Quote,equals,EX-20230526.61,Bump_Discount_Rate_Lock__c,,false
+EX-520230530.10,,,Value,,60,Quote,equals,EX-20230526.60,Bump_Discount_Rate_Lock__c,,false
+EX-520230530.25,,,Value,,70,Quote,equals,EX-20230526.03,Bump_Discount_Rate_Lock__c,,false

@@ -1,0 +1,49 @@
+<aura:component>
+
+	<!-- events/actions handlers -->
+	<aura:handler name="init" value="{!this}" action="c.doInit" />
+	<aura:attribute name="onChange" type="Aura.Action" description="On close - pressing the x" />
+
+
+	<aura:Method name="open" action="{!c.open}" description="Opens it " />
+	<aura:Method name="close" action="{!c.close}" description="Closes it " />
+	<aura:Method name="toggleState" action="{!c.toggleState}" description="toggles the state open or closed " />
+
+	<!-- attributes -->
+	<aura:attribute name="actions" type="Aura.Component[]" />
+	<aura:attribute name="title" type="Aura.Component[]" />
+
+	<aura:attribute name="variant" type="String" />
+	<aura:attribute name="isOpen" type="Boolean" default="false" />
+	<aura:attribute name="sectionBodyclass" type="String" default="slds-hide" />
+	<aura:attribute name="butCss" type="String" default="" />
+	<aura:attribute name="recCount" type="string" default="" />
+	<aura:attribute name="iconNameOut" type="string" default="" />
+
+	<div class="slds-p-around_none slds-m-around_none slds-border_top">
+		<lightning:card  iconName="{!v.iconNameOut}" class="slds-has-bottom-magnet slds-p-around_none slds-m-around_none">
+			
+			<aura:set attribute="actions">
+				{!v.actions}
+			</aura:set>
+			<aura:set attribute="title">
+				<div class="slds-media slds-media_center">
+					<div class="slds-media__figure" title="Display Details">
+						<lightning:buttonIconStateful class="kbutton slds-float_left" iconName="utility:chevrondown"
+							title="Display Job Schedule Details" onclick="{!c.toggleState}" selected="{!v.isOpen}" />
+						<div class="slds-float_right">
+							{!v.rdHelpPin}  
+						</div>
+					</div>
+					<div class="slds-media__body">{!v.title} - ({!v.recCount}) </div>
+				</div>
+
+			</aura:set>
+			<aura:set attribute="body">
+				<div aura:id="sectionBody" class="{!v.sectionBodyclass}">
+					{!v.body}
+				</div>
+			</aura:set>
+		</lightning:card>
+	</div>
+</aura:component>

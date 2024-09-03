@@ -1,0 +1,439 @@
+External_Id__c,SBQQ__Feature__r.External_ID__c,SBQQ__Product__r.External_ID__c,Name,RecordTypeId,SBQQ__AppliedImmediately__c,SBQQ__ApplyToProductOptions__c,SBQQ__AutoSelect__c,SBQQ__ColumnOrder__c,SBQQ__DefaultField__c,SBQQ__DefaultObject__c,SBQQ__DisplayOrder__c,SBQQ__Hidden__c,SBQQ__HiddenValues__c,SBQQ__Position__c,SBQQ__Required__c,SBQQ__ShownValues__c,SBQQ__TargetField__c
+EX-0000001,,EX-0010444,Region,0123i000000d9NWAAY,false,true,false,1,,,1,false,,Top,false,,TBB_Region__c
+EX-0000002,EX-0000002,EX-0010207,Geo,0123i000000d9NWAAY,false,true,false,2,,,10,false,,Top,false,,Geo__c
+EX-0000003,EX-0000002,EX-0010207,TBB Class,0123i000000d9NWAAY,false,true,false,1,,,20,false,,Top,false,,TBB_Class__c
+EX-0000004,EX-0000002,EX-0010207,TBB Region,0123i000000d9NWAAY,false,true,false,1,,,10,false,,Top,false,,TBB_Region__c
+EX-0000005,EX-0000047,EX-0011023,Ad Caption,,false,true,false,3,,,20,false,,Top,false,,Ad_Caption__c
+EX-0000006,EX-0000011,EX-0011130,Ad Size,,false,true,false,1,,,10,false,,Top,false,,Ad_Size__c
+EX-0000007,EX-0000007,EX-0011005,Special Headline,,false,true,false,1,,,30,false,,Top,false,,Special_Handling__c
+EX-0000008,,EX-0010409,Delivery Frequency,,false,true,false,1,,,1,false,,Top,false,"Semi-Annual
+1x
+Annual
+Quarterly
+Monthly",Delivery_Frequency__c
+EX-0000009,,EX-0011077,Delivery Frequency,,false,true,false,1,,,1,false,"Annual
+Quarterly
+Monthly
+Semi-Annual",Top,false,1x,Delivery_Frequency__c
+EX-0000010,EX-0000039,EX-0011088,Ad Columns,,false,true,false,1,,,5,false,,Top,false,,Ad_Inches__c
+EX-0000011,EX-0000034,EX-0011048,Ad Caption,,false,true,false,3,,,20,false,,Top,false,,Ad_Caption__c
+EX-0000012,,EX-0011070,Project Types,,true,true,false,2,,,1,false,,Top,false,,Project_Type__c
+EX-0000013,,EX-0011051,Geo Level of Detail,,true,true,false,1,,,3,false,,Top,false,,Geo_Level_of_Detail__c
+EX-0000014,,EX-0010451,History or Forecast?,,true,true,false,1,,,3,false,,Top,true,,History_or_Forecast__c
+EX-0000015,EX-0000036,EX-0011089,Ad Columns,,false,true,false,1,,,5,false,,Top,false,,Ad_Inches__c
+EX-0000016,EX-0000034,EX-0011048,Issue Date,,false,true,false,2,,,10,false,,Top,false,,Issue_Date__c
+EX-0000017,EX-0000015,EX-0011167,Special Headline,,false,true,false,1,,,30,false,,Top,false,,Special_Handling__c
+EX-0000018,EX-0000050,EX-0011052,Ad Captions,,false,true,false,3,,,20,false,,Top,false,,Ad_Caption__c
+EX-0000019,,EX-0010438,Delivery Frequency,,false,true,false,1,,,5,false,1x,Top,false,"Annual
+Monthly
+Quarterly
+Semi-Annual",Delivery_Frequency__c
+EX-0000020,,EX-0010339,Delivery Frequency,,false,true,false,1,,,5,false,1x,Top,false,"Annual
+Monthly
+Quarterly
+Semi-Annual",Delivery_Frequency__c
+EX-0000021,,EX-0011121,Delivery Frequency,,false,true,false,1,,,1,false,"Annual
+Quarterly
+Monthly
+Semi-Annual",Top,false,1x,Delivery_Frequency__c
+EX-0000022,EX-0000044,EX-0011086,Ad Columns,,false,true,false,1,,,5,false,,Top,false,,Ad_Inches__c
+EX-0000023,EX-0000056,EX-0011011,Ad Caption,,false,true,false,3,,,20,false,,Top,false,,Ad_Caption__c
+EX-0000024,,EX-0010451,Project Types,,true,true,false,2,,,2,false,,Top,false,,Project_Type__c
+EX-0000025,EX-0000050,EX-0011052,Special Handling,,false,true,false,1,,,30,false,,Top,false,,Special_Handling__c
+EX-0000026,EX-0000044,EX-0011086,Ad Caption,,false,true,false,3,,,20,false,,Top,false,,Ad_Caption__c
+EX-0000027,EX-0000055,EX-0011022,Ad Number,,false,true,false,3,,,10,false,,Top,false,,Ad__c
+EX-0000028,,EX-0010621,Project Type,,true,true,false,1,,,1,false,,Top,false,,Project_Type__c
+EX-0000029,,EX-0010992,Service Type,,true,true,false,1,,,1,false,,Top,false,,Analytics_Service_Type__c
+EX-0000030,EX-0000048,EX-0010981,Ad Number,,false,true,false,3,,,10,false,,Top,false,,Ad__c
+EX-0000031,EX-0000018,EX-0011053,Issue Date,,false,true,false,2,,,10,false,,Top,false,,Issue_Date__c
+EX-0000032,EX-0000053,EX-0011066,Ad Columns,,false,true,false,1,,,5,false,,Top,false,,Ad_Inches__c
+EX-0000033,EX-0000032,EX-0010417,Ad Columns,,false,true,false,1,,,5,false,,Top,false,,Ad_Inches__c
+EX-0000034,EX-0000022,EX-0011149,Special Headline,,false,true,false,1,,,30,false,,Top,false,,Special_Handling__c
+EX-0000035,,EX-0011070,Project Level of Detail,,true,true,false,1,,,2,false,,Top,false,,Project_Level_of_Detail__c
+EX-0000036,EX-0000041,EX-0010798,Ad Number,,false,true,false,3,,,10,false,,Top,false,,Ad__c
+EX-0000037,EX-0000037,EX-0010961,TBB Class,,false,true,false,1,,,20,false,,Top,false,,TBB_Class__c
+EX-0000038,EX-0000034,EX-0011048,Ad Columns,,false,true,false,1,,,5,false,,Top,false,,Ad_Inches__c
+EX-0000039,EX-0000055,EX-0011022,Ad Caption,,false,true,false,3,,,20,false,,Top,false,,Ad_Caption__c
+EX-0000040,,EX-0010451,Project Category,,true,true,false,2,,,1,false,,Top,false,,Project_Category__c
+EX-0000041,EX-0000049,EX-0010365,Geo,,false,true,false,2,,,10,false,,Top,false,,Geo__c
+EX-0000042,,EX-0010780,Project Category,,true,true,false,2,,,1,false,,Top,false,,Project_Category__c
+EX-0000043,EX-0000026,EX-0010979,Issue Date,,false,true,false,2,,,10,false,,Top,false,,Issue_Date__c
+EX-0000044,EX-0000011,EX-0011130,Ad Number,,false,true,false,3,,,10,false,,Top,false,,Ad__c
+EX-0000045,EX-0000015,EX-0011167,Ad Number,,false,true,false,3,,,10,false,,Top,false,,Ad__c
+EX-0000046,EX-0000056,EX-0011011,Ad Number,,false,true,false,3,,,10,false,,Top,false,,Ad__c
+EX-0000047,,EX-0011104,Geo Level of Detail,,true,true,false,1,,,3,false,,Top,false,,Geo_Level_of_Detail__c
+EX-0000048,EX-0000013,EX-0010714,TBB Region,,false,true,false,1,,,10,false,,Top,false,,TBB_Region__c
+EX-0000049,,EX-0010986,Delivery Frequency,,false,true,false,1,,,5,false,1x,Top,false,"Annual
+Monthly
+Quarterly
+Semi-Annual",Delivery_Frequency__c
+EX-0000050,,EX-0010977,Project Category,,true,true,false,1,,,1,false,,Top,false,,Project_Category__c
+EX-0000051,EX-0000012,EX-0011107,Ad Number,,false,true,false,3,,,10,false,,Top,false,,Ad__c
+EX-0000052,EX-0000019,EX-0011014,Ad Inches,,false,true,false,1,,,5,false,,Top,false,,Ad_Inches__c
+EX-0000053,EX-0000039,EX-0011088,Special Headline,,false,true,false,1,,,30,false,,Top,false,,Special_Handling__c
+EX-0000054,EX-0000048,EX-0010981,Ad Caption,,false,true,false,3,,,20,false,,Top,false,,Ad_Caption__c
+EX-0000055,,EX-0010841,Project Types,,true,true,false,2,,,1,false,,Top,false,,Project_Type__c
+EX-0000056,EX-0000018,EX-0011053,Ad Caption,,false,true,false,3,,,20,false,,Top,false,,Ad_Caption__c
+EX-0000057,,EX-0011104,Project Category,,true,true,false,1,,,1,false,,Top,false,,Project_Category__c
+EX-0000058,,EX-0010910,Project Type,,true,true,false,1,,,1,false,,Top,false,,Project_Type__c
+EX-0000059,EX-0000082,EX-0010366,Geo,,false,true,false,2,,,10,false,,Top,false,,Geo__c
+EX-0000060,EX-0000031,EX-0011090,Ad Columns,,false,true,false,1,,,5,false,,Top,false,,Ad_Inches__c
+EX-0000061,EX-0000031,EX-0011090,Ad Size,,false,true,false,1,,,10,false,,Top,false,,Ad_Size__c
+EX-0000062,EX-0000035,EX-0011163,Ad Columns,,false,true,false,1,,,5,false,,Top,false,,Ad_Inches__c
+EX-0000063,EX-0000041,EX-0010798,Issue Date,,false,true,false,2,,,10,false,,Top,false,,Issue_Date__c
+EX-0000064,,EX-0010906,Project Level of Detail,,true,true,false,1,,,2,false,,Top,false,,Project_Level_of_Detail__c
+EX-0000065,EX-0000019,EX-0011014,Ad Captions,,false,true,false,3,,,20,false,,Top,false,,Ad_Caption__c
+EX-0000066,,EX-0010202,Project Type,,true,true,false,2,,,1,false,,Top,false,,Project_Type__c
+EX-0000067,EX-0000036,EX-0011089,Ad Size,,false,true,false,1,,,10,false,,Top,false,,Ad_Size__c
+EX-0000068,,EX-0010908,Project Type,,true,true,false,2,,,1,false,,Top,false,,Project_Type__c
+EX-0000069,,EX-0010512,Project Type,,true,true,false,2,,,1,false,,Top,false,,Project_Type__c
+EX-0000070,EX-0000034,EX-0011048,Ad Number,,false,true,false,3,,,10,false,,Top,false,,Ad__c
+EX-0000071,,EX-0010769,Delivery Frequency,,false,true,false,1,,,5,false,1x,Top,false,"Annual
+Monthly
+Quarterly
+Semi-Annual",Delivery_Frequency__c
+EX-0000072,EX-0000008,EX-0011084,Special Headline,,false,true,false,1,,,30,false,,Top,false,,Special_Handling__c
+EX-0000073,EX-0000048,EX-0010981,Special Headline,,false,true,false,1,,,30,false,,Top,false,,Special_Handling__c
+EX-0000074,EX-0000032,EX-0010417,Ad Size,,false,true,false,1,,,10,false,,Top,false,,Ad_Size__c
+EX-0000075,EX-0000038,EX-0010624,TBB Class,,false,true,false,1,,,20,false,,Top,false,,TBB_Class__c
+EX-0000076,EX-0000043,EX-0011032,Special Headline,,false,true,false,1,,,30,false,,Top,false,,Special_Handling__c
+EX-0000077,EX-0000037,EX-0010961,Geo,,false,true,false,2,,,10,false,,Top,false,,Geo__c
+EX-0000078,,EX-0010906,Geo Level of Detail,,true,true,false,1,,,3,false,,Top,false,,Geo_Level_of_Detail__c
+EX-0000079,,EX-0010618,Project Types,,true,true,false,2,,,1,false,,Top,false,,Project_Type__c
+EX-0000080,EX-0000035,EX-0011163,Special Headline,,false,true,false,1,,,30,false,,Top,false,,Special_Handling__c
+EX-0000081,EX-0000039,EX-0011088,Ad Caption,,false,true,false,3,,,20,false,,Top,false,,Ad_Caption__c
+EX-0000082,EX-0000015,EX-0011167,Ad Columns,,false,true,false,1,,,5,false,,Top,false,,Ad_Inches__c
+EX-0000083,EX-0000044,EX-0011086,Ad Number,,false,true,false,3,,,10,false,,Top,false,,Ad__c
+EX-0000084,EX-0000050,EX-0011052,Ad #,,false,true,false,3,,,10,false,,Top,false,,Ad__c
+EX-0000085,EX-0000043,EX-0011032,Ad Columns,,false,true,false,1,,,20,false,,Top,false,,Ad_Inches__c
+EX-0000086,EX-0000008,EX-0011084,Ad Columns,,false,true,false,1,,,5,false,,Top,false,,Ad_Inches__c
+EX-0000087,,EX-0011070,Geo Level of Detail,,true,true,false,1,,,3,false,,Top,false,,Geo_Level_of_Detail__c
+EX-0000088,,EX-0010621,Project Category,,true,true,false,2,,,1,false,,Top,false,,Project_Category__c
+EX-0000089,EX-0000007,EX-0011005,Ad Caption,,false,true,false,3,,,20,false,,Top,false,,Ad_Caption__c
+EX-0000090,,EX-0010201,Project Type,,true,true,false,2,,,1,false,,Top,false,,Project_Type__c
+EX-0000091,EX-0000007,EX-0011005,Issue Date,,false,true,false,2,,,10,false,,Top,false,,Issue_Date__c
+EX-0000092,EX-0000012,EX-0011107,Ad Size,,false,true,false,1,,,10,false,,Top,false,,Ad_Size__c
+EX-0000093,,EX-0010910,Project Category,,true,true,false,2,,,1,false,,Top,false,,Project_Category__c
+EX-0000094,,EX-0011070,Project Category,,true,true,false,1,,,1,false,,Top,false,,Project_Category__c
+EX-0000095,EX-0000044,EX-0011086,Issue Date,,false,true,false,2,,,10,false,,Top,false,,Issue_Date__c
+EX-0000096,EX-0000013,EX-0010714,TBB Region,,false,true,false,2,,,20,false,,Top,false,,TBB_Class__c
+EX-0000097,EX-0000031,EX-0011090,Special Headline,,false,true,false,1,,,30,false,,Top,false,,Special_Handling__c
+EX-0000098,,EX-0010985,Delivery Frequency,,false,true,false,1,,,1,false,"Annual
+Quarterly
+Monthly
+Semi-Annual",Top,false,1x,Delivery_Frequency__c
+EX-0000099,,EX-0010625,Delivery Frequency,,false,true,false,1,,,5,false,1x,Top,false,"Quarterly
+Annual
+Monthly
+Semi-Annual",Delivery_Frequency__c
+EX-0000100,,EX-0010841,Project Level of Detail,,true,true,false,1,,,2,false,,Top,false,,Project_Level_of_Detail__c
+EX-0000101,EX-0000047,EX-0011023,Ad Size,,false,true,false,1,,,10,false,,Top,false,,Ad_Size__c
+EX-0000102,EX-0000011,EX-0011130,Ad Columns,,false,true,false,1,,,5,false,,Top,false,,Ad_Inches__c
+EX-0000103,EX-0000047,EX-0011023,Ad Number,,false,true,false,3,,,10,false,,Top,false,,Ad__c
+EX-0000104,,EX-0010841,Project Category,,true,true,false,1,,,1,false,,Top,false,,Project_Category__c
+EX-0000105,,EX-0010780,Project Type,,true,true,false,1,,,1,false,,Top,false,,Project_Type__c
+EX-0000106,,EX-0010618,Project Level of Detail,,true,true,false,1,,,2,false,,Top,false,,Project_Level_of_Detail__c
+EX-0000107,EX-0000007,EX-0011005,Ad Number,,false,true,false,3,,,10,false,,Top,false,,Ad__c
+EX-0000108,,EX-0011148,Delivery Frequency,,false,true,false,1,,,1,false,"Annual
+Quarterly
+Monthly
+Semi-Annual",Top,false,1x,Delivery_Frequency__c
+EX-0000109,EX-0000041,EX-0010798,Ad Caption,,false,true,false,3,,,20,false,,Top,false,,Ad_Caption__c
+EX-0000110,EX-0000018,EX-0011053,Special Headline,,false,true,false,1,,,30,false,,Top,false,,Special_Handling__c
+EX-0000111,,EX-0011127,Special Headline,,false,true,false,1,,,30,false,,Top,false,,Special_Handling__c
+EX-0000112,EX-0000043,EX-0011032,Ad Number,,false,true,false,3,,,10,false,,Top,false,,Ad__c
+EX-0000113,EX-0000053,EX-0011066,Ad Size,,false,true,false,1,,,10,false,,Top,false,,Ad_Size__c
+EX-0000114,,EX-0010801,Project Type,,true,true,false,2,,,1,false,,Top,false,,Project_Type__c
+EX-0000115,,EX-0010202,Project Category,,true,true,false,1,,,1,false,,Top,false,,Project_Category__c
+EX-0000116,,EX-0010841,Delivery Frequency,,false,true,false,1,,,4,false,"1x
+Monthly",Top,false,"Quarterly
+Semi-Annual
+Annual",Delivery_Frequency__c
+EX-0000117,EX-0000034,EX-0011048,Special Headline,,false,true,false,1,,,30,false,,Top,false,,Special_Handling__c
+EX-0000118,EX-0000053,EX-0011066,Special Headline,,false,true,false,1,,,30,false,,Top,false,,Special_Handling__c
+EX-0000119,EX-0000011,EX-0011130,Ad Caption,,false,true,false,3,,,20,false,,Top,false,,Ad_Caption__c
+EX-0000120,EX-0000039,EX-0011088,Ad Size,,false,true,false,1,,,10,false,,Top,false,,Ad_Size__c
+EX-0000121,,EX-0010512,Project Category,,true,true,false,1,,,1,false,,Top,false,,Project_Category__c
+EX-0000122,EX-0000031,EX-0011090,Ad Number,,false,true,false,3,,,10,false,,Top,false,,Ad__c
+EX-0000123,,EX-0010953,Project Type,,true,true,false,2,,,1,false,,Top,false,,Project_Type__c
+EX-0000124,EX-0000032,EX-0010417,Special Headline,,false,true,false,1,,,30,false,,Top,false,,Special_Handling__c
+EX-0000125,EX-0000037,EX-0010961,TBB Region,,false,true,false,1,,,10,false,,Top,false,,TBB_Region__c
+EX-0000126,EX-0000007,EX-0011005,Ad Columns,,false,true,false,1,,,5,false,,Top,false,,Ad_Inches__c
+EX-0000127,,EX-0011019,Delivery Frequency,,false,true,false,1,,,1,false,"Annual
+Quarterly
+Monthly
+Semi-Annual",Top,false,1x,Delivery_Frequency__c
+EX-0000128,,EX-0010908,Project Category,,true,true,false,1,,,1,false,,Top,false,,Project_Category__c
+EX-0000129,EX-0000056,EX-0011011,Ad Columns,,false,true,false,1,,,20,false,,Top,false,,Ad_Inches__c
+EX-0000130,EX-0000049,EX-0010365,TBB Region,,false,true,false,1,,,10,false,,Top,false,,TBB_Region__c
+EX-0000131,EX-0000043,EX-0011032,Ad Caption,,false,true,false,2,,,20,false,,Top,false,,Ad_Caption__c
+EX-0000132,,EX-0010612,Project Type,,true,true,false,2,,,1,false,,Top,false,,Project_Type__c
+EX-0000133,EX-0000043,EX-0011032,Ad Size,,false,true,false,1,,,10,false,,Top,false,,Ad_Size__c
+EX-0000134,EX-0000032,EX-0010417,Ad Number,,false,true,false,3,,,10,false,,Top,false,,Ad__c
+EX-0000135,EX-0000015,EX-0011167,Issue Date,,false,true,false,2,,,10,false,,Top,false,,Issue_Date__c
+EX-0000136,EX-0000036,EX-0011089,Ad Caption,,false,true,false,3,,,20,false,,Top,false,,Ad_Caption__c
+EX-0000137,EX-0000056,EX-0011011,Special Headline,,false,true,false,1,,,30,false,,Top,false,,Special_Handling__c
+EX-0000138,EX-0000026,EX-0010979,Ad Columns,,false,true,false,1,,,5,false,,Top,false,,Ad_Inches__c
+EX-0000139,EX-0000048,EX-0010981,Ad Size,,false,true,false,1,,,10,false,,Top,false,,Ad_Size__c
+EX-0000140,,EX-0010201,Project Category,,true,true,false,1,,,1,false,,Top,false,,Project_Category__c
+EX-0000141,EX-0000019,EX-0011014,Issue Date,,false,true,false,2,,,10,false,,Top,false,,Issue_Date__c
+EX-0000142,EX-0000049,EX-0010365,TBB Class,,false,true,false,1,,,20,false,,Top,false,,TBB_Class__c
+EX-0000143,,EX-0010451,Project Level of Detail,,true,true,false,1,,,1,false,,Top,false,,Project_Level_of_Detail__c
+EX-0000144,,EX-0010906,Project Types,,true,true,false,2,,,1,false,,Top,false,,Project_Type__c
+EX-0000145,,EX-0010695,Delivery Frequency,,false,true,false,1,,,5,false,"1x
+Annual
+Monthly
+Semi-Annual",Top,false,Quarterly,Delivery_Frequency__c
+EX-0000146,EX-0000050,EX-0011052,Ad Inches,,false,true,false,1,,,5,false,,Top,false,,Ad_Inches__c
+EX-0000147,EX-0000041,EX-0010798,Ad Columns,,false,true,false,1,,,5,false,,Top,false,,Ad_Inches__c
+EX-0000148,,EX-0010841,Geo Level of Detail,,true,true,false,1,,,3,false,,Top,false,,Geo_Level_of_Detail__c
+EX-0000149,EX-0000015,EX-0011167,Ad Size,,false,true,false,1,,,10,false,,Top,false,,Ad_Size__c
+EX-0000150,EX-0000035,EX-0011163,Ad Number,,false,true,false,3,,,10,false,,Top,false,,Ad__c
+EX-0000151,EX-0000007,EX-0011005,Ad Size,,false,true,false,1,,,10,false,,Top,false,,Ad_Size__c
+EX-0000152,,EX-0010716,Delivery Frequency,,false,true,false,1,,,1,false,"Monthly
+Quarterly
+Annual
+1x",Top,false,Semi-Annual,Delivery_Frequency__c
+EX-0000153,EX-0000082,EX-0010366,TBB Class,,false,true,false,1,,,20,false,,Top,false,,TBB_Class__c
+EX-0000154,EX-0000035,EX-0011163,Ad Size,,false,true,false,1,,,10,false,,Top,false,,Ad_Size__c
+EX-0000155,EX-0000055,EX-0011022,Ad Size,,false,true,false,1,,,10,false,,Top,false,,Ad_Size__c
+EX-0000156,EX-0000050,EX-0011052,Issue Date,,false,true,false,2,,,10,false,,Top,false,,Issue_Date__c
+EX-0000157,EX-0000008,EX-0011084,Ad Size,,false,true,false,1,,,10,false,,Top,false,,Ad_Size__c
+EX-0000158,,EX-0011150,Delivery Frequency,,false,true,false,1,,,1,false,"Annual
+Quarterly
+Monthly
+Semi-Annual",Top,false,1x,Delivery_Frequency__c
+EX-0000159,,EX-0011019,History or Forecast?,,true,true,false,1,,,4,false,,Top,true,,History_or_Forecast__c
+EX-0000160,EX-0000038,EX-0010624,Geo,,false,true,false,2,,,10,false,,Top,false,,Geo__c
+EX-0000161,EX-0000048,EX-0010981,Issue Date,,false,true,false,2,,,10,false,,Top,false,,Issue_Date__c
+EX-0000162,EX-0000022,EX-0011149,Ad Columns,,false,true,false,1,,,5,false,,Top,false,,Ad_Inches__c
+EX-0000163,,EX-0011019,Project Types,,true,true,false,2,,,2,false,,Top,false,,Project_Type__c
+EX-0000164,EX-0000056,EX-0011011,Issue Date,,false,true,false,2,,,10,false,,Top,false,,Issue_Date__c
+EX-0000165,,EX-0010008,Delivery Frequency,,false,true,false,1,,,5,false,"Semi-Annual
+Quarterly
+Annual
+Monthly",Top,false,1x,Delivery_Frequency__c
+EX-0000166,,EX-0010801,Project Category,,true,true,false,1,,,1,false,,Top,false,,Project_Category__c
+EX-0000167,EX-0000039,EX-0011088,Ad Number,,false,true,false,3,,,10,false,,Top,false,,Ad__c
+EX-0000168,,EX-0010618,Delivery Frequency,,false,true,false,1,,,5,false,"Monthly
+1x",Top,false,"Semi-Annual
+Quarterly
+Annual",Delivery_Frequency__c
+EX-0000169,,EX-0010980,Project Types,,true,true,false,2,,,1,false,,Top,false,,Project_Type__c
+EX-0000170,,EX-0011127,Ad Size,,false,true,false,1,,,10,false,,Top,false,,Ad_Size__c
+EX-0000171,EX-0000032,EX-0010417,Ad Caption,,false,true,false,3,,,20,false,,Top,false,,Ad_Caption__c
+EX-0000172,EX-0000008,EX-0011084,Issue Date,,false,true,false,2,,,10,false,,Top,false,,Issue_Date__c
+EX-0000173,,EX-0010618,Project Category,,true,true,false,1,,,1,false,,Top,false,,Project_Category__c
+EX-0000174,EX-0000041,EX-0010798,Ad Size,,false,true,false,1,,,10,false,,Top,false,,Ad_Size__c
+EX-0000175,EX-0000050,EX-0011052,Ad Size,,false,true,false,1,,,10,false,,Top,false,,Ad_Size__c
+EX-0000177,,EX-0010727,Delivery Frequency,,false,true,false,1,,,5,false,1x,Top,false,"Quarterly
+Annual
+Monthly
+Semi-Annual",Delivery_Frequency__c
+EX-0000178,,EX-0010980,Project Level of Detail,,true,true,false,1,,,2,false,,Top,false,,Project_Level_of_Detail__c
+EX-0000179,EX-0000006,EX-0010710,TBB Region,,false,true,false,1,,,10,false,,Top,false,,TBB_Region__c
+EX-0000180,EX-0000022,EX-0011149,Ad Caption,,false,true,false,3,,,20,false,,Top,false,,Ad_Caption__c
+EX-0000181,EX-0000053,EX-0011066,Ad Caption,,false,true,false,3,,,20,false,,Top,false,,Ad_Caption__c
+EX-0000182,EX-0000011,EX-0011130,Issue Date,,false,true,false,2,,,10,false,,Top,false,,Issue_Date__c
+EX-0000183,,EX-0010612,Project Category,,true,true,false,1,,,1,false,,Top,false,,Project_Category__c
+EX-0000184,,EX-0010772,Project Type,,true,true,false,2,,,2,false,,Top,false,,Project_Type__c
+EX-0000185,,EX-0011127,Ad Caption,,false,true,false,3,,,20,false,,Top,false,,Ad_Caption__c
+EX-0000186,,EX-0011019,Project Category,,true,true,false,2,,,1,false,,Top,false,,Project_Category__c
+EX-0000187,,EX-0010871,Delivery Frequency,,false,true,false,1,,,5,false,"1x
+Annual
+Monthly
+Semi-Annual",Top,false,Quarterly,Delivery_Frequency__c
+EX-0000188,,EX-0011127,Issue Date,,false,true,false,2,,,10,false,,Top,false,,Issue_Date__c
+EX-0000189,EX-0000026,EX-0010979,Ad Caption,,false,true,false,3,,,20,false,,Top,false,,Ad_Caption__c
+EX-0000190,EX-0000053,EX-0011066,Issue Date,,false,true,false,2,,,10,false,,Top,false,,Issue_Date__c
+EX-0000191,EX-0000012,EX-0011107,Ad Inches,,false,true,false,1,,,5,false,,Top,false,,Ad_Inches__c
+EX-0000192,,EX-0010124,Project Types,,true,true,false,2,,,1,false,,Top,false,,Project_Type__c
+EX-0000193,,EX-0010618,Geo Level of Detail,,true,true,false,1,,,3,false,,Top,false,,Geo_Level_of_Detail__c
+EX-0000194,,EX-0010124,Project Level of Detail,,true,true,false,1,,,2,false,,Top,false,,Project_Level_of_Detail__c
+EX-0000195,EX-0000055,EX-0011022,Special Headline,,false,true,false,1,,,30,false,,Top,false,,Special_Handling__c
+EX-0000196,EX-0000019,EX-0011014,Ad #,,false,true,false,3,,,10,false,,Top,false,,Ad__c
+EX-0000197,,EX-0010593,Delivery Frequency,,false,true,false,1,,,1,false,,Top,false,Monthly,Delivery_Frequency__c
+EX-0000198,,EX-0011019,Project Level of Detail,,true,true,false,1,,,2,false,,Top,false,,Project_Level_of_Detail__c
+EX-0000199,EX-0000034,EX-0011048,Ad Size,,false,true,false,1,,,10,false,,Top,false,,Ad_Size__c
+EX-0000200,EX-0000047,EX-0011023,Special Headline,,false,true,false,1,,,30,false,,Top,false,,Special_Handling__c
+EX-0000201,EX-0000032,EX-0010417,Issue Date,,false,true,false,2,,,10,false,,Top,false,,Issue_Date__c
+EX-0000202,EX-0000012,EX-0011107,Issue Date,,false,true,false,2,,,10,false,,Top,false,,Issue_Date__c
+EX-0000203,,EX-0010906,Project Category,,true,true,false,1,,,1,false,,Top,false,,Project_Category__c
+EX-0000204,,EX-0010772,Project Category,,true,true,false,1,,,1,false,,Top,false,,Project_Category__c
+EX-0000205,EX-0000041,EX-0010798,Special Headline,,false,true,false,1,,,30,false,,Top,false,,Special_Handling__c
+EX-0000206,,EX-0011170,Delivery Frequency,,false,true,false,1,,,5,false,"Annual
+Monthly
+Quarterly
+Semi-Annual",Top,false,1x,Delivery_Frequency__c
+EX-0000207,,EX-0010124,Delivery Frequency,,false,true,false,1,,,3,false,"1x
+Monthly",Top,false,"Quarterly
+Semi-Annual
+Annual",Delivery_Frequency__c
+EX-0000208,EX-0000055,EX-0011022,Ad Columns,,false,true,false,1,,,5,false,,Top,false,,Ad_Inches__c
+EX-0000209,,EX-0010953,Project Category,,true,true,false,1,,,1,false,,Top,false,,Project_Category__c
+EX-0000210,EX-0000026,EX-0010979,Special Headline,,false,true,false,1,,,30,false,,Top,false,,Special_Handling__c
+EX-0000211,,EX-0011127,Ad Columns,,false,true,false,1,,,5,false,,Top,false,,Ad_Inches__c
+EX-0000212,EX-0000036,EX-0011089,Issue Date,,false,true,false,2,,,10,false,,Top,false,,Issue_Date__c
+EX-0000213,EX-0000006,EX-0010710,Geo,,false,true,false,2,,,10,false,,Top,false,,Geo__c
+EX-0000214,,EX-0011051,Project Types,,true,true,false,2,,,1,false,,Top,false,,Project_Type__c
+EX-0000215,,EX-0010977,Project Type,,true,true,false,2,,,1,false,,Top,false,,Project_Type__c
+EX-0000216,EX-0000036,EX-0011089,Ad Number,,false,true,false,3,,,10,false,,Top,false,,Ad__c
+EX-0000217,,EX-0011169,Delivery Frequency,,false,true,false,1,,,5,false,"Annual
+Monthly
+Quarterly
+Semi-Annual",Top,false,1x,Delivery_Frequency__c
+EX-0000218,EX-0000044,EX-0011086,Special Headline,,false,true,false,1,,,30,false,,Top,false,,Special_Handling__c
+EX-0000219,EX-0000039,EX-0011088,Issue Date,,false,true,false,2,,,10,false,,Top,false,,Issue_Date__c
+EX-0000220,EX-0000026,EX-0010979,Ad Number,,false,true,false,3,,,10,false,,Top,false,,Ad__c
+EX-0000221,EX-0000008,EX-0011084,Ad Caption,,false,true,false,3,,,20,false,,Top,false,,Ad_Caption__c
+EX-0000222,EX-0000035,EX-0011163,Ad Caption,,false,true,false,3,,,20,false,,Top,false,,Ad_Caption__c
+EX-0000223,,EX-0010980,Project Category,,true,true,false,1,,,1,false,,Top,false,,Project_Category__c
+EX-0000224,,EX-0010196,Delivery Frequency,,false,true,false,1,,,4,false,"Monthly
+Quarterly
+Semi-Annual
+Annual",Top,false,1x,Delivery_Frequency__c
+EX-0000225,EX-0000047,EX-0011023,Ad Columns,,false,true,false,1,,,5,false,,Top,false,,Ad_Inches__c
+EX-0000226,EX-0000043,EX-0011032,Issue Date,,false,true,false,2,,,10,false,,Top,false,,Issue_Date__c
+EX-0000227,,EX-0010579,DCPBE Region,,false,false,false,1,,,2,false,,Top,false,,DCPB_Regions__c
+EX-0000228,,EX-0011110,Delivery Frequency,,false,true,false,1,,,5,false,1x,Top,false,"Annual
+Monthly
+Quarterly
+Semi-Annual",Delivery_Frequency__c
+EX-0000229,,EX-0010718,Project Type,,true,true,false,3,,,1,false,,Top,false,,Project_Type__c
+EX-0000230,EX-0000008,EX-0011084,Ad Number,,false,true,false,3,,,10,false,,Top,false,,Ad__c
+EX-0000231,,EX-0010451,Geo Level of Detail,,true,true,false,1,,,2,false,,Top,true,,Geo_Level_of_Detail__c
+EX-0000232,EX-0000044,EX-0011086,Ad Size,,false,true,false,1,,,10,false,,Top,false,,Ad_Size__c
+EX-0000233,EX-0000056,EX-0011011,Ad Size,,false,true,false,1,,,10,false,,Top,false,,Ad_Size__c
+EX-0000234,EX-0000035,EX-0011163,Issue Date,,false,true,false,2,,,10,false,,Top,false,,Issue_Date__c
+EX-0000235,,EX-0010579,Delivery Frequency,,false,true,false,1,,,1,false,,Top,false,Monthly,Delivery_Frequency__c
+EX-0000236,EX-0000023,EX-0010907,IMS Nationwide,,true,true,false,1,,,10,false,,Top,false,,Nationwide__c
+EX-0000237,,EX-0010978,Delivery Frequency,,false,true,false,1,,,1,false,"Annual
+Quarterly
+Monthly
+Semi-Annual",Top,false,1x,Delivery_Frequency__c
+EX-0000238,,EX-0010980,Geo Level of Detail,,true,true,false,1,,,3,false,,Top,false,,Geo_Level_of_Detail__c
+EX-0000239,,EX-0011051,Project Level of Detail,,true,true,false,1,,,2,false,,Top,false,,Project_Level_of_Detail__c
+EX-0000240,,EX-0011019,Geo Level of Detail,,true,true,false,1,,,3,false,,Top,true,,Geo_Level_of_Detail__c
+EX-0000241,EX-0000018,EX-0011053,Ad Number,,false,true,false,3,,,10,false,,Top,false,,Ad__c
+EX-0000242,EX-0000047,EX-0011023,Issue Date,,false,true,false,2,,,10,false,,Top,false,,Issue_Date__c
+EX-0000243,EX-0000018,EX-0011053,Ad Columns,,false,true,false,1,,,5,false,,Top,false,,Ad_Inches__c
+EX-0000244,EX-0000055,EX-0011022,Issue Date,,false,true,false,2,,,10,false,,Top,false,,Issue_Date__c
+EX-0000245,,EX-0010124,Project Category,,true,true,false,1,,,1,false,,Top,false,,Project_Category__c
+EX-0000246,,EX-0011170,Service Type,,true,true,false,1,,,1,false,,Top,false,,Analytics_Service_Type__c
+EX-0000247,EX-0000036,EX-0011089,Special Headline,,false,true,false,1,,,30,false,,Top,false,,Special_Handling__c
+EX-0000248,,EX-0011051,Delivery Frequency,,false,true,false,1,,,4,false,"Monthly
+Quarterly
+Semi-Annual
+Annual",Top,false,1x,Delivery_Frequency__c
+EX-0000249,EX-0000053,EX-0011066,Ad Number,,false,true,false,3,,,10,false,,Top,false,,Ad__c
+EX-0000250,EX-0000012,EX-0011107,Special Handling,,false,true,false,1,,,30,false,,Top,false,,Special_Handling__c
+EX-0000251,,EX-0011104,Project Types,,true,true,false,2,,,1,false,,Top,false,,Project_Type__c
+EX-0000252,EX-0000082,EX-0010366,TBB Region,,false,true,false,1,,,10,false,,Top,false,,TBB_Region__c
+EX-0000253,EX-0000022,EX-0011149,Ad Size,,false,true,false,1,,,10,false,,Top,false,,Ad_Size__c
+EX-0000254,,EX-0011104,Project Level of Detail,,true,true,false,1,,,2,false,,Top,false,,Project_Level_of_Detail__c
+EX-0000255,EX-0000038,EX-0010624,TBB Region,,false,true,false,1,,,10,false,,Top,false,,TBB_Region__c
+EX-0000256,EX-0000026,EX-0010979,Ad Size,,false,true,false,1,,,10,false,,Top,false,,Ad_Size__c
+EX-0000257,EX-0000031,EX-0011090,Issue Date,,false,true,false,2,,,10,false,,Top,false,,Issue_Date__c
+EX-0000258,EX-0000031,EX-0011090,Ad Caption,,false,true,false,3,,,20,false,,Top,false,,Ad_Caption__c
+EX-0000259,EX-0000019,EX-0011014,Ad Size,,false,true,false,1,,,10,false,,Top,false,,Ad_Size__c
+EX-0000260,,EX-0010631,Project Category,,true,true,false,1,,,1,false,,Top,false,,Project_Category__c
+EX-0000261,,EX-0010992,Delivery Frequency,,false,true,false,2,,,1,false,"1x
+Monthly
+Semi-Annual
+Annual",Top,false,Quarterly,Delivery_Frequency__c
+EX-0000262,,EX-0010446,Delivery Frequency,,false,true,false,1,,,5,false,,Top,false,"1x
+Semi-Annual
+Quarterly
+Annual
+Monthly",Delivery_Frequency__c
+EX-0000263,,EX-0010124,Geo Level of Detail,,true,true,false,1,,,3,false,,Top,false,,Geo_Level_of_Detail__c
+EX-0000264,EX-0000018,EX-0011053,Ad Size,,false,true,false,1,,,10,false,,Top,false,,Ad_Size__c
+EX-0000265,EX-0000022,EX-0011149,Ad Number,,false,true,false,3,,,10,false,,Top,false,,Ad__c
+EX-0000266,,EX-0010527,Delivery Frequency,,false,true,false,1,,,5,false,"Annual
+Quarterly
+Semi-Annual
+1x",Top,false,Monthly,Delivery_Frequency__c
+EX-0000267,,EX-0010718,Project Category,,true,true,false,2,,,1,false,,Top,false,,Project_Category__c
+EX-0000268,,EX-0010631,Project Type,,true,true,false,2,,,2,false,,Top,false,,Project_Type__c
+EX-0000269,,EX-0011051,Project Category,,true,true,false,1,,,1,false,,Top,false,,Project_Category__c
+EX-0000270,,EX-0011127,Ad Number,,false,true,false,3,,,10,false,,Top,false,,Ad__c
+EX-0000271,EX-0000011,EX-0011130,Special Headline,,false,true,false,1,,,30,false,,Top,false,,Special_Handling__c
+EX-0000272,EX-0000013,EX-0010714,Geo,,false,true,false,2,,,10,false,,Top,false,,Geo__c
+EX-0000273,EX-0000006,EX-0010710,TBB Class,,false,true,false,1,,,20,false,,Top,false,,TBB_Class__c
+EX-0000274,EX-0000019,EX-0011014,Special Handling,,false,true,false,1,,,30,false,,Top,false,,Special_Handling__c
+EX-0000275,EX-0000012,EX-0011107,Ad Caption,,false,true,false,3,,,20,false,,Top,false,,Ad_Caption__c
+EX-0000276,EX-0000022,EX-0011149,Issue Date,,false,true,false,2,,,10,false,,Top,false,,Issue_Date__c
+EX-0000277,,EX-0010605,Delivery Frequency,,false,true,false,1,,,5,false,1x,Top,false,"Annual
+Monthly
+Quarterly
+Semi-Annual",Delivery_Frequency__c
+EX-0000278,EX-0000048,EX-0010981,Ad Columns,,false,true,false,1,,,5,false,,Top,false,,Ad_Inches__c
+EX-0000279,EX-0000015,EX-0011167,Ad Caption,,false,true,false,3,,,20,false,,Top,false,,Ad_Caption__c
+EX-0000280,,EX-0010906,Delivery Frequency,0123i000000d9NWAAY,false,true,false,1,,,1,false,"Annual
+Quarterly
+Monthly
+Semi-Annual",Top,false,1x,Delivery_Frequency__c
+EX-0000281,,EX-0010639,Delivery Frequency,0123i000000d9NWAAY,false,true,false,1,,,3,false,"1x
+Monthly",Top,false,"Quarterly
+Semi-Annual
+Annual",Delivery_Frequency__c
+EX-0000282,,EX-0011036,Delivery Frequency,0123i000000d9NWAAY,false,true,false,1,,,3,false,"1x
+Monthly",Top,false,"Quarterly
+Semi-Annual
+Annual",Delivery_Frequency__c
+EX-0000283,,EX-0011157,Delivery Frequency,0123i000000d9NWAAY,false,true,false,1,,,3,false,"1x
+Monthly",Top,false,"Quarterly
+Semi-Annual
+Annual",Delivery_Frequency__c
+EX-0000284,,EX-0011095,Delivery Frequency,0123i000000d9NWAAY,false,true,false,1,,,3,false,"1x
+Monthly",Top,false,"Quarterly
+Semi-Annual
+Annual",Delivery_Frequency__c
+EX-0000285,,EX-0011038,Delivery Frequency,0123i000000d9NWAAY,false,true,false,1,,,3,false,"1x
+Monthly",Top,false,"Quarterly
+Semi-Annual
+Annual",Delivery_Frequency__c
+EX-0000286,,EX-0010996,Delivery Frequency,0123i000000d9NWAAY,false,true,false,1,,,3,false,"1x
+Monthly",Top,false,"Quarterly
+Semi-Annual
+Annual",Delivery_Frequency__c
+EX-0000287,,EX-0010680,Delivery Frequency,0123i000000d9NWAAY,false,true,false,1,,,3,false,"1x
+Quarterly
+Semi-Annual
+Annual",Top,false,Monthly,Delivery_Frequency__c
+EX-0000288,,EX-0011109,Delivery Frequency,0123i000000d9NWAAY,false,true,false,1,,,3,false,"1x
+Quarterly
+Semi-Annual
+Annual",Top,false,Monthly,Delivery_Frequency__c
+EX-0000289,,EX-0010738,Region,0123i000000d9NWAAY,false,true,false,1,,,1,false,,Top,false,,TBB_Region__c
+EX-0001001,,EX-0010883,BB Region,,false,false,false,1,,,1,false,,Top,false,,TBB_Region__c
+EX-0002002,,EX-0010959,Regions,,false,true,false,1,,,1,false,,Top,false,,TBB_Regions__c
+EX-0003003,,EX-0010243,Regions,,false,true,false,1,,,1,false,,Top,false,,TBB_Regions__c
+EX-0004004,,EX-0010808,Regions,,false,true,false,1,,,1,false,,Top,false,,TBB_Regions__c
+EX-0005005,,EX-0010516,Regions,,false,true,false,1,,,1,false,,Top,false,,TBB_Regions__c
+EX-0006006,,EX-0010516,Class,,false,true,false,2,,,20,false,,Top,false,,TBB_Classes__c
+EX-0007007,,EX-0010808,Class,,false,true,false,2,,,20,false,,Top,false,,TBB_Classes__c
+EX-0008008,,EX-0010959,Class,,false,true,false,2,,,20,false,,Top,false,,TBB_Classes__c
+EX-0009009,,EX-0010243,Class,,false,true,false,2,,,20,false,,Top,false,,TBB_Classes__c
+EX-20231225.1,,EX-0010464,Classes,,false,true,false,2,,,20,false,,Top,false,,TBB_Classes__c
+EX-20231225.10,,EX-0010799,Classes,,false,true,false,2,,,20,false,,Top,false,,TBB_Classes__c
+EX-20231225.11,,EX-0010708,Classes,,false,true,false,2,,,20,false,,Top,false,,TBB_Classes__c
+EX-20231225.12,,EX-0010883,Classes,,false,true,false,2,,,20,false,,Top,false,,TBB_Classes__c
+EX-20231225.13,,EX-0010598,Classes,,false,true,false,2,,,20,false,,Top,false,,TBB_Classes__c
+EX-20231225.14,,EX-0010912,Classes,,false,true,false,2,,,20,false,,Top,false,,TBB_Classes__c
+EX-20231225.15,,EX-0010371,Classes,,false,true,false,2,,,20,false,,Top,false,,TBB_Classes__c
+EX-20231225.16,,EX-0010869,Classes,,false,true,false,2,,,20,false,,Top,false,,TBB_Classes__c
+EX-20231225.18,,EX-0010305,Classes,,false,true,false,2,,,20,false,,Top,false,,TBB_Classes__c
+EX-20231225.19,,EX-0010497,Classes,,false,true,false,2,,,20,false,,Top,false,,TBB_Classes__c
+EX-20231225.2,,EX-0010563,Classes,,false,true,false,2,,,20,false,,Top,false,,TBB_Classes__c
+EX-20231225.20,,EX-0010275,Classes,,false,true,false,2,,,20,false,,Top,false,,TBB_Classes__c
+EX-20231225.21,,EX-0010602,Classes,,false,true,false,2,,,20,false,,Top,false,,TBB_Classes__c
+EX-20231225.22,,EX-0010345,Classes,,false,true,false,2,,,20,false,,Top,false,,TBB_Classes__c
+EX-20231225.23,,EX-0010515,Classes,,false,true,false,2,,,20,false,,Top,false,,TBB_Classes__c
+EX-20231225.3,,EX-0010194,Classes,,false,true,false,2,,,20,false,,Top,false,,TBB_Classes__c
+EX-20231225.4,,EX-0010886,Classes,,false,true,false,2,,,20,false,,Top,false,,TBB_Classes__c
+EX-20231225.5,,EX-0010195,Classes,,false,true,false,2,,,20,false,,Top,false,,TBB_Classes__c
+EX-20231225.6,,EX-0010628,Classes,,false,true,false,2,,,20,false,,Top,false,,TBB_Classes__c
+EX-20231225.7,,EX-0010279,Classes,,false,true,false,2,,,20,false,,Top,false,,TBB_Classes__c
+EX-20231225.8,,EX-0010895,Classes,,false,true,false,2,,,20,false,,Top,false,,TBB_Classes__c
+EX-20231225.9,,EX-0010800,Classes,,false,true,false,2,,,20,false,,Top,false,,TBB_Classes__c

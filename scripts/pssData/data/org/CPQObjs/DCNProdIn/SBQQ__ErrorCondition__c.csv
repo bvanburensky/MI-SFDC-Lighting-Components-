@@ -1,0 +1,22 @@
+External_Id__c,SBQQ__FilterType__c,SBQQ__FilterValue__c,SBQQ__FilterVariable__r.External_Id__c,SBQQ__Index__c,SBQQ__Operator__c,SBQQ__Rule__r.External_Id__c,SBQQ__TestedAttribute__c,SBQQ__TestedField__c,SBQQ__TestedObject__c,SBQQ__TestedVariable__r.External_Id__c
+EX-0230607,Value,1,,,less than,EX-0230611,,,,EX-000012
+EX-0230608,Value,0053J0000021vLTQAY,,,equals,EX-0230612,,SBQQ__SalesRep__c,Quote,
+EX-0230609,Value,1,,,greater or equals,EX-0230611,,,Quote,EX-000005
+EX-0230610,Value,0053J0000021vLTQAY,,,equals,EX-0230610,,SBQQ__SalesRep__c,Quote,
+EX-0230611,Value,0,,,not equals,EX-0230607,,,,EX-000013
+EX-0230612,Value,0,,,equals,EX-0230613,,,,EX-000011
+EX-0230613,Value,,,,equals,EX-0230612,,Shipping_Address__c,Quote Line,
+EX-0230614,Value,Exposure,,,equals,EX-0230610,,Product_Line__c,Quote Line,
+EX-0230615,Value,Print,,,equals,EX-0230612,,Product_Line__c,Quote Line,
+EX-0230616,Value,NETNEW,,,equals,EX-0230614,,Unit Price,Configuration Attributes,
+EX-0230617,Value,,,,equals,EX-0230610,,Account_Sequence__c,Quote Line,
+EX-0230618,Value,0,,,not equals,EX-0230615,,,,EX-000011
+EX-20230915.11,Value,TRUE,,,equals,EX-20230915.10,,Is_Missing_BI_Seats_AIACC__c,Quote,
+EX-20231006.01,Variable,,EX-20231005.03,20,not equals,EX-20231001.20,,,Quote Line,EX-20231005.01
+EX-20231006.02,Variable,,EX-20231005.04,30,not equals,EX-20231001.20,,,,EX-20231005.01
+EX-20231006.03,Variable,,EX-20231005.05,40,not equals,EX-20231001.20,,,Quote Line,EX-20231005.01
+EX-20231006.05,Variable,,EX-20231005.02,50,not equals,EX-20231001.20,,,Quote Line,EX-20231005.01
+EX-20231006.07,Value,1,,120,greater than,EX-20231001.20,,,Quote Line,EX-20230530.02
+EX-20231006.08,Value,2,,130,greater than,EX-20231001.20,,,Quote Line,EX-20230530.02
+EX-20231006.10,Value,3,,140,greater than,EX-20231001.20,,,Quote Line,EX-20230530.02
+EX-20231006.11,Value,4,,150,greater than,EX-20231001.20,,,Quote Line,EX-20230530.02

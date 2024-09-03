@@ -1,0 +1,98 @@
+<design:component label="MI Related List">
+ 
+	
+ <!--
+<design:attribute  name="parentObjectName" 
+  datasource="apex://MI_RLLkDesign" 
+  label="Related Field To Use" 
+  Description="API Name of the object that you want in the related list (e.g. Contact or Something__c)" />
+ -->
+<design:attribute 
+   name="objectName" 
+    datasource="apex://MI_RLDesign" 
+    label="Object name" 
+    Description="API Name a field on the object to use )" />
+	 
+	
+	<design:attribute name="displayFields" label="Displayed Fields" 
+	   Description="Comma-separated list of API names of the fields you want to display.  Field1, Field2, Field3__c ...  
+	   displayed in entered order with the first field being a link to the record detail page"/>
+
+	<design:attribute name="title" label="Title Heading" 
+	Description="List title to display on heading instead of the plural Object Name" />
+	 <design:attribute name="iconName" label="Header Icon" 
+	Description="Overides the RelatedList standard icon for standard objects and/or sets a icon for custom objects
+	  The default is standard:sobject.  example: custom:custom25  action:bug  
+	  See https://www.lightningdesignsystem.com/icons/ for all available icons.  "/>
+
+    <design:attribute name="linkFields" label="Linked Fields" 
+	  Description="Fields to use as link to a detail page. comma seperated fields, Name:id, AccountName:Accountid.
+	  Adding a lookup field will automaticaly create a link.  This allows any field to become a link   
+	  "/>
+	<design:attribute name="editableFields" label="Editable Fields" 
+	Description="Comma-separated list of API names of the fields you want to show edit.  Should be a subset of the Displayed Fields"/>
+ 	
+	<design:attribute name="height" label="Height" Description="The hight in rems. Leave blank to show the full list without scrollbars "/>
+	<design:attribute name="accordion" label="Implement Accordion" Description="Check this to implement the accordion interface. 
+	  On load the accordion will be collapsed.  This allows the ARL to be placed on the page.    "/>
+	<design:attribute name="displayHeader" label="Display Header" Description="Check this to implement the standard interface "/>
+	<design:attribute name="sortable" label="Allow Sorting" Description="Check this to allow sorting of columns "/>
+	<design:attribute name="showRowNumberColumn" label="Show Row Number" Description="Show a row number on the related list"/>
+
+
+	<design:attribute name="sortField" label="Sort by Field" Description="The initial sort Field "/>
+	<design:attribute name="sortDescending" label="Sort Descending" Description="Sort Descending"/>
+	<design:attribute name="filterSOQL" label="SOQL Filter (Optional)" 
+	   Description="Enter a expression like Name='fred'  or isActive__c=true.  
+	   Needs to be a valid SOQL where expression.... or else!!   "/>
+	<design:attribute name="SOQLLimit" label="Row limit" Description="Maximum number of rows to brign back for the related entity. " />
+
+	
+
+ <design:attribute name="actions" label="Row Actions" Description="Row Menu Action to append to the row (dropdown on the right) 
+   You can implement the following builtin functions  edit:Edit, view:View, debug:Debug
+   and add a Custom Row Action that updates a field on the row.  see Custom Row Action(s) for Field Update 
+ "/>
+  <design:attribute name="actionFieldUpdates" label="Custom Row Action(s) for Field Update" Description='Add to the action menu a field update 
+     that will be applied immediately. example 
+	   1) action:setcomplete will set the status__c field to "Complete" 
+	   2) action:setOpen will set Is_Open to true
+	  [{"action":"setcomplete","field":"status__c","value":"Complete"},{"action":"setOpen","field":"isOpen","value":"true".....}].  
+	  You must include a Row Action for the item to appear.  setComplete:Set Complete,setOpen:Open'/>
+	<design:attribute name="quickActions" label="Related List Header Button" 
+    Description="Button Actions. Format New (creates rl record ).  FlowAPIName:Name     "/>
+<!--
+	        Description="Quick Actions (Configured for the object). Format  Obj1.Act1:Lab1,Obj2.Act2:lab2,..->
+		    sObj.quickAction:Label,Account.MyAction:MyActionLabel, Account.New:Create a new thingy,...   "/>
+-->
+
+	
+	<design:attribute name="designIcons" label="Design Icons" 
+	         Description="Allow you to display an icon instead of a checkbox for boolean values,
+	         example: IsMainContact__c#utility:person,Is_Active__c#custom:custom22 "/>
+ 
+ 	<design:attribute name="fixedWidth" label="Column Width Override" 
+	    Description="Set a fixed with on a column theCheckbox__c:10,Code:15 "/>
+ 	<design:attribute name="labelOverrides" label="Column Label Override" 
+	     Description="Override the column header label.  theCheckbox__c:The Check,QtyOverrideAmountforTheThing__c:Qty"/>
+		 
+	<design:attribute name="refreshOnSiblingRefresh" label="Auto Refresh List On Sibling Refresh" 
+	Description="When another related list on the same page is refreshed, automatically refresh this list as well.  
+	Used to sync changes made to fields on one list to another list on the same page. Example: 
+	A line Action changes the status from open to close. The line is removed from the open list and the closed list is refreshed, now includes the closed item. "/>
+
+	<design:attribute name="sNotes" label="User Notes" Description="Any notes you wish to enter about this component"  />
+<!-- 	
+
+	<design:attribute name="debug" label="debug" Description="show debug info to console log area"/>
+
+	<design:attribute name="buttonFields" label="Button Fields - Not Implemented" Description="Not Implemented " />
+
+	<design:attribute name="showFilter" label="Show Filter" Description="Check this box to get a field that lets you filter all the record that contain whatever you type"/>
+
+	<design:attribute name="displaySchema" label="Show Schema List"   
+	   Description="Show fields on the related object.  Used for configuration"/>
+	design:attribute name="editMode" label="Edit Mode" Description="(not implemented) Allows inline edit of the related list. "/ -->
+	<design:attribute  name="parentObjectName" />
+   
+</design:component>

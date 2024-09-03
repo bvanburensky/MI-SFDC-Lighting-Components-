@@ -1,0 +1,6 @@
+<aura:documentation>
+	<aura:description>Documentation</aura:description>
+	<aura:example name="MI Accordion" ref="Accordion" label="Label">
+		MI Accordion
+	</aura:example>
+</aura:documentation>

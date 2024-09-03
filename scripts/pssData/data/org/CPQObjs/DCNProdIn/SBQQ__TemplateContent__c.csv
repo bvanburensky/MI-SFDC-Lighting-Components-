@@ -1,0 +1,1005 @@
+External_Id__c,SBQQ__CustomSource__c,SBQQ__FontFamily__c,SBQQ__FontSize__c,SBQQ__Markup__c,SBQQ__RawMarkup__c,SBQQ__TableStyle__c,SBQQ__TextColor__c,SBQQ__Type__c
+,,,,,"<p>&#160;</p>
+
+<p>&#160;</p>",Standard,,HTML
+EX-000002,,Helvetica,,,"<p align=""center"" style=""text-align:center""><a href=""https://www.construction.com/wp-content/uploads/2023/12/Data-_Services_Addendum_20230725.pdf"">Data Services Addendum</a></p>",Standard,,HTML
+EX-000003,,Helvetica,9,,"<table align=""right"" border=""1"" cellpadding=""1"" cellspacing=""1"" style=""width:100%;"">
+	<tbody>
+		<tr>
+			<td style=""width: 60%;"">&#160;</td>
+			<td style=""width: 10%;"">&#160;</td>
+			<td style=""width: 15%; align:left; padding-left:4px; padding-top:2px; border:thick solid black; border-bottom:thick solid black;""><span style=""font-size:9px;"">Subtotal:</span></td>
+			<td style=""width: 15%; align:right; padding-right:5px; padding-top:2px; border:thick solid black; 
+border-right:thick solid black; border-bottom:thick solid black;""><span style=""font-size:9px;"">{!quote.SBQQ__NetAmount__c}</span></td>
+		</tr>
+		<tr>
+			<td>&#160;</td>
+			<td>&#160;</td>
+			<td style="" align:left; padding-left:4px; padding-top:2px; border-left: thick solid black; border-bottom: thick solid black;""><span style=""font-size:9px;"">Tax</span></td>
+			<td style=""align:right; padding-right:5px; padding-top:2px; border-left: thick solid black; border-right: thick solid black; border-bottom: thick solid black;""><span style=""font-size:9px;"">{!quote.AVA_SFCPQ__SalesTaxAmount__c}</span></td>
+		</tr>
+		<tr>
+			<td>&#160;</td>
+			<td>&#160;</td>
+			<td style="" align:left; padding-left:4px; padding-top:2px; border-left: thick solid black; border-bottom: thick solid black;""><span style=""font-size:9px;"">Total</span></td>
+			<td style=""align:right; padding-right:5px; padding-top:2px; border-left: thick solid black; border-right: thick solid black; border-bottom: thick solid black;""><span style=""font-size:9px;"">{!quote.Net_Total_Tax__c}</span></td>
+		</tr>
+		<tr>
+			<td>&#160;</td>
+			<td>&#160;</td>
+			<td style="" align:left; padding-left:4px; padding-top:2px; border-left: thick solid black; border-bottom: thick solid black;""><span style=""font-size:9px;"">{!quote.PDF_Payment_Frequency_Text__c} </span></td>
+			<td style=""align:right; padding-right:5px; padding-top:2px; border-left: thick solid black; border-right: thick solid black; border-bottom: thick solid black;""><span style=""font-size:9px;"">{!quote.PDF_Payment_Frequency_Amount__c}</span></td>
+		</tr>
+	</tbody>
+</table>
+
+<p>&#160;</p>",Standard,,HTML
+EX-000004,,,,,,Standard,,Line Items
+EX-000005,,,,,"<table border=""1"" cellpadding=""1"" cellspacing=""1"" style=""width:100%;"">
+	<tbody>
+		<tr>
+			<td>&#160;</td>
+			<td><span style=""font-size:10px;""><strong>Non-Recurring Products Subtotal:</strong></span></td>
+			<td><span style=""font-size:10px;"">{!quote.Non_Recurring_Product_Subtotal__c}</span></td>
+		</tr>
+		<tr>
+			<td>&#160;</td>
+			<td><span style=""font-size:10px;""><strong>Non-Recurring Products Discount:&#160;</strong></span></td>
+			<td><span style=""font-size:10px;"">{!quote.Non_Recurring_Product_Discount_Amount__c}</span></td>
+		</tr>
+		<tr>
+			<td>&#160;</td>
+			<td><span style=""font-size:10px;""><strong>Non-Recurring Products Estimated Tax:&#160;</strong></span></td>
+			<td><span style=""font-size:10px;"">{!quote.Non_Recurring_Product_Estimated_Tax__c}</span></td>
+		</tr>
+		<tr>
+			<td>&#160;</td>
+			<td><span style=""font-size:10px;""><strong>Non-Recurring Products Net Total with Tax:</strong></span></td>
+			<td><span style=""font-size:10px;"">{!quote.Non_Recurring_Product_Net_Total_Tax__c}</span></td>
+		</tr>
+	</tbody>
+</table>
+
+<p>&#160;</p>",Standard,,HTML
+EX-000007,,Helvetica,9,"<p><span style=""font-size: 9px; font-family: arial, sans-serif;"">These pricings and discounts will be honored until the ╬ô├ç┬úExpires On╬ô├ç┬Ñ date above. After which they may or may not be honored at the Company╬ô├ç├ûs discretion.Γö¼├í</span></p><p><br></p><p><strong style=""font-family: Calibri, sans-serif; font-size: 12pt;"">PRODUCTS &amp; PRICING</strong></p>","<table border=""1"" cellpadding=""1"" cellspacing=""0"" style=""width:100%; text-align: center;"">
+	<tbody>
+		<tr style=""text-align: center;"">
+			<td style="" padding-top:2px; border-top: 1px solid #8d9497; width:20%;"">&#160;</td>
+			<td style="" padding-top:2px; border-top: 1px solid #8d9497; border-bottom: 1px solid #8d9497; width:60%; ""><strong><span style=""  text-align: center;"">PRODUCTS &#38; PRICING </span></strong></td>
+			<td style="" padding-top:2px; border-top: 1px solid #8d9497; width:20%;"">&#160;</td>
+		</tr>
+	</tbody>
+</table>
+
+<p>&#160;</p>
+
+<p>* These pricings and discounts will be honored until the &#8220;Expires On&#8221; date above. After which they may or may not be honored at the Company&#39;s discretion</p>",Standard,,HTML
+EX-000008,,,,,"<p align=""center"" style=""text-align:center""><b>Dodge Construction Network</b></p>
+
+<p align=""center"" style=""text-align:center""><b>Advertising Master Services Agreement</b></p>
+
+<p align=""center"" style=""text-align:center"">&#160;</p>
+
+<ol>
+	<li>This contract/agreement and the rates specified herein shall be binding upon the ordered publication and the advertiser/agency unless cancelled by either party by the published closing date. Publisher accepts no responsibility for advertising content. Advertiser is solely responsible for any third-party claims arising out of its advertising, and Advertiser will indemnify Publisher against all such claims, including attorney&#8217;s fee. UNDER NO CIRCUMSTANCES WILL PUBLISHER BE LIABLE FOR SPECIAL, CONSEQUENTIAL, INDIRECT, INCIDENTAL, OR EXEMPLARY DAMAGES.<br />
+	&#160;</li>
+	<li>In the event of a payment default, both the agency and the advertiser, in the applicable case, shall be jointly or severally liable as is set forth in this contract. Further, in the event of such default, the agency agrees to assign to the publication its rights in any money owed to the agency from the advertiser for such advertising until the default for the agency to publication is cured. If payment is not received within 60 days of invoice date, the Publisher may contact the advertiser directly to request payment.<br />
+	&#160;</li>
+	<li>Contracted frequency rates apply for a 12-month period from the date of the first insertion. Advertiser must run the number of ads specified on the contract, or will be short-rated. Publisher reserves the right to change contract rates at renewal.<br />
+	&#160;</li>
+	<li>Upon invoicing you will receive a copy of your tear sheet. Publisher is not responsible for errors in the tear sheet unless notified in writing of errors within 30 days of delivery of the tear sheet.<br />
+	&#160;</li>
+</ol>
+
+<p>A complete list of Terms and Conditions are available upon request and at www.construction.com</p>",Standard,,HTML
+EX-000009,,,,,"<p>&#160;</p>
+
+<p><span style=""font-size:12pt""><span style=""font-family:Calibri,sans-serif""><b><u><span style=""font-size:8.5pt""><span style=""font-family:&quot;Arial&quot;,sans-serif""><span style=""color:black""><span style=""text-transform:uppercase"">TERMS AND CONDITIONS</span></span></span></span></u></b></span></span></p>
+&#160;
+
+<p><span style=""font-size:12pt""><span style=""font-family:Calibri,sans-serif""><span style=""font-size:8.5pt""><span style=""font-family:&quot;Arial&quot;,sans-serif""><span style=""color:black"">For additional information regarding the Terms and Conditions please refer to&#160;</span></span></span><a href=""http://www.thebluebook.com/privacy-policy.html""><span style=""font-size:8.5pt""><span style=""font-family:&quot;Arial&quot;,sans-serif""><span style=""color:blue"">www.thebluebook.com/privacy-policy.html</span></span></span></a><span style=""font-size:8.5pt""><span style=""font-family:&quot;Arial&quot;,sans-serif""><span style=""color:black"">.</span></span></span></span></span></p>
+
+<ol>
+	<li style=""margin-top:16px; margin-left:16px""><span style=""font-size:12pt""><span style=""tab-stops:list .5in""><span style=""font-family:Calibri,sans-serif""><span style=""font-size:8.5pt""><span style=""font-family:&quot;Arial&quot;,sans-serif""><span style=""color:black"">Programs begin when the contract is signed and are non-cancelable prior to the expiration date of the Commitment Term.</span></span></span></span></span></span></li>
+	<li style=""margin-top:16px; margin-left:16px""><span style=""font-size:12pt""><span style=""tab-stops:list .5in""><span style=""font-family:Calibri,sans-serif""><span style=""font-size:8.5pt""><span style=""font-family:&quot;Arial&quot;,sans-serif""><span style=""color:black"">If not elected to be manually renewed, this Program will automatically renew for consecutive renewal terms, if any, as specified on the order form (a &#34;Renewal Term;&#34; together with the initial Commitment Term, the &#34;Term&#34;), subject to credit approval, unless a written termination notice is provided by either Party at least thirty (30) days prior to the expiration of the initial Commitment Term or the then-current Renewal Term, as applicable.</span></span></span></span></span></span></li>
+	<li style=""margin-top:16px; margin-left:16px""><span style=""font-size:12pt""><span style=""tab-stops:list .5in""><span style=""font-family:Calibri,sans-serif""><span style=""font-size:8.5pt""><span style=""font-family:&quot;Arial&quot;,sans-serif""><span style=""color:black"">The Blue Book may increase or decrease the Fees at any time with or without prior notice, effective as of the next Renewal Term, if any.</span></span></span></span></span></span></li>
+	<li style=""margin-top:16px; margin-left:16px""><span style=""font-size:12pt""><span style=""tab-stops:list .5in""><span style=""font-family:Calibri,sans-serif""><span style=""font-size:8.5pt""><span style=""font-family:&quot;Arial&quot;,sans-serif""><span style=""color:black"">The Blue Book reserves the right to terminate or suspend online network exposure and project leads for customers in the event of any material breach by customer, as determined by The Blue Book in its reasonable discretion. For the avoidance of doubt, failure to pay fees when due shall constitute a material breach.</span></span></span></span></span></span></li>
+	<li style=""margin-top:16px; margin-left:16px""><span style=""font-size:12pt""><span style=""tab-stops:list .5in""><span style=""font-family:Calibri,sans-serif""><span style=""font-size:8.5pt""><span style=""font-family:&quot;Arial&quot;,sans-serif""><span style=""color:black"">All project lead and bid information is proprietary and confidential information owned by The Blue Book and may only be used by direct customers of The Blue Book. Further distribution of such proprietary information to any third party is strictly prohibited and would constitute a material breach of this contract.</span></span></span></span></span></span></li>
+	<li style=""margin-top:16px; margin-left:16px""><span style=""font-size:12pt""><span style=""tab-stops:list .5in""><span style=""font-family:Calibri,sans-serif""><span style=""font-size:8.5pt""><span style=""font-family:&quot;Arial&quot;,sans-serif""><span style=""color:black"">You agree that your email and/or fax number may be published in The Blue Book network. You expressly consent to receive email and/or fax communications, including transactional documents and advertisements, from The Blue Book and companies advertising, listed in, or otherwise using The Blue Books online or print products.</span></span></span></span></span></span></li>
+</ol>
+
+<p style=""margin-top:16px; margin-left:16px"">&#160;</p>",Standard,,HTML
+EX-000010,,,,,"<p>&#160;</p>
+
+<p>&#160;</p>
+
+<table style=""border-width: thin; border-style: solid; border-color: black; border-collapse: collapse;"" width=""100%"">
+	<tbody>
+	</tbody>
+	<tbody>
+		<tr>
+			<td style=""border-collapse: collapse; border: thin solid black; vertical-align: middle;"">PO Number (optional):</td>
+			<td style=""border-collapse: collapse; border: thin solid black; vertical-align: middle; height: 25px;""><span style=""color:#ffffff;"">/tbx_1_text/</span></td>
+		</tr>
+		<tr>
+			<td style=""border-collapse: collapse; border: thin solid black; vertical-align: middle;"">PO Amount (optional):</td>
+			<td style=""border-collapse: collapse; border: thin solid black; vertical-align: middle; height: 25px;""><span style=""color:#ffffff;"">/amount1/</span></td>
+		</tr>
+		<tr>
+			<td style=""border-collapse: collapse; border: thin solid black; vertical-align: middle;"">PO Required?</td>
+			<td style=""border-collapse: collapse; border: thin solid black; vertical-align: middle; height: 25px;""><span style=""color:#ffffff;"">/cb_1_yes/</span></td>
+		</tr>
+	</tbody>
+</table>
+
+<p>&#160;</p>
+
+<p>&#160;</p>
+
+<table style=""border: thin solid black; border-collapse: collapse;"" width=""100%"">
+	<tbody>
+	</tbody>
+	<tbody>
+		<tr>
+			<td style=""border-collapse: collapse; border: thin solid black; text-align: center; vertical-align: middle;"">{!quote.Account_Name__c}</td>
+			<td align=""center"" style=""border-collapse: collapse; text-align: center; border: thin solid black; height: 25px;"">&#160;</td>
+		</tr>
+		<tr>
+			<td style=""border-collapse: collapse; border: thin solid black; vertical-align: middle;"">Name:</td>
+			<td style=""border-collapse: collapse; border: thin solid black; height: 25px;"">{!primaryContact.Name}</td>
+		</tr>
+		<tr>
+			<td style=""border-collapse: collapse; border: thin solid black; vertical-align: middle;"">Title:</td>
+			<td style=""border-collapse: collapse; border: thin solid black; vertical-align: middle; height: 25px;""><span style=""color:#ffffff;"">/title1/</span></td>
+		</tr>
+		<tr>
+			<td style=""border-collapse: collapse; border: thin solid black; vertical-align: middle;"">Date:</td>
+			<td style=""border-collapse: collapse; border: thin solid black; vertical-align: middle; height: 25px;""><span style=""color:#ffffff;"">/d1/</span></td>
+		</tr>
+		<tr>
+			<td style=""border-collapse: collapse; border: thin solid black; vertical-align: middle;"">Signature:</td>
+			<td style=""border-collapse: collapse; border: thin solid black; height: 50px; vertical-align: bottom;"">
+			<p>&#160;</p>
+
+			<p>&#160;</p>
+
+			<p><span style=""color:#ffffff;"">/s1/</span></p>
+
+			<p>&#160;</p>
+			</td>
+		</tr>
+	</tbody>
+</table>",Standard,,HTML
+EX-000011,,,,,"<p align=""center"" style=""text-align:center""><b>Dodge Construction Network</b></p>
+
+<p align=""center"" style=""text-align:center""><b>Master Services Agreement</b></p>
+
+<p align=""center"" style=""text-align:center"">&#160;</p>
+
+<p>This Master Services Agreement (&#34;MSA&#34;), together with the provisions set forth in any MSA addendum, statement of work, order form attached to this MSA (collectively, the &#34;Agreement&#34;), governs all Services furnished by or on behalf of Dodge Construction Network LLC, a Delaware limited liability company, having a principal place of business at 300 American Metro Blvd., Suite 185, Hamilton, NJ 08619 and doing business as Dodge Construction Network (&#34;DCN&#34;) to the Party contracting for such Services and identified in the Agreement (the &#34;Customer&#34;). The Terms of Use are incorporated in and made a part of this MSA and the Agreement, provided that if there is any conflict among the terms or provisions of this MSA and the Terms of Use, the provisions of this MSA shall control. Customer and DCN are sometimes referred to in this MSA individually as a &#34;Party&#34; and collectively as the &#34;Parties.&#34;<br />
+&#160;</p>
+
+<p>Definitions. Terms not otherwise defined herein shall have the meanings set forth in Appendix A to this MSA.</p>
+
+<p>This MSA incorporates the attached Statement of Work (&#34;SOW&#34;), and all attached MSA Addenda. Together, this MSA, the SOW and the Addenda (if applicable) collectively set forth each Party&#39;s rights, duties and responsibilities. In event of a conflict between MSA and an Addendum, the Addendum controls. Collectively, the MSA, Addenda and SOW represent the entire agreement and understanding of the Parties as to the subject matter of the SOW and the Services described therein.</p>
+&#160;
+
+<ol>
+	<li>Products &#38; Services - See SOW.<br />
+	&#160;</li>
+	<li>Fees and Charges - See SOW.<br />
+	&#160;
+	<p>a. Customer agrees to pay the Fees to DCN, together with any applicable taxes (other than taxes on DCN&#39;s income) promptly upon receipt of each invoice, and in no event later than thirty (30) days therefrom. DCN may increase or decrease the Fees at any time with or without prior notice, effective as of the next Renewal Term, if any. DCN may charge Customer one and one-half percent (1.5%) interest per month on all past due amounts.<br />
+	&#160;</p>
+
+	<p>b. All Fees payable under the Agreement shall be non-refundable, except that DCN shall refund any Fees paid for future Services in the event Customer terminates this Agreement pursuant to Section 3(d), DCN terminates this Agreement pursuant to Section 8(d)(iii), or DCN elects to refund any Fees pursuant to the last sentence of Section 6.<br />
+	&#160;</p>
+
+	<p>c. DCN accepts credit, debit or other electronic payments only, with limited exceptions as specifically agreed to by DCN. Unless granted an exception, it is Customer&#8217;s responsibility to immediately provide such payment information to DCN or one of DCN&#8217;s vendors. By providing your credit card, debit card ACH or other similar electronic method to DCN (or its vendor) you authorize DCN to automatically charge or debit from you, on an on-going basis, such Fees (together with any applicable taxes), as they become due and payable pursuant to this Agreement. Following any such charge or debit, DCN shall provide the Customer with an acknowledgement therefor. To avoid an interruption in Services Customer agrees to up-date any credit card, debit card, ACH or similar electronic method in the event of a change thereto or expiration thereof such that Customer shall maintain with DCN a valid form of electronic payment at all times during the term of this Agreement.</p>
+	</li>
+	<li>Term/Termination<br />
+	&#160;
+	<p>a. This Agreement shall become binding on Customer when Customer has returned a duly executed counterpart of this Agreement to DCN and Customer&#39;s account has been determined to be in good credit standing by DCN. DCN reserves the right to withhold granting of credit and may require prepayment, in whole or in part, for any or all Services.<br />
+	&#160;</p>
+
+	<p>b. Services will commence as of the Effective Date, and shall continue for the Initial Term unless earlier terminated pursuant to the terms hereof. Services cannot be cancelled by Customer during the Initial Term, except pursuant to Section 3(d). If a Customer or an Affiliate does not elect to be manually renewed as specifically delineated in the Agreement, the Agreement shall automatically renew for consecutive Renewal Terms, subject to credit approval, unless a written termination notice is provided by either Party at least sixty (60) days prior to the expiration of the Initial Term or the then-current Renewal Term, as applicable.<br />
+	&#160;</p>
+
+	<p>c. DCN may terminate the Agreement and/or cease delivery of one or more Services at any time, with or without notice to Customer, in the event of any material breach of the Agreement by Customer, any of Affiliate, any Authorized User or any agent thereof, as determined by DCN in its reasonable discretion. Failure to pay Fees when due shall constitute a material breach of the Agreement by Customer.<br />
+	&#160;</p>
+
+	<p>d. Customer may terminate the Agreement in the event that DCN fails to materially deliver the Services on the schedule set forth in the SOW; provided however, that DC shall have the right to cure any default within thirty (30) days of a written notice of default by Customer that provides reasonable notice to DCN of the grounds for declaring the material default.<br />
+	&#160;</p>
+
+	<p>e. Upon any termination of the Agreement, Customer shall immediately discontinue all use of the Services and shall destroy all copies of Software and Data (as defined in Addenda or SOW), including all copies, adaptations and merged portions thereof in any form, then in the possession or under the control of Customer, any Affiliate, any Authorized User or any agents thereof. Upon request, Customer shall certify such destruction to DCN.<br />
+	&#160;</p>
+
+	<p>f. Sections 2, 3(e), 4 &#8211; 10 of this MSA, and any additional Sections so specified in related Addenda, shall survive the expiration or earlier termination of the Agreement.<br />
+	&#160;</p>
+	</li>
+	<li>Ownership Rights As between DCN and Customer, all Data and Services are proprietary to and owned exclusively by DCN and/or its Licensors and are protected by applicable laws, including copyright, trademark and trade secret laws. DCN is the exclusive owner of all DCN Service Marks. Neither Customer, nor any Affiliate or Authorized User has any right, title, license or other interest in, to or under any Services or Service Marks, other than to the limited extent of the License expressly granted in an Addendum, and may not directly or indirectly use or display the DCN name or Service Marks without the express written consent of DCN, or as permitted in an Addendum. All rights not expressly granted to Customer in the Agreement are reserved exclusively to DCN and/or its Licensors. Customer shall take reasonable actions to protect the rights of DCN and its Licensors in and to DCN Data and Services.<br />
+	&#160;</li>
+	<li>Certain Representations, Warranties, Covenants and Agreements of Customer<br />
+	&#160;
+	<p>a. Customer hereby represents and warrants that (i) neither Customer nor any Affiliate or Authorized User will represent itself as any other party or otherwise provide any false or misleading information; (ii) &#160;it and any Affiliate is duly authorized to enter into and to perform its obligations under the Agreement; (iii) neither the execution, delivery nor performance of the Agreement by Customer or any Affiliate conflicts with or will conflict with, violate, breach or cause a default under any agreement or commitment by which it or they are bound or any law, rule or regulation to which it or they are subject; (iv) the use of the Services by Customer, Affiliates and Authorized Users does not and will not violate the intellectual property, privacy or other proprietary rights of any third Person; and (vi) neither Customer nor any Affiliate shall allow any user other than an Authorized User to have access to the Services.<br />
+	&#160;</p>
+
+	<p>b. DCN Digital Advertising Customer represents, warrants and covenants that it has the legal right to publish all images and text appearing in Customer advertisements appearing on DCN websites, including all required copyright and trademark permissions, and that at no time will Customer store, publish, or otherwise disseminate false, lewd, immoral, libelous or illegal material on any DCN website. To the extent that DCN downloads and publishes images posted on a Digital Advertising Customer&#39;s website or social media onto a DCN website for the benefit of the Digital Advertising Customer, the Digital Advertising Customer represents and warrants that it has all required copyright and trademark permissions for such images. To the extent that DCN determines that a Digital Advertising Customer has breached the above covenants, DCN shall have the right to remove all Customer advertising from DCN digital sites as it determines in its sole discretion, Customer shall have no refund rights in such circumstances, and Customer shall indemnify DCN of and from any third party claims arising from the breach.<br />
+	&#160;</p>
+
+	<p>c. Customer hereby covenants and agrees that it, all Affiliates and all Authorized Users will comply with and are currently in compliance in all material respects with all federal, state, local and foreign laws, rules and regulations applicable to the performance of their obligations under the Agreement and their use of the Services, and that Customer has the right to share and disclose to DCN all information that Customer does in fact provide to DCN, and further that none of it, any Affiliate nor any Authorized User shall (i) modify, reverse engineer, decipher, disassemble or decompile the Services or any portion thereof; (ii) disable any licensing or control features of the Data or Services or any portion thereof; (iii) remove or modify any trademark, Service Marks, logo, copyright or other proprietary notices relating to the Data or Services or use any of the same except as part of its use of the Services in accordance with the terms and conditions of the Agreement; (iv) create derivative works that are based on any portion of the Data or Services; (v) probe, scan or test the vulnerability of any DCN system or network or breach or otherwise compromise any of DCN&#39;s security or authentication measures; (vi) avoid, bypass, remove, deactivate, impair, descramble or otherwise circumvent any technological measure implemented by DCN to protect DCN Data, Services or information stored by DCN on DCN servers; (vii) access or search DCN Data or the information stored by DCN through the use of any engine, software, tool, agent, device or mechanism (including spiders, robots, crawlers, data mining tools or the like) other than the Software and search engines provided by DCN or web browsers generally available to the public; (viii) interfere with any other user&#39;s access to DCN services, whether by sending Harmful Code, overloading, flooding, spamming or mail-bombing, or otherwise; (ix) access the account or information of any other user of DCN services; or (x) reproduce, copy, sell, resell, assign, sublicense or otherwise commercially exploit any of the Services other than in connection with the internal use of the Services by Customer and Affiliates in the ordinary course of their respective businesses.<br />
+	&#160;</p>
+	</li>
+	<li>DISCLAIMER OF WARRANTIES DCN and its Licensors do not represent, warrant or guarantee that the Services will be error-free, complete, accurate or uninterrupted. All Data and Services are provided &#34;AS IS,&#34; AND &#34;WHEN AVAILABLE.&#34; DCN AND ITS LICENSORS HEREBY DISCLAIM ALL WARRANTIES, EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTY OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE OR USE OR NON-INFRINGEMENT OF ANY THIRD PERSON&#39;S INTELLECTUAL PROPERTY, PRIVACY OR OTHER PROPRIETARY RIGHTS. NEITHER DCN NOR ITS LICENSORS REPRESENT OR WARRANT THAT THE RESULTS TO BE OBTAINED BY USE OF THE DATA OR SERVICES WILL BE USED OR USEFUL TO, OR MEET THE NEEDS OR EXPECTATIONS OF, CUSTOMER OR ANY OF ITS AFFILIATES. Customer assumes all risks of selection and use of the Data or Services, including that the Data or Services will be compatible with or usable in connection with the hardware, software or systems of Customer or any Affiliate. DCN&#39;s sole obligation and Customer&#39;s sole remedy for defective Data or Services shall be for DCN, at DCN&#39;s option, to re-perform the defective Services, provide substitute Data that materially conforms to the Agreement, or to refund the amount paid by Customer for the defective Data or Services, provided that Customer, its Affiliates and Authorized Users and their respective agents are not in breach of the Agreement.<br />
+	&#160;</li>
+	<li>LIMITATION OF LIABILITIES<br />
+	&#160;
+	<p>a. IN NO EVENT, OTHER THAN WITH RESPECT TO DCN&#39;S INDEMNIFICATION OBLIGATIONS EXPRESSLY SET FORTH IN SECTION 8(b) BELOW, SHALL DCN OR ITS LICENSORS BE LIABLE FOR MONETARY DAMAGES UNDER THIS AGREEMENT (REGARDLESS OF THE LEGAL THEORY) IN AN AMOUNT GREATER THAN THE FEES PAID BY CUSTOMER WITH RESPECT TO DATA OR SERVICES PROVIDED BY DCN DURING THE THREE (3) MONTHS PRIOR TO THE DATE THAT THE CAUSE OF ACTION IS ALLEGED TO HAVE ARISEN, PROVIDED THAT THIS SENTENCE SHALL NOT LIMIT THE OBLIGATION OF CUSTOMER TO PAY IN FULL, WHEN DUE, ALL FEES PAYABLE BY IT PURSUANT TO THE AGREEMENT.<br />
+	&#160;</p>
+
+	<p>b. IN NO EVENT SHALL DCN OR ITS LICENSORS BE LIABLE FOR SPECIAL, INDIRECT, INCIDENTAL, COVER, EXEMPLARY, CONSEQUENTIAL OR PUNITIVE DAMAGES, INCLUDING WITHOUT LIMITATION, LOSS OF GOODWILL, WORK STOPPAGE, LOST PROFITS OR LOSS OF BUSINESS, EVEN IF INFORMED OR APPRISED OF THE POSSIBILITY OR LIKELIHOOD OF SUCH DAMAGES.<br />
+	&#160;</p>
+
+	<p>c. No action, suit or other proceeding may be brought by or on behalf of Customer or any Affiliate under the Agreement or otherwise more than one (1) year after Customer is or should, by the exercise of reasonable diligence, be aware that the cause of the action has accrued. DCN and its Licensors, resellers and distributors shall have no responsibility or liability for errors or omissions in, or the quality, accuracy or completeness of, any Customer Content or Third Party Data.<br />
+	&#160;</p>
+	</li>
+	<li>Indemnification<br />
+	&#160;
+	<p>a. Customer shall defend, indemnify and hold harmless DCN, its affiliates and Licensors and their respective directors, managers, officers, employees and agents (collectively, the &#34;DCN Indemnitees&#34;) from and against any and all Claims arising or resulting from or in connection with or relating to: (i) any breach of the Agreement by Customer, any Affiliate or any Authorized User; (ii) any unauthorized use of the Data or Services or any portion thereof by Customer, any Affiliate or any Authorized User; (iii) the infringement of any Person&#39;s intellectual property rights as a result of the use of the Data or Services or any portion thereof by Customer, any Affiliate or any Authorized User; or (iv) any Customer Content, Third Party Data and/or any other content, materials, data or information provided to DCN or its Licensors by or on behalf of Customer or any Affiliate.<br />
+	&#160;</p>
+
+	<p>b. DCN shall defend, indemnify and hold harmless Customer, its Affiliates and their respective directors, managers, officers, employees and agents (the &#34;Customer Indemnitees&#34;) from and against any and all Claims arising or resulting from or in connection with or relating to the infringement of a third Person&#39;s intellectual property rights as a result of the provision of the Data or Services by DCN pursuant to this Agreement, provided that Customer (i) promptly notifies DCN of such third Person Claim and permits DCN to assume the complete defense (including the unconditional right to settle or otherwise compromise such third Person Claim in its sole discretion) with counsel of DCN&#39;s choice and (ii) fully cooperates with DCN in such defense at the expense of DCN. Customer shall not settle or otherwise compromise any such third Person Claim without the express prior written consent of DCN. Notwithstanding the foregoing, DCN&#39;s indemnity pursuant to this Section 8(b) does not cover or relate to any Claim (i) that the use of the Services by Customer, any Affiliates or any Authorized User infringes the intellectual property rights of such third Person, or (ii) that any modification, change, amendment, customization, or adaptation of any Service not made by DCN, infringes the intellectual property rights of such third Person.<br />
+	&#160;</p>
+
+	<p>c. Notwithstanding the provisions of Section 8(b), DCN shall not be liable for any infringement or alleged infringement that results from Customer&#39;s failure to implement corrections or changes to the Data or Services provided by DCN.<br />
+	&#160;</p>
+
+	<p>d. If a Claim for infringement for which DCN may be obligated to indemnify Customer Indemnitees pursuant to Section 8(b) has been asserted, or in DCN&#39;s opinion is about or likely to be asserted, DCN may, at its option, either: (i) procure for Customer the right to continue using the Data or Services; (ii) replace or modify the Data or Service so that it becomes non-infringing; (iii) terminate this Agreement and refund all pre-paid fees covering future use of the Data or Service; or (iv) defend the action on Customer&#39;s behalf pursuant to Section 8(b).<br />
+	&#160;</p>
+	</li>
+	<li>Equitable Relief; Remedies not Exclusive Customer acknowledges and agrees that any breach of the Agreement may result in material damage to DCN that may not be measurable and would not adequately be compensated by monetary damages. Therefore, in the event of any breach or threatened breach of any provision of this Agreement by Customer, any Affiliate or any Authorized User, DCN shall be entitled to seek specific performance, preliminary and permanent injunctive and other appropriate equitable relief without posting any bond and without proving that monetary damages would be an inadequate remedy therefor. The equitable remedies contemplated by this Section 9 shall not be exclusive, but shall be in addition to any and all other remedies to which DCN may be entitled under this Agreement, applicable law or otherwise, including the remedy of monetary damages. All such remedies shall be cumulative and not exclusive and the exercise by DCN of any one such remedy shall not preclude the exercise of any one or more other remedies.<br />
+	&#160;</li>
+	<li>Confidentiality<br />
+	&#160;
+	<p>a. Customer shall protect DCN Confidential Information with at least the degree of care with which it protects its own Confidential Information, but in no event with less than reasonable care. Customer shall treat the terms of the Agreement as DCN Confidential Information.<br />
+	&#160;</p>
+
+	<p>b. Customer (i) shall use DCN Confidential Information only in connection with the performance of its obligations under the Agreement, and (ii) will not disclose DCN Confidential Information except to those employees, agents, contractors and Authorized Users who have first agreed to be bound by the terms and conditions of this MSA and who have a need to know such DCN Confidential Information in connection with the performance of Customer&#39;s obligations under the Agreement, and then only to the extent they need to know. Customer shall be responsible for any breach of this subsection by its employees, agents and contractors.<br />
+	&#160;</p>
+
+	<p>c. This Section 10 shall not apply to any information that (i) Customer can demonstrate that it possessed prior to the Effective Date without obligation of confidentiality, as demonstrated by the records of Customer, (ii) Customer develops independently without use of any DCN Confidential Information, (iii) Customer rightfully receives from a third Person free to make such disclosure without breach of any legal obligation, or (iv) is or becomes generally available to the public without breach of the Agreement.<br />
+	&#160;</p>
+
+	<p>d. Notwithstanding anything to the contrary in this Section 10, Confidential Information may be disclosed by Customer pursuant to the lawful requirement or request of a governmental agency or as required by subpoena, court order or operation of law, provided that Customer (i) gives notice to DCN; (ii) makes a reasonable attempt in good faith to resist making such disclosure; and (iii) limits the amount and scope of the disclosure to the minimum necessary to comply with such requirement or request.<br />
+	&#160;</p>
+
+	<p>e. Upon the request of DCN or upon the termination of the Agreement, Customer shall immediately turn over to DCN, or at the request of DCN, destroy and certify in writing as having been destroyed, all DCN Confidential Information that Customer has received, provided that the Customer may retain one copy of such DCN Confidential Information for its permanent files, or as required by applicable law, subject to the non-disclosure and non-use provisions of this Section 10.<br />
+	&#160;</p>
+
+	<p>f. The confidentiality and other provisions of this Section 10 shall supplement the terms of any confidentiality, non-disclosure or similar agreement entered into by the Parties prior to the Effective Date as they relate to DCN Confidential Information.<br />
+	&#160;</p>
+	</li>
+	<li>Miscellaneous<br />
+	&#160;
+	<p>a. The Agreement shall be governed by, construed and enforced in accordance with the internal laws of the State of New York applicable to contracts made and to be performed entirely in such State. Customer irrevocably consents to the exclusive jurisdiction of the federal and state courts located in the City, County and State of New York for adjudicating all disputes and controversies arising out of or relating to the Agreement, including the breach or alleged breach of the Agreement. Customer acknowledges and agrees that any such court is a convenient forum for the resolution of any such dispute or controversy and agrees not to assert in any forum that another forum is a convenient, or more convenient, forum for the resolution of such dispute or controversy.<br />
+	&#160;</p>
+
+	<p>b. CUSTOMER HEREBY KNOWINGLY AND IRREVOCABLY WAIVES ANY RIGHT TO A TRIAL BY JURY WITH RESPECT TO ANY DISPUTE OR CONTROVERSY AMONG THE PARTIES, ARISING UNDER OR RELATED TO THE AGREEMENT OR OTHERWISE. FURTHER, CUSTOMER AGREES THAT IT WILL NOT COMMENCE OR PARTICIPATE IN ANY CLAIM BROUGHT AS ANY TYPE OF CLASS, COORDINATED OR AGGREGATED SUIT, ACTION OR OTHER PROCEEDING OR RECEIVE OR RETAIN, DIRECTLY OR INDIRECTLY, AND HEREBY IRREVOCABLY AND UNCONDITIONALLY WAIVES AND RELEASES ANY RIGHT TO RECEIVE OR RETAIN, ANY MONETARY OR OTHER BENEFIT AS A RESULT OF ANY SUCH SUIT, ACTION OR OTHER PROCEEDING.<br />
+	&#160;</p>
+
+	<p>c. The Agreement is the complete agreement between the Parties with respect to Services, excludes any document or purchase order issued by Customer and supersedes any and all prior or contemporaneous representations, understandings, commitments or agreements by a Party or between the Parties, whether written (including by e-mail) or oral.<br />
+	&#160;</p>
+
+	<p>d. The Agreement shall inure to the benefit of DCN and Customer and their respective successors and permitted assigns. There are no third party beneficiaries of the Agreement other than DCN&#39;s Licensors, Customer&#39;s Affiliates expressly set forth in the Agreement, the DCN Indemnitees and the Customer Indemnitees.<br />
+	&#160;</p>
+
+	<p>e. Neither DCN nor any Licensor is responsible or liable for events or circumstances beyond its reasonable control and shall not be responsible for or liable for any delay in performing or failure to perform under the Agreement to the extent that such delay or failure is a result of any cause beyond its reasonable control. Causes beyond DCN&#39;s or its Licensors&#39; reasonable control may include, but shall not be limited to, acts of God (such as fire, storm, earthquake, hurricanes, tornadoes and the like), electrical outages, labor disputes, wars, hostilities, revolutions, riots, civil commotion, national emergency, unavailability of supplies, plagues, epidemics, pandemics, outbreaks of infectious disease or any other public health crisis (including related quarantines and employee restrictions), force of nature or explosion or any law, proclamation, regulation, ordinance or other acts or order of any court, government or governmental agency.<br />
+	&#160;</p>
+
+	<p>f. The Agreement may only be modified, and a provision of the Agreement, or any breach of the Agreement, may only be waived, in a writing that expressly sets forth such modification or waiver and is signed by an authorized person of each Party. No waiver of any provision or breach of the Agreement is a continuing waiver. No delay in enforcing any right or remedy under the Agreement or available under applicable law, and no course of dealing by a Party or between the Parties, shall constitute a waiver of any such right or remedy.<br />
+	&#160;</p>
+
+	<p>g. Customer may not assign or transfer the Agreement or any rights under the Agreement without the express prior written consent of DCN, and any such assignment shall be null and void. DCN may assign the Agreement in connection with a merger, consolidation or other business combination to which it is a party or by which its ownership is affected or in connection with the sale of all or substantially all of its business and assets. DCN may delegate the performance of all or any portion of the Services to a third Person.<br />
+	&#160;</p>
+
+	<p>h. The provisions of the Agreement are severable. If any court of competent jurisdiction determines that any provision of the Agreement is void or unenforceable, the remaining provisions of the Agreement shall be enforced to the fullest extent permitted by law, and the court making such determination shall modify or otherwise reform such void or unenforceable provision by limiting the duration or scope, adding or deleting words or phrases or otherwise modifying such provision to effect the intent of the Parties to the maximum extent permitted by applicable law.<br />
+	&#160;</p>
+
+	<p>i. The headings of the Sections in the Agreement are inserted for convenience of reference only and shall not alter or affect the meaning or interpretation of any provision of the Agreement. Any reference in the Agreement to a &#34;Section&#34; or &#34;Sections&#34; means a Section of the Agreement. As used in the Agreement, the words &#34;including&#34; and &#34;includes&#34; shall be read and mean &#34;including, without limitation,&#34; or &#34;includes, without limitation,&#34; as the case may be, whether or not so expressed. The use of the singular form shall include the plural, and vice versa, and the use of a masculine, feminine or neuter pronoun shall refer to any other appropriate pronoun, as the context requires. All references in the Agreement to &#34;dollars&#34; or &#34;$&#34; shall mean and refer to US dollars.<br />
+	&#160;</p>
+
+	<p>j. The Parties have been represented by counsel, or have been given the opportunity to be represented by counsel, in the preparation and execution of the Agreement and it expresses the mutual intent of the Parties. If any provision of the Agreement is deemed to be ambiguous, such provision shall be enforced in accordance with the intent of the Parties and shall not be construed against a Party because such Party or its representative drafted such provision, nor shall any other principle of &#34;strict construction&#34; apply to the interpretation or enforcement of any provision of the Agreement.<br />
+	&#160;</p>
+
+	<p>k. In the event of a breach of the Agreement by Customer, an Affiliate or an Authorized User, DCN shall be entitled to recover from Customer all reasonable attorneys&#39; fees and disbursements and other out-of-pocket costs and expenses DCN incurs in connection with enforcing the Agreement.<br />
+	&#160;</p>
+
+	<p>l. All notices, approvals, demands, or other communications under the Agreement shall be in writing. Notice shall be sufficiently given for all purposes when properly addressed to the address of a Party set forth in the Agreement as follows: (i) when personally delivered to the recipient, notice is effective on delivery; (ii) when mailed certified mail or by an express courier company, return receipt requested, notice is effective on receipt as confirmed by official proof of delivery; or (iii) when transmitted via electronic mail, notice is effective on production of a delivery receipt evidencing the electronic mail was delivered to the address and facsimile numbers set forth under each of the Party&#39;s signatures in the Agreement. Either Party may change its address or electronic mail address (or person&#39;s attention to whom notices are to be given) by giving the other Party written notice of the change. Any correctly addressed notice that is refused, unclaimed, or undeliverable because of an act or omission of the Party to be notified shall be deemed effective as of the first date that said notice was refused, unclaimed, or deemed undeliverable by the postal authorities, messenger, or overnight delivery service.<br />
+	&#160;</p>
+	</li>
+</ol>",Standard,,HTML
+EX-000012,,,,,"<table border=""1"" cellpadding=""1"" cellspacing=""1"" style=""width:100%;"">
+	<tbody>
+		<tr>
+			<td>&#160;</td>
+			<td>&#160;</td>
+			<td style=""text-align: right;""><span style=""font-size:10px;""><strong>Subtotal:</strong></span></td>
+			<td><span style=""font-size:10px;"">{!quote.SBQQ__ListAmount__c}</span></td>
+		</tr>
+		<tr>
+			<td>&#160;</td>
+			<td>&#160;</td>
+			<td style=""text-align: right;""><span style=""font-size:10px;""><strong>Discount Amount:&#160;</strong></span></td>
+			<td><span style=""font-size:10px;"">{!quote.SBQQ__TotalCustomerDiscountAmount__c}</span></td>
+		</tr>
+		<tr>
+			<td>&#160;</td>
+			<td>&#160;</td>
+			<td style=""text-align: right;""><span style=""font-size:10px;""><strong>Estimated Tax:&#160;</strong></span></td>
+			<td><span style=""font-size:10px;"">{!quote.AVA_SFCPQ__SalesTaxAmount__c}</span></td>
+		</tr>
+		<tr>
+			<td>&#160;</td>
+			<td>&#160;</td>
+			<td style=""text-align: right;""><span style=""font-size:10px;""><strong>Net Total + Tax:</strong></span></td>
+			<td><span style=""font-size:10px;"">{!quote.Net_Total_Tax__c}</span></td>
+		</tr>
+	</tbody>
+</table>
+
+<p>&#160;</p>",Standard,,HTML
+EX-000013,,,,<p>{!quote.Custom_Contract_Details__c}</p>,"<span style=""font-size:10px;"">{!quote.Custom_Contract_Details__c}</span>",Standard,,HTML
+EX-000014,,,,,"<p align=""center"" style=""text-align:center""><b>APPENDIX A</b></p>
+
+<p align=""center"" style=""text-align:center"">(DEFINITIONS)</p>
+
+<p align=""center"" style=""text-align:center"">&#160;</p>
+
+<p>The following definitions shall apply to the Agreement; provided that in the event of a conflict, the following definitional priority shall control: 1.) SOW; 2.) Addendums; 3.) MSA.<br />
+&#160;</p>
+
+<p>&#34;Affiliate&#34; means a Subsidiary of Customer and any other Person that Customer (or an Affiliate of Customer) is in Control of, as is expressly specified and identified in the Agreement.<br />
+&#160;</p>
+
+<p>&#34;Authorized User&#34; means: (i) an employee of Customer or an employee of an Affiliate whom Customer authorizes to use the Services on behalf of Customer or such Affiliate; or (ii) a third-party client of a Customer or an Affiliate of Customer that is disclosed to DCN and who shall be the end recipient of the Services by virtue of a separate and distinct agreement with the Customer or an Affiliate.<br />
+&#160;</p>
+
+<p>&#34;Claim or Claims&#34; means claims, demands and actions, suits and other proceedings with respect thereto, judgments, settlements, losses, liabilities, damages, costs and/or expenses (including reasonable attorneys&#39; fees).<br />
+&#160;</p>
+
+<p>&#34;Control&#34; means the power, through the ownership of stock or other equity interests, by contract or otherwise, to direct the management and policies of a Person.<br />
+&#160;</p>
+
+<p>&#34;Customer Confidential Information&#34; means any of Customer&#39;s proprietary information which is disclosed in confidence to DCN by Customer under a confidentiality, non-disclosure or similar agreement and expressly marked as &#34;Confidential.&#34;<br />
+&#160;</p>
+
+<p>&#34;Customer Content&#34; means any electronic data, content, information or material submitted by Customer, its Affiliates or their agents, excluding Third Party Data in Customer&#39;s possession.<br />
+&#160;</p>
+
+<p>&#34;Data&#34; means the information, data, documents, plans, specifications and addenda, if any, included as part of the Services and identified in the Agreement.<br />
+&#160;</p>
+
+<p>&#34;Distributed Content&#34; means Customer Content or Third Party Data that is Transferred to any other Person by DCN.<br />
+&#160;</p>
+
+<p>&#34;DCN Confidential Information&#34; means the Services and any of DCN&#39;s proprietary information, whether in written, verbal, graphic, electronic or any other form, which is disclosed to Customer, an Affiliate or Authorized User by DCN or observed by Customer, an Affiliate or Authorized User including, without limitation, any Questionnaire, business plans, business processes, Research Design Process, financial information, including forecasts and projections, analyses, customer and vendor information, Software (including all documentation and codes), Data, hardware and system designs, architectures and protocols, and specifications.<br />
+&#160;</p>
+
+<p>&#34;Effective Date&#34; means the date identified in the Agreement as the &#34;effective date.&#34;<br />
+&#160;</p>
+
+<p>&#34;Fees&#34; means such fees for the Services as are set forth in the Agreement.<br />
+&#160;</p>
+
+<p>&#34;Harmful Code&#34; means any viruses, &#34;worms,&#34; &#34;malware&#34; or otherwise destructive properties.<br />
+&#160;</p>
+
+<p>&#34;Hosted Content&#34; means Customer Content or Third Party Data hosted by DCN on behalf of Customer or an Affiliate of Customer in connection with a Customer&#39;s or such Affiliate&#39;s use of the Services.<br />
+&#160;</p>
+
+<p>&#34;Initial Term&#34; means the initial duration of the Agreement specified in the Agreement.<br />
+&#160;</p>
+
+<p>&#34;License&#34; means a limited, non-exclusive, non-transferable, non-sublicensable license for the Term of the Agreement, as the same may be earlier terminated pursuant to the terms and provisions of the Agreement, solely in the geographical area specified in the Agreement and as may be further limited in the Agreement, to permit Authorized Users to access and use (i) the Software or (ii) the Data, solely for the internal business purposes of Customer, Affiliates and Authorized Users.<br />
+&#160;</p>
+
+<p>&#34;Licensors&#34; means, collectively, any licensors, vendors and suppliers of DCN who may provide Services to either DCN or to Customer under an Agreement.<br />
+&#160;</p>
+
+<p>&#34;Person&#34; means any natural person, corporation, limited liability company, limited liability partnership, general or limited partnership, company, association, trust and other entity of any kind or nature.<br />
+&#160;</p>
+
+<p>&#34;Privacy Notice&#34; means the Privacy and Cookie Notice posted on DCN&#39;s website from time to time.<br />
+&#160;</p>
+
+<p>&#34;Questionnaire&#34; means any questionnaire developed and/or used in connection with a Study.<br />
+&#160;</p>
+
+<p>&#34;Renewal Term&#34; means consecutive one (1) year renewal terms, unless a different renewal term is specified in the Agreement.<br />
+&#160;</p>
+
+<p>&#34;Report&#34; means a written report and/or other documentation containing information derived from a Study, together with the deliverables and any data contained therein.<br />
+&#160;</p>
+
+<p>&#34;Research Design Process&#34; means the underlying ideas, concepts, know-how, techniques, processes and skills used by DCN to develop or generate a Study, a Questionnaire or a Report, including, without limitation, DCN&#39;s sampling and analytics.<br />
+&#160;</p>
+
+<p>&#34;Service Marks&#34; means any and all DCN service marks, including without limitation, the names &#34;The Dodge Data &#38; Analytics Companies, Inc.,&#34; &#34;Dodge Data &#38; Analytics,&#34; &#34;Sweets,&#34; &#34;IMS&#34; and &#34;The Blue Book Network.&#34;<br />
+&#160;</p>
+
+<p>&#34;Services&#34; means any reports, products, data, Software, advertising, printing, Study, Report, professional services, subscription services and/or other services selected by Customer and expressly set forth in the Agreement.<br />
+&#160;</p>
+
+<p>&#34;Software&#34; means (i) the object code version of the software and (ii) the related documentation, if any, identified in the Agreement.<br />
+&#160;</p>
+
+<p>&#34;SOW&#34; means a written DCN Quote or other written description of the Products and Services prepared by DCN.<br />
+&#160;</p>
+
+<p>&#34;Study&#34; means a market research study identified in the Agreement to be performed on behalf of a Customer.<br />
+&#160;</p>
+
+<p>&#34;Subsidiary&#34; means a corporation, partnership, joint venture, limited liability company or other business entity of which a majority of the shares of securities or other interests having ordinary voting power for the election of directors or other governing body (other than securities or interests having such power only by reason of the happening of a contingency) are at the time beneficially owned, or the management of which is otherwise controlled, directly, or indirectly through one or more intermediaries, or both, by Customer.<br />
+&#160;</p>
+
+<p>&#34;Third Party Data&#34; means information or data aggregated or collected by Customer from publicly available sources or Customer&#39;s third party content providers and provided by Customer to DCN.<br />
+&#160;</p>
+
+<p>&#34;Term&#34; means the Initial Term, together with any Renewal Term, as the same may be earlier terminated pursuant to the terms and provisions of the Agreement.<br />
+&#160;</p>
+
+<p>&#34;Terms of Use&#34; means the terms of use posted from time to time on DCN&#39;s website.<br />
+&#160;</p>
+
+<p>&#34;Transfer&#34; or Transferred&#34; means, as the context requires, to display or displayed, to disclose or disclosed, to publish or published, to distribute or distributed, to transfer or transferred or otherwise to make available or made available.<br />
+&#160;</p>",Standard,,HTML
+EX-000015,,,,,"<p align=""center"" style=""text-align:center""><b>IMS</b></p>
+
+<p align=""center"" style=""text-align:center""><b>Master Services Agreement</b></p>
+
+<p align=""center"" style=""text-align:center"">&#160;</p>
+
+<ol>
+	<li>This Master Services Agreement (&#34;MSA&#34;) governs all Services (as defined in Section 1 of this MSA) purchased by you (the &#34;Customer&#34;) from IMS (&#34;IMS&#34;), an affiliate of Dodge Construction Network, LLC. Customer and IMS are sometimes in this Agreement referred to individually as a &#34;Party&#34; and collectively as the &#34;Parties.&#34;<br />
+	&#160;</li>
+	<li>Products &#38; Services IMS will use commercially reasonable efforts to furnish the reports, products, data, software, advertising, printing and/or other services selected by Customer (&#34;Services&#34;). The Services will be furnished by or on behalf of IMS and/or its licensors, vendors and suppliers (&#34;Licensors&#34;). Subject to the terms and conditions of this Agreement, IMS hereby grants Customer, acting solely by and through its designated seat licensees identified in the Specifications above (&#34;Authorized Users&#34;), a limited, non-exclusive, non-transferable, non-sublicensable license for the term of this Agreement in the United States to permit Authorized Users to access and use (i) the object code version of the software and related documentation (&#34;Software&#34;) and/or (ii) the information, data, documents, plans, specifications and addenda (if any) included as part of the Services (collectively, &#34;Data&#34;), solely for the internal business purposes of Customer. The Customer shall be fully responsible for the actions of Authorized Users and for any breach of this Agreement by any Authorized User. The Customer shall not represent itself as any other party or otherwise provide any false or misleading information. No portion of the Services may be: (i) sold, licensed or sub-licensed, or re-published outside of the Company without IMS&#39; prior written consent, which consent IMS may provide or withhold in its sole discretion; or (ii) used in any manner that competes with IMS and/or the Services. IMS reserves the right to monitor the use of the Services by Customer and Authorized Users in order to determine compliance with this Agreement. IMS may modify, add to or delete the Services or portions thereof, or change the media or the format of the Services, at any time in its sole discretion without liability to Customer, any Authorized Users and/or any other Person. To the extent commercially practicable, IMS will provide Customer with notice of any material change in the Services. Upon using Services after receipt of notice of any modification, addition or deletion, Customer shall be deemed to have accepted and agreed thereto, provided that if a modification, addition or deletion substantially and adversely affects the functionality of the Services for Customer, Customer may within seven (7) days after receipt of such notice terminate this Agreement.<br />
+	&#160;</li>
+	<li>Fees and Charges (a) Customer agrees to pay IMS&#39; fees for the Services, plus any applicable sales tax. IMS may increase or decrease the Fees at any time with prior notice, effective as of the next Renewal Term, if any. (b) If Customer elects to pay for the Services by credit card, Customer hereby authorizes IMS to charge Customer&#39;s credit card for the amount of the Fees set forth in each invoice, plus applicable sales tax. IMS will send the Customer an acknowledgement of any charges to the Customer&#39;s credit card account. (c) All Fees payable under this Agreement shall be non-refundable, except that IMS shall refund any Fees paid for future Services in the event Customer terminates this Agreement pursuant to Section 4.<br />
+	&#160;</li>
+	<li>Termination This Agreement shall become binding on Customer when Customer has returned a duly executed counterpart of this Agreement to IMS and its account has been determined to be in good credit standing by IMS. IMS reserves the right to withhold granting of credit and may require prepayment, in whole or in part, for any or all Services. Failure to pay Fees when due shall constitute a material breach of this Agreement by Customer. Sections 2 and 3 through 8 shall survive the expiration or termination of this Agreement. No termination notice to IMS shall be effective unless it is in writing and provides not less than thirty (30) days&#39; notice prior to the next renewal term.<br />
+	&#160;</li>
+	<li>Ownership Rights As between IMS and Customer, all Services are proprietary to and owned exclusively by IMS and/or its Licensors and are protected by applicable laws, including copyright, trademark and trade secret laws. Neither Customer nor any Authorized User has any right, title, license of other interest in, to or under any of the foregoing, other than the License. All rights not expressly granted to Customer in this Agreement are reserved exclusively to IMS and/or its Licensors. Customer shall take reasonable actions to protect the rights of IMS and its Licensors in the Services. For the avoidance of doubt, any reference in this Section 5 to the Services includes all Software, Data and other deliverables included therein.<br />
+	&#160;</li>
+	<li>Certain Representations, Warranties, Covenants and Agreements of Customer Customer hereby represents and warrants that (i) it is duly authorized to enter into and to perform its obligations under this Agreement; (ii) neither the execution, delivery nor performance of this Agreement by Customer does or will conflict with, violate, breach or cause a default under any agreement or commitment by which it is bound or any law, rule or regulation to which it is subject; and (iii) the use of the Services by Customer and Authorized Users does not and will not violate the intellectual property, privacy or other proprietary rights of any third Person. Customer hereby covenants and agrees that it and all of its Authorized Users will comply in all material respects with all federal, state, local and foreign laws, rules and regulations applicable to the performance of its obligations under this Agreement and its use of the Services and that neither it nor any Authorized User shall (i) modify, reverse engineer, decipher, disassemble or decompile the Services or any portion thereof; (ii) disable any licensing or control features of the Services or any portion thereof; (iii) remove or modify any trademark, service mark, logo, copyright or other proprietary notices relating to the Services or use any of the same except as part of its use of the Services in accordance with the terms and conditions of this Agreement; (iv) create derivative works that are based on any portion of the Services; (v) probe, scan or test the vulnerability of any IMS system or network or breach or otherwise compromise any of IMS&#39; security or authentication measures; (vi) avoid, bypass, remove, deactivate, impair, descramble or otherwise circumvent any technological measure implemented by IMS to protect IMS services or information stored by IMS; (vii) access or search IMS services or the information stored by IMS through the use of any engine, software, tool, agent, device or mechanism (including spiders, robots, crawlers, data mining tools or the like) other than the Software and search engines provided by IMS or web browsers generally available to the public; (viii) interfere with any other user&#39;s access to IMS services, whether by sending Harmful Code, overloading, flooding, spamming or mail-bombing, or otherwise; (ix) access the account or information of any other user of IMS services; or (x) reproduce, copy, sell, resell, assign, sublicense or otherwise commercially exploit any of the Services other than in connection with the internal use of the Services by Customer in the ordinary course of their respective businesses.<br />
+	&#160;</li>
+	<li>Disclaimer of Warranties IMS and its Licensors do not represent, warrant or guarantee that the Services will be error-free, complete or accurate or uninterrupted. ALL SERVICES ARE PROVIDED &#34;AS IS,&#34; AND &#34;WHEN AVAILABLE.&#34; IMS AND ITS LICENSORS HEREBY DISCLAIM ALL WARRANTIES, EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTY OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE OR USE OR NON-INFRINGEMENT OF ANY THIRD PERSON&#39;S INTELLECTUAL PROPERTY, PRIVACY OR OTHER PROPRIETARY RIGHTS. NEITHER IMS NOR ITS LICENSORS REPRESENT OR WARRANT THAT THE RESULTS TO BE OBTAINED BY USE OF THE SERVICES WILL BE USED OR USEFUL TO, OR MEET THE NEEDS OR EXPECTATIONS OF, CUSTOMER. Customer assumes all risks of selection and use of the Services, including that the Services will be compatible with or usable in connection with the hardware, software or systems of. IMS&#39; sole obligation and Customer&#39;s sole remedy for defective Services shall be for IMS, at IMS&#39; option, to re-perform the defective Services or to refund the amount paid by Customer for the defective Services, provided that Customer and its Authorized Users and their agents are not in breach of this Agreement.<br />
+	&#160;</li>
+	<li>Limitation of Liabilities IN NO EVENT SHALL IMS OR ITS LICENSORS OR CUSTOMER BE LIABLE FOR MONETARY DAMAGES UNDER THIS AGREEMENT (REGARDLESS OF THE LEGAL THEORY) IN AN AMOUNT GREATER THAN THE FEES PAID OR PAYABLE BY CUSTOMER WITH RESPECT TO THE SERVICES PROVIDED BY IMS DURING THE THREE (3) MONTHS PRIOR TO THE DATE THAT THE CAUSE OF ACTION IS ALLEGED TO HAVE ARISEN, PROVIDED THAT THIS SENTENCE SHALL NOT LIMIT THE OBLIGATION OF CUSTOMER TO PAY IN FULL, WHEN DUE, ALL FEES PAYABLE BY IT PURSUANT TO THIS AGREEMENT. NEITHER IMS NOR ITS LICENSORS NOR CUSTOMER WILL BE LIABLE FOR SPECIAL, INDIRECT, INCIDENTAL OR CONSEQUENTIAL DAMAGES (INCLUDING LOST PROFITS OR LOST OPPORTUNITY COSTS) OR PUNITIVE DAMAGES, EVEN IF INFORMED OF THE POSSIBILITY OF SUCH DAMAGES. No action, suit or other proceeding may be brought by or on behalf of IMS, Customer under this Agreement or otherwise more than one year after the cause of the action has accrued. The limitations on monetary liability and the exclusion of certain damages set forth above in this Section 8 shall not apply to a Party&#39;s indemnification obligations under Section 9. IMS and its Licensors, resellers and distributors shall have no responsibility or liability for errors or omissions in or the quality, accuracy or completeness of its Services.<br />
+	&#160;</li>
+	<li>Privacy Notice Customer&#39;s contact information, maintained in a secure database, is used to help IMS process and service Customer&#39;s account. Customer&#39;s contact information is used by IMS to send Customer information about products or services that may be of interest to Customer. Pease contact IMS&#39; Privacy Official at 34&#160;Crosby Dr, Suite&#160;202, Bedford, MA&#160;01730 or e-mail Construction.Privacy.Policy@construction.com to Opt-Out of sharing, to review your data, or to ask questions. You may also enter your request online at https://www.construction.com/privacy_opt-out/. For more information on the Dodge Data &#38; Analytics Customer Privacy Policy, see https://www.construction.com/privacy-notice.asp.</li>
+</ol>",Standard,,HTML
+EX-000016,,,,,"<table width=""100%"">
+	<tbody>
+		<tr>
+			<td>
+			<p><span style=""font-size: xx-small;"">{!companyLogo}</span></p>
+
+			<p><span style=""font-size: medium;""><strong>{!template.SBQQ__CompanyName__c}</strong></span><br />
+			<span style=""font-size: xx-small;""><em>{!template.SBQQ__CompanySlogan__c}</em></span></p>
+
+			<p>&#160;</p>
+
+			<p><span style=""font-size: x-small;"">{!template.SBQQ__CompanyStreet__c}<br />
+			{!template.SBQQ__CompanyCity__c}, {!template.SBQQ__CompanyState__c} {!template.SBQQ__CompanyPostalCode__c}<br />
+			{!template.SBQQ__CompanyCountry__c}</span><br />
+			<span style=""font-size: x-small;"">&#160;</span></p>
+			&#160;
+
+			<p><span style=""font-size: x-small;"">Sales Rep Name: {!salesRep.Name}</span><br />
+			<span style=""font-size: x-small;"">Sales Rep Email: {!salesRep.Email}</span></p>
+
+			<p>&#160;</p>
+
+			<p>&#160;</p>
+			</td>
+			<td style=""padding: 5px;"">
+			<p>&#160;</p>
+
+			<p>&#160;</p>
+
+			<p>&#160;</p>
+
+			<p>&#160;</p>
+
+			<p>&#160;</p>
+
+			<table border=""1"" cellpadding=""1"" cellspacing=""1"" style=""width:50%;"">
+				<tbody>
+					<tr>
+						<td style=""text-align: right;""><span style=""font-size:10px;""><strong>Contract Start Date:</strong></span></td>
+						<td><span style=""font-size:10px;"">{!quote.Contract_Start_Date_Text__c}</span></td>
+					</tr>
+					<tr>
+						<td style=""text-align: right;""><span style=""font-size:10px;""><strong>Contract End Date:</strong></span></td>
+						<td><span style=""font-size:10px;"">{!quote.Latest_End_Date__c}</span></td>
+					</tr>
+					<tr>
+						<td style=""text-align: right;""><strong><span style=""font-size:10px;"">Renewal Mode:</span></strong></td>
+						<td><span style=""font-size:10px;"">{!quote.Renewal_Mode__c}</span></td>
+					</tr>
+					<tr>
+						<td style=""text-align: right;""><span style=""font-size:10px;""><strong>Quote #:</strong></span></td>
+						<td><span style=""font-size:10px;"">{!quote.Name}-{!document.SBQQ__Version__c}</span></td>
+					</tr>
+					<tr>
+						<td style=""text-align: right;""><span style=""font-size:10px;""><strong>Date:</strong></span></td>
+						<td><span style=""font-size:10px;"">{!quote.CreatedDate}</span></td>
+					</tr>
+					<tr>
+						<td style=""text-align: right;""><span style=""font-size:10px;""><strong>Expires On:</strong></span></td>
+						<td><span style=""font-size:10px;"">{!quote.SBQQ__ExpirationDate__c}</span></td>
+					</tr>
+				</tbody>
+			</table>
+
+			<p>&#160;</p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<table width=""100%"">
+	<tbody>
+		<tr>
+			<td><span style=""font-size: x-small;""><strong>{!template.SBQQ__ShipToTitle__c}</strong></span><br />
+			<span style=""font-size: x-small;"">{!quote.Ship_To_Contact_Name_Text__c}</span><br />
+			<span style=""font-size: x-small;"">{!quote.SBQQ__ShippingName__c}</span><br />
+			<span style=""font-size: x-small;"">{!quote.SBQQ__ShippingStreet__c}</span><br />
+			<span style=""font-size: x-small;"">{!quote.SBQQ__ShippingCity__c}, {!quote.SBQQ__ShippingState__c} {!quote.SBQQ__ShippingPostalCode__c}</span><br />
+			<span style=""font-size: x-small;"">{!quote.SBQQ__ShippingCountry__c}</span><br />
+			<span style=""font-size: x-small;"">{!quote.Ship_To_Contact_Email_Text__c}</span></td>
+			<td><span style=""font-size: x-small;""><strong>{!template.SBQQ__BillToTitle__c}</strong></span><br />
+			<span style=""font-size: x-small;"">{!quote.Bill_To_Contact_Name_Text__c}</span><br />
+			<span style=""font-size: x-small;"">{!quote.SBQQ__BillingName__c}</span><br />
+			<span style=""font-size: x-small;"">{!quote.SBQQ__BillingStreet__c}</span><br />
+			<span style=""font-size: x-small;"">{!quote.SBQQ__BillingCity__c}, {!quote.SBQQ__BillingState__c} {!quote.SBQQ__BillingPostalCode__c}</span><br />
+			<span style=""font-size: x-small;"">{!quote.SBQQ__BillingCountry__c}</span><br />
+			<span style=""font-size: x-small;"">{!quote.Bill_To_Contact_Email_Text__c}</span></td>
+		</tr>
+	</tbody>
+</table>
+
+<p>&#160;</p>
+
+<table style=""border: thin solid black; border-collapse: collapse;"" width=""100%"">
+	<tbody>
+		<tr>
+			<td align=""center"" style=""border-collapse: collapse; width: 34%; border: thin solid black;""><span style=""font-size: x-small;""><strong>PRIMARY CONTACT</strong></span></td>
+			<td align=""center"" style=""border-collapse: collapse; text-align: center; width: 33%; border: thin solid black;""><span style=""font-size: x-small;""><strong>PRIMARY CONTACT EMAIL</strong></span></td>
+			<td align=""center"" style=""border-collapse: collapse; text-align: center; width: 33%; border: thin solid black;""><span style=""font-size: x-small;""><strong>BILLING FREQUENCY</strong></span></td>
+		</tr>
+	</tbody>
+	<tbody>
+		<tr>
+			<td align=""center"" style=""border-collapse: collapse; text-align: center; border: thin solid black;""><span style=""font-size: x-small;"">{!primaryContact.Name}</span></td>
+			<td align=""center"" style=""border-collapse: collapse; text-align: center; border: thin solid black;""><span style=""font-size: x-small;"">{!primaryContact.Email}</span></td>
+			<td align=""center"" style=""border-collapse: collapse; text-align: center; border: thin solid black;""><span style=""font-size: x-small;"">{!quote.SBQQ__BillingFrequency__c}</span></td>
+		</tr>
+	</tbody>
+</table>
+<!-- Introduction -->
+
+<p>&#160;</p>",Standard,,HTML
+EX-000017,,,9,,"<table border=""1"" cellpadding=""1"" cellspacing=""1"" style=""width:100%;"">
+	<tbody>
+		<tr>
+			<td style=""width: 30%;"">&#160;</td>
+			<td style=""width: 10%;"">&#160;</td>
+			<td style=""width: 15%; align:left; padding-left:4px; padding-top:2px; border-left:thick solid black; border-bottom:thick solid black;""><span style=""font-size:9px;"">Subtotal</span></td>
+			<td style=""width: 15%; align:right; padding-right:5px; padding-top:2px; border-left:thick solid black; border-bottom:thick solid black;""><span style=""font-size:9px;"">{!quote.SBQQ__ListAmount__c}</span></td>
+			<td style=""width: 15%; align:right; padding-right:5px; padding-top:2px; border-left:thick solid black; border-bottom:thick solid black;""><span style=""font-size:9px;"">{!quote.SBQQ__TotalCustomerDiscountAmount__c}</span></td>
+			<td style=""width: 15%; align:right; padding-right:5px; padding-top:2px; border-left:thick solid black; border-right:thick solid black; border-bottom:thick solid black;""><span style=""font-size:9px;"">{!quote.SBQQ__NetAmount__c}</span></td>
+		</tr>
+		<tr>
+			<td>&#160;</td>
+			<td>&#160;</td>
+			<td style=""align:left; padding-left:4px; padding-top:2px; border-left:thick solid black; border-bottom:thick solid black;""><span style=""font-size:9px;"">Tax</span></td>
+			<td style=""align:right; padding-right:5px; padding-top:2px; border-left:thick solid black; border-bottom:thick solid black;"">&#160;</td>
+			<td style=""align:right; padding-right:5px; padding-top:2px; border-left:thick solid black; border-bottom:thick solid black;"">&#160;</td>
+			<td style=""align:right; padding-right:5px; padding-top:2px; border-left:thick solid black; border-right:thick solid black; border-bottom:thick solid black;""><span style=""font-size:9px;"">{!quote.AVA_SFCPQ__SalesTaxAmount__c}</span></td>
+		</tr>
+		<tr>
+			<td>&#160;</td>
+			<td>&#160;</td>
+			<td style=""align:left; padding-left:4px; padding-top:2px; border-left:thick solid black; border-bottom:thick solid black;""><span style=""font-size:9px;"">Total</span></td>
+			<td style=""align:right; padding-right:5px; padding-top:2px; border-left:thick solid black; border-bottom:thick solid black;"">&#160;</td>
+			<td style=""align:right; padding-right:5px; padding-top:2px; border-left:thick solid black; border-bottom:thick solid black;"">&#160;</td>
+			<td style=""align:right; padding-right:5px; padding-top:2px; border-left:thick solid black; border-right:thick solid black; border-bottom:thick solid black;""><span style=""font-size:9px;"">{!quote.Net_Total_Tax__c}</span></td>
+		</tr>
+		<tr>
+			<td>&#160;</td>
+			<td>&#160;</td>
+			<td style=""align:left; padding-left:4px; padding-top:2px; border-left:thick solid black; border-bottom:thick solid black;""><span style=""font-size:9px;"">{!quote.PDF_Payment_Frequency_Text__c}</span></td>
+			<td style=""align:right; padding-right:5px; padding-top:2px; border-left:thick solid black; border-bottom:thick solid black;"">&#160;</td>
+			<td style=""align:right; padding-right:5px; padding-top:2px; border-left:thick solid black; border-bottom:thick solid black;"">&#160;</td>
+			<td style=""align:right; padding-right:5px; padding-top:2px; border-left:thick solid black; border-right:thick solid black; border-bottom:thick solid black;""><span style=""font-size:9px;"">{!quote.PDF_Payment_Frequency_Amount__c}</span></td>
+		</tr>
+	</tbody>
+</table>",Standard,,HTML
+EX-000018,,,,,"<table border=""1"" cellpadding=""1"" cellspacing=""1"" style=""width:100%;"">
+	<tbody>
+		<tr>
+			<td>&#160;</td>
+			<td>&#160;</td>
+			<td style=""text-align: right;""><span style=""font-size:10px;""><strong>Net total:</strong></span></td>
+			<td><span style=""font-size:10px;"">{!quote.SBQQ__NetAmount__c}</span></td>
+		</tr>
+		<tr>
+			<td>&#160;</td>
+			<td>&#160;</td>
+			<td style=""text-align: right;""><span style=""font-size:10px;""><strong>Estimated Tax:&#160;</strong></span></td>
+			<td><span style=""font-size:10px;"">{!quote.AVA_SFCPQ__SalesTaxAmount__c}</span></td>
+		</tr>
+		<tr>
+			<td>&#160;</td>
+			<td>&#160;</td>
+			<td style=""text-align: right;""><span style=""font-size:10px;""><strong>Net Total + Tax:</strong></span></td>
+			<td><span style=""font-size:10px;"">{!quote.Net_Total_Tax__c}</span></td>
+		</tr>
+	</tbody>
+</table>
+
+<p>&#160;</p>",Standard,,HTML
+EX-000019,,Helvetica,,,"<p align=""center"" style=""text-align:center""><a href=""https://www.construction.com/wp-content/uploads/2023/12/Consulting_Addendum_20230725.pdf"">Consulting Services Addendum</a></p>",Standard,,HTML
+EX-000020,,Helvetica,,,"<p align=""center"" style=""text-align:center""><a href=""https://www.construction.com/wp-content/uploads/2023/12/SaaS_Addendum_20230725.pdf"">Software as a Service (SaaS) Addendum</a></p>",Standard,,HTML
+EX-000021,,Helvetica,9,,"<table border=""1"" cellpadding=""1"" cellspacing=""1"" style=""width:100%;"">
+	<tbody>
+		<tr>
+			<td style=""width: 30%;"">&#160;</td>
+			<td style=""width: 10%;"">&#160;</td>
+			<td style=""width: 15%; align:left; padding-left:3px; padding-top:2px; border-left:thick solid black; border-bottom:thick solid black;""><span style=""font-size:9px;"">Subtotal</span></td>
+			<td style=""width: 15%; align:right; padding-right:5px; padding-top:2px; border-left:thick solid black; border-bottom:thick solid black;""><span style=""font-size:9px;"">{!quote.SBQQ__ListAmount__c}</span></td>
+			<td style=""width: 15%; align:right; padding-right:5px; padding-top:2px; border-left:thick solid black; border-bottom:thick solid black;""><span style=""font-size:9px;"">{!quote.SBQQ__TotalCustomerDiscountAmount__c}</span></td>
+			<td style=""width: 15%; align:right; padding-right:5px; padding-top:2px; border-left:thick solid black; border-right:thick solid black; border-bottom:thick solid black;""><span style=""font-size:9px;"">{!quote.SBQQ__NetAmount__c}</span></td>
+		</tr>
+		<tr>
+			<td>&#160;</td>
+			<td>&#160;</td>
+			<td style=""align:left; padding-left:3px; padding-top:2px; border-left:thick solid black; border-bottom:thick solid black;""><span style=""font-size:9px;"">Tax</span></td>
+			<td style=""align:right; padding-right:5px; padding-top:2px; border-left:thick solid black; border-bottom:thick solid black;"">&#160;</td>
+			<td style=""align:right; padding-right:5px; padding-top:2px; border-left:thick solid black; border-bottom:thick solid black;"">&#160;</td>
+			<td style=""align:right; padding-right:5px; padding-top:2px; border-left:thick solid black; border-right:thick solid black; border-bottom:thick solid black;""><span style=""font-size:9px;"">{!quote.AVA_SFCPQ__SalesTaxAmount__c}</span></td>
+		</tr>
+		<tr>
+			<td>&#160;</td>
+			<td>&#160;</td>
+			<td style=""align:left; padding-left:3px; padding-top:2px; border-left:thick solid black; border-bottom:thick solid black;""><span style=""font-size:9px;"">Total</span></td>
+			<td style=""align:right; padding-right:5px; padding-top:2px; border-left:thick solid black; border-bottom:thick solid black;"">&#160;</td>
+			<td style=""align:right; padding-right:5px; padding-top:2px; border-left:thick solid black; border-bottom:thick solid black;"">&#160;</td>
+			<td style=""align:right; padding-right:5px; padding-top:2px; border-left:thick solid black; border-right:thick solid black; border-bottom:thick solid black;""><span style=""font-size:9px;"">{!quote.Net_Total_Tax__c}</span></td>
+		</tr>
+		<tr>
+			<td>&#160;</td>
+			<td>&#160;</td>
+			<td style=""align:left; padding-left:3px; padding-top:2px; border-left:thick solid black; border-bottom:thick solid black;""><span style=""font-size:9px;"">{!quote.PDF_Payment_Frequency_Text__c}</span></td>
+			<td style=""align:right; padding-right:5px; padding-top:2px; border-left:thick solid black; border-bottom:thick solid black;"">&#160;</td>
+			<td style=""align:right; padding-right:5px; padding-top:2px; border-left:thick solid black; border-bottom:thick solid black;"">&#160;</td>
+			<td style=""align:right; padding-right:5px; padding-top:2px; border-left:thick solid black; border-right:thick solid black; border-bottom:thick solid black;""><span style=""font-size:9px;"">{!quote.PDF_Payment_Frequency_Amount__c}</span></td>
+		</tr>
+	</tbody>
+</table>",Standard,,HTML
+EX-000022,,,9,,"<table border=""1"" cellpadding=""1"" cellspacing=""1"" style=""width:100%;"">
+	<tbody>
+		<tr>
+			<td style=""width: 60%;"">&#160;</td>
+			<td style=""width: 10%;"">&#160;</td>
+			<td style=""width: 15%; align:left; padding-left:4px; padding-top:2px; border:thick solid black; border-bottom:thick solid black;""><span style=""font-size:9px;"">Subtotal:</span></td>
+			<td style=""width: 15%; align:right; padding-right:5px; padding-top:2px; border:thick solid black; 
+border-right:thick solid black; border-bottom:thick solid black;""><span style=""font-size:9px;"">{!quote.SBQQ__NetAmount__c}</span></td>
+		</tr>
+		<tr>
+			<td>&#160;</td>
+			<td>&#160;</td>
+			<td style=""align:left; padding-left:4px; padding-top:2px; border-left:thick solid black; border-bottom:thick solid black;""><span style=""font-size:9px;"">&#60; Tax:</span></td>
+			<td style=""align:right; padding-right:5px; padding-top:2px; border-left:thick solid black; border-right:thick solid black; border-bottom:thick solid black;""><span style=""font-size:9px;"">{!quote.AVA_SFCPQ__SalesTaxAmount__c}</span></td>
+		</tr>
+		<tr>
+			<td>&#160;</td>
+			<td>&#160;</td>
+			<td style=""align:left; padding-left:4px; padding-top:2px; border-left:thick solid black; border-bottom:thick solid black;""><span style=""font-size:9px;"">Total:</span></td>
+			<td style=""align:right; padding-right:5px; padding-top:2px; border-left:thick solid black; border-right:thick solid black; border-bottom:thick solid black;""><span style=""font-size:9px;"">{!quote.Net_Total_Tax__c}</span></td>
+		</tr>
+		<tr>
+			<td>&#160;</td>
+			<td>&#160;</td>
+			<td style=""align:left; padding-left:4px; padding-top:2px; border-left:thick solid black; border-bottom:thick solid black;""><span style=""font-size:9px;"">{!quote.PDF_Payment_Frequency_Text__c}</span></td>
+			<td style=""align:right; padding-right:5px; padding-top:2px; border-left:thick solid black; border-right:thick solid black; border-bottom:thick solid black;""><span style=""font-size:9px;"">{!quote.PDF_Payment_Frequency_Amount__c}</span></td>
+		</tr>
+	</tbody>
+</table>",Standard,,HTML
+EX-000023,,,,,,Standard,,Line Items
+EX-20230605.01,,Helvetica,7,,"<table border=""0"" cellpadding=""0"" cellspacing=""0"" style=""margin-bottom:5px; "">
+	<tbody>
+		<tr style="" border-bottom: 1px solid #8d9497; vertical-align:bottom; margin-bottom:2px;"">
+			<td style=""  border-bottom: 1px solid #8d9497;   vertical-align:bottom; width:20%;"">Date: {!quote.LastModifiedDate}</td>
+			<td style="" border-bottom: 1px solid #8d9497; vertical-align:bottom; width:20%;"">&#160;</td>
+			<td style=""border-bottom: 1px solid #8d9497;  vertical-align:bottom; width:20%;"">&#160;</td>
+			<td style="" border-bottom: 1px solid #8d9497; vertical-align:bottom; width:20%;"">:</td>
+			<td style="" border-bottom: 1px solid #8d9497; vertical-align:bottom; width:20%;"">{!quote.PDF_Footer_Info__c}</td>
+		</tr>
+	</tbody>
+</table>",Standard,,HTML
+EX-20230605.02,,Helvetica,9,,"<!-- 
+<table style=""margin-bottom:5px; "" width=""100%"">
+	<tbody>
+		<tr>
+			<td width=""50%""><img alt=""Logo"" height=""125"" 
+src=""https://dodge.file.force.com/servlet/servlet.ImageServer?id=015Do0000006SFV&amp;oid=00D3i000000Fv03"" width=""125"" /></td>
+		</tr>
+	</tbody>
+</table>
+-->
+<table style=""margin-bottom:5px; "" width=""100%"">
+	<tbody>
+		<tr>
+			<td width=""50%"">{!quote.PDF_Image_URL__c}</td>
+			<td style=""vertical-align:top"">
+			<p>&#160;</p>
+
+			<table>
+				<tbody>
+					<tr>
+						<td width=""30%""><span style=""font-weight: bold;""><strong>Quote </strong></span></td>
+						<td style=""horizonal-align:right"">{!quote.Name}-{!document.SBQQ__Version__c}</td>
+					</tr>
+					<tr>
+						<td><span style=""font-weight: bold;""><strong>Expires On </strong></span></td>
+						<td>{!quote.SBQQ__ExpirationDate__c}<strong> *</strong></td>
+					</tr>
+					<tr>
+						<td><span style=""font-weight: bold;""><strong>Customer</strong></span></td>
+						<td style=""horizonal-align:right"">{!quote.Billing_Name_Short__c}</td>
+					</tr>
+					<tr>
+						<td><span style=""font-weight: bold;""><strong>Primary Contact </strong></span></td>
+						<td style=""horizonal-align:right"">{!primaryContact.Name}</td>
+					</tr>
+					<tr>
+						<td>&#160;</td>
+						<td style=""horizonal-align:right"">{!primaryContact.Email}</td>
+					</tr>
+				</tbody>
+			</table>
+			</td>
+		</tr>
+		<tr>
+			<td style="" margin-top:5px; border-top: 2px solid #8d9497;"">&#160;</td>
+			<td style=""  margin-top:5px; border-top: 2px solid #8d9497;"">&#160;</td>
+		</tr>
+	</tbody>
+</table>",Standard,,HTML
+EX-20230615.01,,Helvetica,9,,"<table border=""0"" cellpadding=""0"" cellspacing=""0"" style=""width:100%;"">
+	<tbody>
+		<tr>
+			<td><strong>{!template.SBQQ__CompanyName__c}</strong><br />
+			{!template.SBQQ__CompanyStreet__c}<br />
+			{!template.SBQQ__CompanyCity__c}, {!template.SBQQ__CompanyState__c} {!template.SBQQ__CompanyPostalCode__c}<br />
+			{!template.SBQQ__CompanyCountry__c}
+			<table style=""margin-top:5px"" width=""100%"">
+				<tbody>
+					<tr>
+						<td>
+						<table border=""0"" cellpadding=""0"" cellspacing=""0"">
+							<tbody>
+								<tr>
+									<td width=""20%""><strong>Sales Rep</strong></td>
+									<td>{!salesRep.Name}</td>
+								</tr>
+								<tr>
+									<td>&#160;</td>
+									<td>{!salesRep.Email}</td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			</td>
+			<td>
+			<p><span><strong>{!template.SBQQ__BillToTitle__c}</strong></span><br />
+			<span style="""">{!quote.Bill_To_Contact_Name_Text__c}</span><br />
+			<span style="""">{!quote.SBQQ__BillingName__c}</span><br />
+			<span style="""">{!quote.SBQQ__BillingStreet__c}</span><br />
+			<span style="""">{!quote.SBQQ__BillingCity__c}, {!quote.SBQQ__BillingState__c} {!quote.SBQQ__BillingPostalCode__c}</span></p>
+			<span style="""">{!quote.SBQQ__BillingCountry__c}&#160;</span><br />
+			<span style=""""><strong>Invoice/Billing Email: {!quote.Bill_To_Contact_Email_Text__c}</strong></span></td>
+		</tr>
+		<tr>
+			<td>&#160;</td>
+		</tr>
+		<tr>
+			<td>
+			<table border=""1"" cellpadding=""1"" cellspacing=""1"" style=""width:50%;"">
+				<tbody>
+					<tr>
+						<td style=""text-align: right;"" width=""40%""><span style="""">{!quote.PDF_Start_Date_Text__c} </span></td>
+						<td><span style="" "">{!quote.Contract_Start_Date_Text__c}</span></td>
+						<td>&#160;</td>
+					</tr>
+					<tr>
+						<td style=""text-align: right;"" width=""40%""><span style="""">{!quote.PDF_End_Date_Text__c} </span></td>
+						<td><span style="" "">{!quote.PDF_End_Date__c}</span></td>
+						<td>&#160;</td>
+					</tr>
+					<tr>
+						<td style=""text-align: right;""><span style="""">Billing Frequency</span></td>
+						<td><span style="" ;"">{!quote.SBQQ__BillingFrequency__c}</span></td>
+						<td>&#160;</td>
+					</tr>
+					<tr>
+						<td style=""text-align: right;""><span style="""">Type</span></td>
+						<td><span style="" ;"">{!quote.PDF_Type__c}</span></td>
+						<td>&#160;</td>
+					</tr>
+					<tr>
+						<td style=""text-align: right;""><span style="""">Service Start</span></td>
+						<td><span style="" ;"">{!quote.PDF_Start_Service_Immediately__c}</span></td>
+						<td>&#160;</td>
+					</tr>
+					<tr>
+						<td style=""text-align: right;""><span style="""">{!quote.PDF_Renewal_Mode_Label__c} </span></td>
+						<td><span style="" "">{!quote.PDF_Renewal_Mode_Text__c}</span></td>
+						<td>&#160;</td>
+					</tr>
+					<tr>
+						<td style=""text-align: right; vertical-align: bottom;""><span style="""">{!quote.PDF_Renewal_Mode_Initials_Label__c}</span></td>
+						<td>&#160;</td>
+						<td style=""border-collapse: collapse; text-align: left; border: thin solid black;  height: 25px; vertical-align: bottom;""><span style=""color:#ffffff;"">/i1/</span></td>
+					</tr>
+				</tbody>
+			</table>
+			</td>
+			<td>
+			<p><span style=""""><strong>{!template.SBQQ__ShipToTitle__c}</strong></span><br />
+			<span style="""">{!quote.Ship_To_Contact_Name_Text__c}</span><br />
+			<span style="""">{!quote.SBQQ__ShippingName__c}</span><br />
+			<span style="""">{!quote.SBQQ__ShippingStreet__c}</span><br />
+			<span style="""">{!quote.SBQQ__ShippingCity__c}, {!quote.SBQQ__ShippingState__c} {!quote.SBQQ__ShippingPostalCode__c} </span></p>
+			<span style="""">{!quote.SBQQ__ShippingCountry__c}</span> <span style="""">{!quote.Ship_To_Contact_Email_Text__c}</span></td>
+		</tr>
+	</tbody>
+</table>",Standard,,HTML
+EX-20230715.01,,Helvetica,9,,"<p>** Or the contract signed date, whichever is later.</p>",Standard,,HTML
+EX-20231107,,Helvetica,,,"<p style=""text-align: center;"">-----------------------------------------------------------------------------------------------------</p>
+
+<p style=""text-align: center;"">&#160; Dodge Construction Network (&#34;MSA&#34;) is incorporated by reference located at</p>
+
+<p style=""text-align: center;""><a href=""https://www.construction.com/terms-conditions/"" target=""_blank"">Master Services Agreement (&#8220;MSA&#8221;)</a></p>",Standard,,HTML
+EX-20231107.01,,Helvetica,,,"<p style=""text-align: center;"">-----------------------------------------------------------------------------------------------------</p>",Standard,,HTML
+EX-20239999.01,,Helvetica,9,,"<table style=""margin-bottom:5px; "" width=""100%"">
+	<tbody>
+		<tr>
+			<td width=""50%""><img alt=""Logo"" height=""150"" src=""https://dodge--fullsand.sandbox.file.force.com/servlet/servlet.ImageServer?id=015Do000000khTm&amp;oid=00DDH000000A9vR"" width=""150"" /></td>
+			<td style=""vertical-align:top"">
+			<p>&#160;</p>
+
+			<table>
+				<tbody>
+					<tr>
+						<td width=""40%""><span style=""font-weight: bold;""><strong>Quote </strong></span></td>
+						<td style=""horizonal-align:right"">{!quote.Name}-{!document.SBQQ__Version__c}</td>
+					</tr>
+					<tr>
+						<td><span style=""font-weight: bold;""><strong>Expires On </strong></span></td>
+						<td>{!quote.SBQQ__ExpirationDate__c}<strong> *</strong></td>
+					</tr>
+					<tr>
+						<td><span style=""font-weight: bold;""><strong>Customer</strong></span></td>
+						<td style=""horizonal-align:right"">{!quote.SBQQ__BillingName__c}</td>
+					</tr>
+					<tr>
+						<td><span style=""font-weight: bold;""><strong>Primary Contact </strong></span></td>
+						<td style=""horizonal-align:right"">{!primaryContact.Name}</td>
+					</tr>
+					<tr>
+						<td>&#160;</td>
+						<td style=""horizonal-align:right"">{!primaryContact.Email}</td>
+					</tr>
+				</tbody>
+			</table>
+			</td>
+		</tr>
+		<tr>
+			<td style="" margin-top:5px; border-top: 1px solid #8d9497;"">&#160;</td>
+			<td style=""  margin-top:5px; border-top: 1px solid #8d9497;"">&#160;</td>
+		</tr>
+	</tbody>
+</table>",Standard,,HTML
+EX-20240603.01,,Helvetica,9,,"<table border=""0"" cellpadding=""0"" cellspacing=""0"" style=""width:100%;"">
+	<tbody>
+		<tr>
+			<td><strong>{!template.SBQQ__CompanyName__c}</strong><br />
+			{!template.SBQQ__CompanyStreet__c}<br />
+			{!template.SBQQ__CompanyCity__c}, {!template.SBQQ__CompanyState__c} {!template.SBQQ__CompanyPostalCode__c}<br />
+			{!template.SBQQ__CompanyCountry__c}
+			<table style=""margin-top:5px"" width=""100%"">
+				<tbody>
+					<tr>
+						<td>
+						<table border=""0"" cellpadding=""0"" cellspacing=""0"">
+							<tbody>
+								<tr>
+									<td width=""20%""><strong>Sales Rep</strong></td>
+									<td>{!salesRep.Name}</td>
+								</tr>
+								<tr>
+									<td>&#160;</td>
+									<td>{!salesRep.Email}</td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			</td>
+			<td>
+			<p><span><strong>{!template.SBQQ__BillToTitle__c}</strong></span><br />
+			<span style="""">{!quote.Bill_To_Contact_Name_Text__c}</span><br />
+			<span style="""">{!quote.SBQQ__BillingName__c}</span><br />
+			<span style="""">{!quote.SBQQ__BillingStreet__c}</span><br />
+			<span style="""">{!quote.SBQQ__BillingCity__c}, {!quote.SBQQ__BillingState__c} {!quote.SBQQ__BillingPostalCode__c}</span></p>
+			<span style="""">{!quote.SBQQ__BillingCountry__c}&#160;</span><br />
+			<span style=""""><strong>Invoice/Billing Email: {!quote.Bill_To_Contact_Email_Text__c}</strong></span></td>
+		</tr>
+		<tr>
+			<td>&#160;</td>
+		</tr>
+		<tr>
+			<td>
+			<table border=""1"" cellpadding=""1"" cellspacing=""1"" style=""width:50%;"">
+				<tbody>
+					<tr>
+						<td style=""text-align: right;"" width=""40%""><span style="""">{!quote.PDF_Start_Date_Text__c} </span></td>
+						<td><span style="" "">{!quote.Contract_Start_Date_Text__c}</span></td>
+						<td>&#160;</td>
+					</tr>
+					<tr>
+						<td style=""text-align: right;"" width=""40%""><span style="""">{!quote.PDF_End_Date_Text__c} </span></td>
+						<td><span style="" "">{!quote.PDF_End_Date__c}</span></td>
+						<td>&#160;</td>
+					</tr>
+					<tr>
+						<td style=""text-align: right;""><span style="""">Billing Frequency</span></td>
+						<td><span style="" ;"">{!quote.SBQQ__BillingFrequency__c}</span></td>
+						<td>&#160;</td>
+					</tr>
+					<tr>
+						<td style=""text-align: right;""><span style="""">Type</span></td>
+						<td><span style="" ;"">{!quote.PDF_Type__c}</span></td>
+						<td>&#160;</td>
+					</tr>
+					<tr>
+						<td style=""text-align: right;""><span style="""">Service Start</span></td>
+						<td><span style="" ;"">{!quote.PDF_Start_Service_Immediately__c}</span></td>
+						<td>&#160;</td>
+					</tr>
+					<tr>
+						<td style=""text-align: right;""><span style="""">{!quote.PDF_Renewal_Mode_Label__c} </span></td>
+						<td><span style="" "">{!quote.PDF_Renewal_Mode_Text__c}</span></td>
+						<td>&#160;</td>
+					</tr>
+				</tbody>
+			</table>
+			</td>
+			<td>
+			<p><span style=""""><strong>{!template.SBQQ__ShipToTitle__c}</strong></span><br />
+			<span style="""">{!quote.Ship_To_Contact_Name_Text__c}</span><br />
+			<span style="""">{!quote.SBQQ__ShippingName__c}</span><br />
+			<span style="""">{!quote.SBQQ__ShippingStreet__c}</span><br />
+			<span style="""">{!quote.SBQQ__ShippingCity__c}, {!quote.SBQQ__ShippingState__c} {!quote.SBQQ__ShippingPostalCode__c} </span></p>
+			<span style="""">{!quote.SBQQ__ShippingCountry__c}</span> <span style="""">{!quote.Ship_To_Contact_Email_Text__c}</span></td>
+		</tr>
+	</tbody>
+</table>",Standard,,HTML
