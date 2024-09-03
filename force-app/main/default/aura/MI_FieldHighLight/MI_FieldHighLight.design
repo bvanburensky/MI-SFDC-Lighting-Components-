@@ -3,7 +3,7 @@
     <design:attribute name="fieldName1" datasource="apex://MI_FieldHighlightDesign"
         Description="The field Name you want to display / highlight " />
 
-    <design:attribute name="displayAsCard" label="User Card Layout"
+    <design:attribute name="displayAsCard" label="User Card Layout" default="true"
         Description="Implement the Card layout, otherwise just display the text" />
 
     <design:attribute name="colorSetting"
@@ -24,8 +24,8 @@
     <design:attribute name="footer" label="Footer" Description="Message to show in the Card Footer" />
 
 
-    <design:attribute name="icon" label="Icon "
-        Description="Icon to display, standard:Account, custom:custom85.  see SLDS iocn docs " />
+    <design:attribute name="icon" label="Icon " default="action:announcement"
+        Description="Icon to display,FORMAT action:check, custom:custom85  www.lightningdesignsystem.com/icons/  " />
 
     <design:attribute name="messageOnly" label="Display message"
         Description="Display message below instead of the field value" />
