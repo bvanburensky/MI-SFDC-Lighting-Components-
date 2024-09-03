@@ -1,0 +1,26 @@
+External_Id__c,Name,SBQQ__Template__r.External_Id__c,SBQQ__Content__r.External_Id__c,SBQQ__BorderColor__c,SBQQ__BottomMargin__c,SBQQ__ColumnHeaderHidden__c,SBQQ__ConditionalPrintField__c,SBQQ__DisplayOrder__c,SBQQ__FilterField__c,SBQQ__FilterOperator__c,SBQQ__FilterValue__c,SBQQ__GroupField__c,SBQQ__KeepTogether__c,SBQQ__KeepWithNext__c,SBQQ__KeepWithPrevious__c,SBQQ__PageBreak__c,SBQQ__QuoteTotalsPrinted__c,SBQQ__RollUpField__c,SBQQ__SummaryDisplay__c,SBQQ__TopMargin__c
+EX-000002,Consulting Services Addendum,EX-000002,EX-000019,FFFFFF,0,false,PDF_Do_Not_Print__c,2000,,,,,Auto,Auto,,,false,,Never,0
+EX-000003,Amendment Recurring Totals without Discounts,EX-000002,EX-000022,,0,false,Output_Show_Amendment_Totals_w_o_Disc__c,310,,,,,Always,Auto,,,false,,Never,0
+EX-000004,Data Services Addendum,EX-000002,EX-000002,FFFFFF,0,false,PDF_Do_Not_Print__c,1300,,,,,Auto,Auto,,,false,,Never,0
+EX-000005,Recurring Quote Lines without Discounts,EX-000002,EX-000004,,0,false,Output_Show_NonDisc_Recurring_Lines__c,300,Output_Display_Table__c,contains,Recurring,,Auto,Auto,,,false,DetailSummaryGrouping__c,Never,0
+EX-000006,Custom Contract Details,EX-000002,EX-000013,,0,false,Output_Show_Custom_Contract_Details__c,420,,,,,Always,,Auto,,false,,Never,1
+EX-000007,Dodge Terms and Conditions - Part 2,EX-000002,EX-000014,,0,false,PDF_Do_Not_Print__c,950,,,,,Auto,Auto,,,false,,,0
+EX-000008,Products and Pricing Subheader,EX-000002,EX-000007,,0,false,,200,,,,,Auto,Auto,,,false,,,0.25
+EX-000009,Recurring Totals with Discount,EX-000002,EX-000021,,0,false,Output_Show_Disc_Recurring_Lines__c,310,,,,,Always,Auto,,,false,,Never,0
+EX-000010,IMS Terms and Conditions,EX-000002,EX-000015,,0,false,Output_Show_IMS_Terms__c,970,,,,,Auto,Auto,,,false,,,0
+EX-000012,100 Header,EX-000002,EX-20230615.01,,0,false,PDF_Print_Quote_Type_Not_Amendment__c,100,,,,,Auto,Auto,,,false,,,0.1
+EX-000013,Terms and Conditions BlueBook,EX-000002,EX-000009,,0,false,PDF_Do_Not_Print__c,980,,,,,Auto,Auto,,,false,,,0
+EX-000014,Signature Block,EX-000002,EX-000010,,0,false,Show_Output_Signatures__c,3000,,,,,Always,Auto,,,false,,,0
+EX-000015,Media Terms and Conditions,EX-000002,EX-000008,,0,false,PDF_Do_Not_Print__c,960,,,,,Auto,Auto,,Before,false,,,0
+EX-000016,Dodge Terms and Conditions - Part 1,EX-000002,EX-000011,,0,false,PDF_Do_Not_Print__c,900,,,,,Auto,Auto,,Before,false,,,0
+EX-000017,Amendment Recurring Totals with Discounts,EX-000002,EX-000017,,0,false,Output_Show_Amendment_Recurring_Totals__c,310,,,,,Always,Auto,,,false,,Never,0
+EX-000018,Recurring Totals without Discounts,EX-000002,EX-000003,,0,false,Output_Show_NonDisc_Recurring_Lines__c,310,,,,,Always,Auto,,,false,,Never,0
+EX-000019,Recurring Quote Lines with Discounts,EX-000002,EX-000004,,0,false,Output_Show_Disc_Recurring_Lines__c,300,Output_Display_Table__c,contains,Recurring,,Auto,Auto,,,false,DetailSummaryGrouping__c,Never,0
+EX-000020,Amendment Recurring Quote Lines without discounts,EX-000002,EX-000004,,0,false,Output_Show_Amendment_Totals_w_o_Disc__c,300,Output_Display_Table__c,contains,Recurring,PDF_DropAdd__c,Auto,Auto,,,false,DetailSummaryGrouping__c,Never,0
+EX-000021,SaaS Addendum,EX-000002,EX-000020,FFFFFF,0,false,PDF_Do_Not_Print__c,1500,,,,,Auto,Auto,,,false,,Never,0
+EX-000022,Amendment Recurring Quote Lines with discounts,EX-000002,EX-000004,,0,false,Output_Show_Amendment_Recurring_Totals__c,300,Output_Display_Table__c,contains,Recurring,PDF_DropAdd__c,Auto,Auto,,,false,DetailSummaryGrouping__c,Never,0
+EX-000023,Included Geographies,EX-000002,EX-000004,,0,false,,350,Output_Display_Table__c,contains,Data Content Line,Detail_Geo_Grouping__c,Auto,Auto,,,false,,Never,0
+EX-20230628.01,Products and Pricing Subheader ** Start Date,EX-000002,EX-20230715.01,,0,false,Output_is_New_Business_Quote__c,201,,,,,Auto,Auto,,,false,,,0
+EX-20231107,Dodge Terms and Conditions - Link,EX-000002,EX-20231107,,0.1,false,Output_Show_Standard_Terms__c,900,,,,,Always,Auto,Auto,,false,,,0.1
+EX-20231130.01,Recurring Totals with Discount,EX-000002,,,0,false,PDF_Quote_Total_Only__c,305,,,,,Always,Auto,,,false,,Never,0
+EX-202415,100 Header Amendment,EX-000002,EX-20240603.1,,0,false,PDF_Print_Quote_Type_Amendment__c,100,,,,,Auto,Auto,,,false,,,0.1

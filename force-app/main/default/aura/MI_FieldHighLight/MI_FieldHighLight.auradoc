@@ -1,0 +1,6 @@
+<aura:documentation>
+	<aura:description>Documentation</aura:description>
+	<aura:example name="MI Field HighLight" ref="MI_FieldHighLight" label="MI Field HighLight">
+		MI Field Highlight    
+	</aura:example>
+</aura:documentation>

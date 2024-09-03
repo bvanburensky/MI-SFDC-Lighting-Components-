@@ -1,0 +1,40 @@
+<design:component label="MI_ Field Highlight">
+
+    <design:attribute name="fieldName1" datasource="apex://MI_FieldHighlightDesign"
+        Description="The field Name you want to display / highlight " />
+
+    <design:attribute name="displayAsCard" label="User Card Layout"
+        Description="Implement the Card layout, otherwise just display the text" />
+
+    <design:attribute name="colorSetting"
+        datasource="slds-text-color_default,slds-text-color_error,slds-text-color_destructive,slds-text-color_success,slds-text-color_inverse,slds-text-color_inverse-weak,slds-text-color_warning"
+        label="Text Color / Highlight " Description="Color CSS to apply to the Field highlight"
+        default="slds-text-color_default" />
+
+
+
+
+    <design:attribute name="sizeSetting"
+        datasource="slds-text-body_regular,slds-text-body_small,slds-text-heading_large,slds-text-heading_medium,slds-text-heading_small,slds-text-title,slds-text-title_capsslds-text-title_caps,slds-text-title_bold"
+        label="Text Size " Description="Text size to apply to the field hightlight " default="slds-text-body_regular" />
+
+
+
+    <design:attribute name="header" label="Header" Description="Message to show in the Card Header" />
+    <design:attribute name="footer" label="Footer" Description="Message to show in the Card Footer" />
+
+
+    <design:attribute name="icon" label="Icon "
+        Description="Icon to display, standard:Account, custom:custom85.  see SLDS iocn docs " />
+
+    <design:attribute name="messageOnly" label="Display message"
+        Description="Display message below instead of the field value" />
+
+    <design:attribute name="message" label="Message" Description="Message to display instead of the field value" />
+
+    <design:attribute name="colorIcon"
+    datasource="slds-icon-text_default,slds-icon-text_error,slds-icon-text_destructive,slds-icon-text_success,slds-icon-text_inverse,slds-icon-text_inverse-weak,slds-icon-text_warning"
+    label="Icon Color (not used)" Description="Background color of the icon" 
+    default="slds-icon-text_default" />
+    
+</design:component>

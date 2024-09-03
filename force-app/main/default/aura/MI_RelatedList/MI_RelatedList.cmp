@@ -1,0 +1,157 @@
+<aura:component implements="flexipage:availableForRecordHome,force:hasRecordId" 
+    controller="MI_RLController" extends="c:MI_BaseComponent" access="global">
+  <aura:handler name="init" value="{!this}" action="{!c.doInit}" />
+  <aura:handler event="c:MI_Event" action="{!c.MI_EventHandler}" />
+  <aura:Method name="refresh" action="{!c.refresh}" description="refresh the list" />
+
+  <lightning:quickActionAPI aura:id="quickActionAPI" />
+  <aura:attribute name="MI_EventRefreshCommand" type="string" default="xx" />
+
+  
+  <aura:attribute name="objectName" type="string" />
+  
+<aura:attribute name="parentObjectName" type="string" />
+  
+  <!-- not Related - just the object 
+
+     tbd to allow parent related list itens to be configured
+  -->
+  <aura:attribute name="isBaseObject" type="boolean" default="false" />
+  <aura:attribute name="displayFields" type="string" required="true" default="Name,CreatedDate" />
+  <aura:attribute name="title" type="string" default="" />
+
+  <aura:attribute name="showFilter" type="boolean" default="false" />
+  <aura:attribute name="iconNameOut" type="string" default="" />
+  <aura:attribute name="height" type="string" default="30" />
+  <aura:attribute name="style" type="string" default="30" />
+  <aura:attribute name="designIcons" type="string" default="myField__c=u_fxFld_utility:person" />
+
+
+  <aura:attribute name="linkFields" type="string" default="" />
+  <aura:attribute name="buttonFields" type="string" default="" description="fields to display as buttons and the corresponding data to fire" />
+
+  <aura:attribute name="sortable" type="boolean" default="true" />
+  <aura:attribute name="sortField" type="string" default="" />
+  <aura:attribute name="sortDescending" type="boolean" default="false" />
+
+  
+  <aura:attribute name="filterSOQL" type="string" default="" />
+  <aura:attribute name="editMode" type="boolean" default="false" />
+  <aura:attribute name="editableFields" type="string" required="false" default="" />
+  <aura:attribute name="SOQLLimit" type="string" default="" />
+  <aura:attribute name="refreshOnSiblingRefresh" type="boolean" default="false" />
+
+  <aura:attribute name="displayHeader" type="boolean" default="false" />
+  <aura:attribute name="accordion" type="boolean" default="true" />
+  <aura:attribute name="displayStandard" type="boolean" default="false" />
+
+
+  <!-- run time -->
+  <aura:attribute name="actionButtons" type="aura.component[]" description="buttons inserted at runtime" />
+  <aura:attribute name="quickActions" type="string" description="String Of QuickActions to display" />
+  <aura:attribute name="actions" type="string" default="" />
+  <aura:attribute name="actionFieldUpdates" type="string" default="" />
+  <aura:attribute name="fixedWidth" type="string" default="" />
+  <aura:attribute name="labelOverrides" type="string" default="" />
+
+  <aura:attribute name="iconName" type="string" default="" />
+  <aura:attribute name="acMod" type="object" access="global" />
+  <aura:attribute name="modelReady" type="boolean" />
+  <aura:attribute name="ready" type="boolean" default="false" />
+  <aura:attribute name="rmSchema" type="object" />
+  <aura:attribute name="sObjectType" type="string" />
+  <aura:attribute name="debug" type="boolean" default="false" />
+  <aura:attribute name="displaySchema" type="boolean" default="false" />
+  <aura:attribute name="isRefresh" type="string" default="nospin" />
+  
+
+  <aura:attribute name="errors" type="string" default="" />
+  <aura:attribute name="sNotes" type="string" default="" />
+  <!--not design, but shared across components-->
+  <aura:attribute name="sObjLabel" type="string" default="" />
+
+  <!--internal only attributes-->
+  <aura:attribute name="recordId" type="String" />
+  <aura:attribute name="globalId" type="string" access="global" />
+  <aura:attribute name="dataRecFlds" type="Object" />
+  <aura:attribute name="dataRec" type="Object" />
+  <aura:attribute name="newRecord" type="object" />
+  <aura:attribute name="adding" type="boolean" default="false" />
+  <aura:attribute name="rowCount" type="String" />
+  <aura:attribute name="filter" type="string" />
+  <aura:attribute name="filteredResults" type="object[]" />
+  <aura:attribute name="displayFieldsArray" type="object[]" />
+  <aura:attribute name="sortState" type="object" />
+  <aura:attribute name="showSpinner" type="boolean" />
+  <aura:attribute name="hideCheckboxColumn" type="boolean" default="true" />
+  <aura:attribute name="showRowNumberColumn" type="boolean" default="false" />
+
+  <!-- content -->
+  <!--- Standard with LIghtning Card -->
+  <div id="{!globalId}">
+    <aura:if isTrue="{!v.displayHeader}">
+      <lightning:card iconName="{!v.iconNameOut}">
+        <aura:set attribute="title">
+          <h6>{!v.sObjLabel + ' (' + v.rowCount + ')'}  </h6>
+        </aura:set>
+
+        <aura:set attribute="actions">
+          <aura:if isTrue="{!v.modelReady}">
+            <div class="{!'kb-'+v.isRefresh}">
+              {!v.actionButtons}
+              <span aura:id="actionButtons" />
+              <lightning:buttonIcon class="kbutton" iconName="utility:refresh" alternativeText="refresh" title="Refresh" variant="neutral" onclick="{!c.refreshData}" />
+            </div>
+          </aura:if>
+        </aura:set>
+        <div class="slds-scrollable_y " style="{!v.style}">
+          <aura:if isTrue="{!v.modelReady}">
+            <c:MI_DataTable acMod="{!v.acMod}" debug="{!v.debug}" hideCheckboxColumn="{!v.hideCheckboxColumn}" />
+            <!--selectedRowsField="{!v.selectedRowsField} -->
+          </aura:if>
+        </div>
+      </lightning:card>
+    </aura:if>
+
+    <aura:if isTrue="{!v.displayStandard}">
+      <div class="slds-scrollable_y slds-scrollable" style="{!v.style}">
+        <aura:if isTrue="{!v.modelReady}">
+          <c:MI_DataTable acMod="{!v.acMod}" debug="{!v.debug}" hideCheckboxColumn="{!v.hideCheckboxColumn}" />
+        </aura:if>
+      </div>
+    </aura:if>
+
+    <!--- accordion-->
+    <aura:if isTrue="{!v.accordion}">
+      <aura:if isTrue="{!v.modelReady}">
+        <c:MI_AccordionSection title="{!v.sObjLabel}" recCount="{!v.rowCount}" iconNameOut="{!v.iconNameOut}">
+          <aura:set attribute="actions">
+            <aura:if isTrue="{!v.modelReady}">
+              <div class="{!'kb-'+v.isRefresh}">
+                {!v.actionButtons}
+                <span aura:id="actionButtons" />
+                <lightning:buttonIcon class="kbutton" iconName="utility:refresh" alternativeText="refresh" title="Refresh" variant="neutral" onclick="{!c.refreshData}" />
+              </div>
+            </aura:if>
+          </aura:set>
+          <div class="slds-scrollable_y " style="{!v.style}">
+            <c:MI_DataTable acMod="{!v.acMod}" debug="{!v.debug}" sortable="{!v.sortable}" hideCheckboxColumn="{!v.hideCheckboxColumn}" />
+          </div>
+        </c:MI_AccordionSection>
+      </aura:if>
+    </aura:if>
+
+    <aura:if isTrue="{!v.modelReady}">
+      <aura:if isTrue="{!v.displaySchema}"> </aura:if>
+    </aura:if>
+
+    <aura:if isTrue="{!not(empty(v.errors))}">
+      <div class="recordError">
+        <ui:message title="Error" severity="error" closable="true">
+          {!v.errors}
+        </ui:message>
+      </div>
+    </aura:if>
+    <force:recordData aura:id="forceRecordCmp" recordId="{!v.recordId}" mode="VIEW" layoutType="FULL" targetRecord="{!v.dataRec}" targetFields="{!v.dataRecFlds}" targetError="{!v.errors}" recordUpdated="{!c.refreshData}" />
+  </div>
+</aura:component>

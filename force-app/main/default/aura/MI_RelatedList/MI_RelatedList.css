@@ -1,0 +1,15 @@
+.THIS .slds-button.kbutton lightning-primitive-icon svg {
+    transform: rotate(-360deg); 
+} 
+
+.THIS div.kb-spin .slds-button.kbutton lightning-primitive-icon svg {
+   transform: rotate(0deg);
+    transition-duration: .75s;
+    transition-property: all;
+
+}
+
+.THIS  th.slds-text-title_caps   {
+   text-transform:inherit;  
+
+}

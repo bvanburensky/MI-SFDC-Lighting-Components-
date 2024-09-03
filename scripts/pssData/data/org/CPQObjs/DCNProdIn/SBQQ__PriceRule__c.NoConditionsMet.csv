@@ -1,0 +1,64 @@
+External_Id__c,SBQQ__Product__r.External_ID__c,Name,SBQQ__Active__c,SBQQ__ConditionsMet__c,SBQQ__ConfiguratorEvaluationEvent__c,SBQQ__EvaluationEvent__c,SBQQ__EvaluationOrder__c,SBQQ__LookupObject__c,SBQQ__TargetObject__c
+,,SpecAlerts - Kill Summary,false,All,,On Calculate,,,Calculator
+EX-000002,,Clear Set Invoice Descriptions for All SKUs,true,All,,Before Calculate,100,,Calculator
+EX-000004,,Set Bundle Wrapper Package Code,false,All,,Before Calculate,100,,Calculator
+EX-000005,,Default Quote Actions,true,Any,,Before Calculate;After Calculate,2500,,Calculator
+EX-000006,,Set Configured Package Code on Standalone,false,All,,Before Calculate,502,,Calculator
+EX-000007,,IMS Invoice PDF_Sub Desc- Drop,true,All,,After Calculate,1100,,Calculator
+EX-000008,,DCC County List Prices,true,All,,On Calculate,540,,Calculator
+EX-000009,,IMS Nationwide Pricing,true,Custom,,On Calculate,540,,Calculator
+EX-000010,,Slab Pricing Cancellation,true,All,Save,After Calculate,990,,Calculator
+EX-000011,,Set DCC SEATS Discount Schedule - 2 Free Seats,false,All,,Before Calculate,3,,Calculator
+EX-000012,,Billing Frequency Multiplier,false,All,,Before Calculate,50,,Calculator
+EX-000013,,Set DCC Multipliers,true,Any,,On Initialization;Before Calculate,501,,Calculator
+EX-000014,,Disable Proration kidding me,false,All,,Before Calculate,50,,Calculator
+EX-000015,,Calculate Tax,true,All,,On Calculate,900,,Calculator
+EX-000016,,Media Invoice Comments,true,All,,After Calculate,1003,,Calculator
+EX-000017,,Bluebook Product on Quote,true,Any,Save,On Calculate,400,,Calculator
+EX-000018,,Set Product Option Account,false,All,Edit,,,,Configurator
+EX-000019,,Set Initial ARR,true,All,,After Calculate,10000,,Calculator
+EX-000020,,Disable Proration on 1x Geos,false,All,,Before Calculate,5,,Calculator
+EX-000021,,Set Non-Analytics Geo List Price,true,Custom,,On Calculate,550,,Calculator
+EX-000022,,Initialize / Set/ Update,true,All,,On Initialization,100,,Calculator
+EX-000023,,Print Product Code & Invoice Description Lines Count,false,All,Edit,On Calculate,,,Calculator
+EX-000024,,Set Multiple Ship To Addresses,true,All,,After Calculate,2600,,Calculator
+EX-000025,,Set DCC Geo List Price from List Price,true,All,,Before Calculate,510,,Calculator
+EX-000026,,Set Analytics Geo List Price,true,All,,On Calculate,550,,Calculator
+EX-000027,,Set Configured Package Code on Children,false,All,,Before Calculate,501,,Calculator
+EX-000028,,BB Invoice Descriptions,true,All,,After Calculate,1002,,Calculator
+EX-000029,,Copy Contract & License Number to Children,true,Custom,,Before Calculate;After Calculate,2000,,Calculator
+EX-000030,,Set Configured Package Code on Parent,false,All,,Before Calculate,500,,Calculator
+EX-000031,,Set DCC SEATS Discount Schedule - 5 Free Seats,false,All,,Before Calculate,3,SBQQ__DiscountSchedule__c,Calculator
+EX-000032,,Clear End Date on Renewal Quotes,false,All,,Before Calculate,505,,Calculator
+EX-000033,,Additional Discount,false,All,,On Calculate,800,,Calculator
+EX-000038,,Media Invoice Descriptions,true,All,,After Calculate,1001,,Calculator
+EX-000067,,Set UnSegmented line count,true,All,,Before Calculate,1200,,Calculator
+EX-20230302.0,,Set Geo NBD  when TBB_Region set/ Geo blank,true,All,Save,On Calculate,410,,Calculator
+EX-20230320.2,,Group: Apply Discount Rate - Clear,true,All,Edit,On Initialization;Before Calculate,800,,Calculator
+EX-20230320.3,,Clear Geo When TBB_Region is blank,true,All,Save,Before Calculate;On Calculate,400,,Calculator
+EX-20230320.30,,Amend Cancelation - Clear Quantities,true,All,,On Calculate,400,,Calculator
+EX-20230320.4,,QHeader:CK Clear Uplift on renewals,true,All,,On Calculate,400,,Calculator
+EX-20230321.1,,zero all qtys / 100% disc,false,All,,Before Calculate;On Calculate,10,,Calculator
+EX-20230327.01,,Clear Subscription Ref,false,All,,On Calculate,,,Calculator
+EX-20230328.01,,Group:Zero Amendment  Quantity,true,All,Save,On Calculate,400,,Calculator
+EX-20230328.02,,Refresh Prices from PB/Option,true,Custom,Save,On Initialization;Before Calculate,400,,Calculator
+EX-20230505.01,,Set Geo Missing Count,false,All,,On Calculate,51,,Calculator
+EX-20230505.02,,Has Seats = 0,false,All,,On Calculate,65,,Calculator
+EX-20230511.01,,IMS Invoice PDF_Sub - Add,true,All,,After Calculate,1200,,Calculator
+EX-20230517.01,,PR ForceUpdate,false,All,Edit,On Initialization;Before Calculate;On Calculate;After Calculate,1000,,Calculator
+EX-20230518.01,,Group: Apply Discount Rate - Apply,true,All,Edit,On Calculate,850,,Calculator
+EX-20230526.01,,Quote Apply Discount - Set QuoteVal,true,All,Edit,Before Calculate,505,,Calculator
+EX-20230526.03,,Quote Apply Discount - Clear Vals,true,All,Edit,Before Calculate,600,,Calculator
+EX-20230526.60,,Quote Apply Discount - Set Discount,true,All,Edit,On Calculate;After Calculate,800,,Calculator
+EX-20230526.61,,Quote Apply Discount - Bump,true,All,Edit,On Initialization,800,,Calculator
+EX-20230605.01,,Geo Set PDF Desc,false,All,,After Calculate,1250,,Calculator
+EX-20230605.10,,Quote Apply Discount - Amend drop,true,All,Edit,On Initialization;Before Calculate,820,,Calculator
+EX-20230605.20,,Quote Apply Discount - Amend add,true,All,Edit,On Calculate,840,,Calculator
+EX-20230615.10,,Amend Cancelation - Trial,true,All,,On Calculate,402,,Calculator
+EX-20230619.01,,Clear BB for No Attributes,true,All,Save,Before Calculate;On Calculate,410,,Calculator
+EX-20230715.01,,Fix Segment Labels,true,All,,Before Calculate,100,,Calculator
+EX-20230721.01,,Trial Set Values,true,All,Edit,On Initialization;On Calculate,400,,Calculator
+EX-20230830.01,,SpecAlert On Specshare,true,All,,Before Calculate,300,,Calculator
+EX-20230915.1,,Verify BI Seats - TRUE,true,All,,On Calculate,500,,Calculator
+EX-20231004.05,,Clear Bundle StartDate,true,All,,Before Calculate,105,,Calculator
+EX-20231201.22,,Set Ad Info AD/ADContent,true,All,,After Calculate,100,,Calculator

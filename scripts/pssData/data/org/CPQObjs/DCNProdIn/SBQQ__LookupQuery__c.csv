@@ -1,0 +1,3 @@
+External_Id__c,SBQQ__LookupField__c,SBQQ__MatchType__c,SBQQ__Operator__c,SBQQ__PriceRule2__r.External_Id__c,SBQQ__ProductRule__r.External_Id__c,SBQQ__RuleLookupObject__c,SBQQ__TestedConfigurationAttribute__r.External_Id__c,SBQQ__TestedField__c,SBQQ__TestedObject__c,SBQQ__TestedValue__c
+EX-0230607,SBQQ__Product__c,Field Value,equals,EX-000031,,SBQQ__DiscountSchedule__c,,SBQQ__Product__c,Quote Line,
+EX-0230608,Name,Static Value,equals,EX-000031,,SBQQ__DiscountSchedule__c,,,,DCC SEATS - 5 Free Seats

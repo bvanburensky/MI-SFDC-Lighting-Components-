@@ -1,0 +1,23 @@
+.THIS.slds-text-color_warning1{
+  /*
+    # color : token(textWarning)  !important;
+    */
+}
+
+.THIS lightning-icon svg.slds-icon.slds-icon_small {
+ 
+      border-radius: .25rem;
+	  width: 1rem;
+      height: 1rem;
+      line-height: 1;
+   
+}
+.THIS div.sgfieldhighlight {
+ 
+   margin-left:10px;
+   
+}
+
+.THIS.icon svg {
+  fill : red;
+}

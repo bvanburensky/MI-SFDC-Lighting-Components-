@@ -1,0 +1,247 @@
+External_Id__c,SBQQ__Field__c,SBQQ__Formula__c,SBQQ__Order__c,SBQQ__Rule__r.External_Id__c,SBQQ__RuleLookupObject__c,SBQQ__SourceLookupField__c,SBQQ__SourceVariable__r.External_Id__c,SBQQ__TargetObject__c,SBQQ__Value__c,SBQQ__ValueField__c
+,Wrappers_With_Bad_Start_Dates__c,,,Moved to init riule,,,,Quote,FALSE,
+,Wrappers_With_Bad_Start_Dates__c,,,EX-20231001.10,,,,Quote,TRUE,
+EX-000002,Invoice_Description__c,SBQQ__ProductName__c,,EX-000002,,,,Quote Line,,
+EX-000006,SPV__c,""";"" & TEXT(  SBQQ__RequiredBy__r.States_Account__c) & "";""",10,EX-000007,,,,Quote Line,,
+EX-000014,DR_Product_Count__c,,,EX-000005,,,EX-000007,Quote,,
+EX-000023,Latest_End_Date__c,,,EX-000005,,,EX-000010,Quote,,
+EX-000026,Latest_Run_Date__c,,,EX-000005,,,EX-000006,Quote,,
+EX-000032,Price_Rule_Audit_Rich_Text__c,"Price_Rule_Audit_Rich_Text__c & BR() & ""IMS Invoice Descriptions""",30,EX-000007,,,,Quote Line,,
+EX-000038,Print_Product_Count__c,,,EX-000005,,,EX-000007,Quote,,
+EX-000056,Invoice_Description_Lines_Count__c,,,EX-000005,,,EX-000014,Quote,,
+EX-000059,PDF_Sub_Line_Description__c,State_Picklist_Label_Values__c,20,EX-000007,,,,Quote Line,,
+EX-000067,Count_of_Unsegmented_Lines__c,,10,EX-000067,,,EX-000013,Quote,,
+EX-000072,Bluebook_Product_Count__c,,,EX-000005,,,EX-000005,Quote,,
+EX-000073,Horizon_Product_Count__c,,,EX-000005,,,EX-000008,Quote,,
+EX-0230607,Net_Amount_minus_DCC_Seats__c,,10,EX-000022,,,EX-000003,Quote,,
+EX-0230608,SBQQ__EndDate__c,,,EX-000032,,,,Quote,,
+EX-0230609,SBQQ__RegularPrice__c,"(SBQQ__UpgradedSubscription__r.SBQQ__RegularPrice__c)*IF(SBQQ__Quantity__c < SBQQ__PriorQuantity__c, -1, 1)",20,EX-000010,,,,Quote Line,,
+EX-0230610,Initial_ARR__c,"IF(NOT(ISBLANK(SBQQ__RenewedSubscription__c)), 
+IF(TEXT(SBQQ__SubscriptionPricing__c) = '', 0, 
+(SBQQ__NetTotal__c / SBQQ__ProrateMultiplier__c) / (SBQQ__DefaultSubscriptionTerm__c / 12)), 
+0)",50,EX-000019,,,,Quote Line,,
+EX-0230611,Multiple_Ship_To_Addresses__c,,,EX-000024,,,,Quote,TRUE,
+EX-0230612,SBQQ__DiscountSchedule__c,,,EX-000031,SBQQ__DiscountSchedule__c,Id,,Quote Line,,
+EX-0230613,Geo_Level_of_Detail_Multiplier__c,"IF(ISBLANK(Geo_Level_of_Detail__c), 1,
+
+CASE(TEXT(Geo_Level_of_Detail__c), 
+""National"", 0.2, 
+""Divisions"", 0.45, 
+""States"", 1, 
+""Metro"", 1.20,
+""Custom"", 1.40, 
+1)
+
+)",,EX-000013,,,,Quote Line,,
+EX-0230614,Price_Rule_Audit_Rich_Text__c,"Price_Rule_Audit_Rich_Text__c & BR() & ""Set Non-Analytics Geo List Price"" &
+text(SBQQ__ListPrice__c)",,EX-000021,,,,Quote Line,,
+EX-0230615,Prorate_Multiplier__c,,,EX-000020,,,,Quote Line,1,
+EX-0230616,Price_Rule_Audit_Rich_Text__c,"Price_Rule_Audit_Rich_Text__c & BR() & ""Set Bundle Wrapper Package Code""",,EX-000004,,,,Quote Line,,
+EX-0230617,Price_Rule_Audit_Rich_Text__c,"Price_Rule_Audit_Rich_Text__c & BR() & ""DCC County List Prices""",,EX-000008,,,,Quote Line,,
+EX-0230618,Bluebook_Product_On_Quote__c,"IF(Bluebook_Product_Count__c > 0, True, False)",20,EX-000017,,,,Quote,,
+EX-0230619,Price_Rule_Audit_Rich_Text__c,"Price_Rule_Audit_Rich_Text__c & BR() & ""Set Analytics Geo List Price 1: list"" & text(SBQQ__ListPrice__c) & "" GEO: "" &  text(DCC_Geo_List_Price__c)",10,EX-000026,,,,Quote Line,,
+EX-0230620,SBQQ__ListPrice__c,"(SBQQ__UpgradedSubscription__r.SBQQ__ListPrice__c)*IF(SBQQ__Quantity__c < SBQQ__PriorQuantity__c, -1, 1)",10,EX-000010,,,,Quote Line,,
+EX-0230621,Configured_Package_Code_Override__c,,,EX-000006,,,,Quote Line,,SBQQ__ProductCode__c
+EX-0230622,Configured_Package_Code_Override__c,"IF(SBQQ__ProductCode__c = ""NETNEW-WRAPPER"",
+CASE(Package_Code_Number__c, 
+1, ""NETNEW"",
+2, ""NETNEW2"",
+3, ""NETNEWG"",
+4, ""NETNEWP"",
+""ERROR""),
+
+IF(SBQQ__ProductCode__c = ""NETNP-WRAPPER"",
+CASE(Package_Code_Number__c, 
+1, ""NETNEW"",
+2, ""NETNEW2"",
+3, ""NETNEWG"",
+4, ""NETNEWP"",
+""ERROR""),
+
+CASE(Package_Code_Number__c, 
+1, ""NETNEW"",
+2, ""NETNEW2"",
+3, ""NETNEWG"",
+4, ""NETNEWP"",
+""ERROR"")
+
+))",,EX-000030,,,,Quote Line,,
+EX-0230623,Horizon_License_Number__c,Parent_Horizon_License_Number__c,,EX-000029,,,,Quote Line,,
+EX-0230624,SBQQ__ListPrice__c,"ROUND(
+DCC_Geo_List_Price__c * 
+IF(Project_Category_Multiplier__c = 0, 1, Project_Category_Multiplier__c) * 
+IF(Project_Type_Multiplier__c = 0, 1, Project_Type_Multiplier__c) *
+IF(Geo_Level_of_Detail_Multiplier__c = 0, 1, Geo_Level_of_Detail_Multiplier__c) *
+IF(Project_Level_of_Detail_Multiplier__c = 0, 1, Project_Level_of_Detail_Multiplier__c) * 
+History_or_Forecast_Multiplier__c 
+
+, 0)",30,EX-000026,,,,Quote Line,,
+EX-0230625,SBQQ__DiscountSchedule__c,,,EX-000011,,,,Quote Line,a5X3J0000000LqfUAE,
+EX-0230626,Price_Rule_Audit_Rich_Text__c,"Price_Rule_Audit_Rich_Text__c & BR() & ""Set DCC Multipliers""",100,EX-000013,,,,Quote Line,,
+EX-0230627,SBQQ__DefaultSubscriptionTerm__c,"IF(ISBLANK(SBQQ__Quote__r.SBQQ__SubscriptionTerm__c), 
+((SBQQ__EffectiveEndDate__c - SBQQ__EffectiveStartDate__c +1)/365 * 12),
+SBQQ__Quote__r.SBQQ__SubscriptionTerm__c)",,EX-000014,,,,Quote Line,,
+EX-0230628,Bluebook_Product_Count__c,,10,EX-000017,,,EX-000005,Quote,,
+EX-0230629,SBQQ__ListPrice__c,"IF(SBQQ__ProductCode__c = ""IMSPUP"",11661,
+
+IF(SBQQ__ProductCode__c = ""IMSPRP"", 2650,
+
+IF(SBQQ__ProductCode__c = ""IMSPUPRP"",13195,
+
+0)))",,EX-000009,,,,Quote Line,,
+EX-0230630,Price_Rule_Audit_Rich_Text__c,"Price_Rule_Audit_Rich_Text__c & BR() & ""Billing Frequency Multiplier""",,EX-000012,,,,Quote Line,,
+EX-0230631,Account__c,SBQQ__Quote__r.SBQQ__Account__c,20,EX-000022,,,,Quote Line,,
+EX-0230632,Price_Rule_Audit_Rich_Text__c,"Price_Rule_Audit_Rich_Text__c & BR() & ""BB Invoice Descriptions""",,EX-000028,,,,Quote Line,,
+EX-0230632.50,Price_Rule_Audit_Rich_Text__c,"Price_Rule_Audit_Rich_Text__c & BR() & ""Clear vals""",10,EX-20230526.03,,,,Quote Line,,
+EX-0230633,Price_Rule_Audit_Rich_Text__c,"Price_Rule_Audit_Rich_Text__c & BR() & ""Set Configured Package Code on Children""",,EX-000027,,,,Quote Line,,
+EX-0230634,Configured_Package_Code_Override__c,SBQQ__RequiredBy__r.Configured_Package_Code__c,,EX-000027,,,,Quote Line,,
+EX-0230635,DCC_Geo_List_Price__c,,50,EX-000025,,,,Quote Line,,SBQQ__ListPrice__c
+EX-0230636,Price_Rule_Audit_Rich_Text__c,"Price_Rule_Audit_Rich_Text__c & BR() & ""IMS Nationwide Pricing""",,EX-000009,,,,Quote Line,,
+EX-0230637,Invoice_Description__c,"Invoice_Description__c &  
+IF(ISBLANK(Geo__c) || TEXT(Geo__c) = ""Local/MSA"", """", BR() &  ""Geo: "" & Geo__c) &
+IF(ISBLANK(TBB_Region__c), """", BR() & ""Region: "" & TBB_Region__c) & 
+IF(ISBLANK(TBB_Class__c), """", BR() &""Class: "" &  TBB_Class__c) &
+
+IF(ISBLANK(TBB_Regions__c), """", BR() & ""Region: "" & TBB_Regions__c) & 
+IF(ISBLANK(TBB_Classes__c), """", BR() &""Class: "" &  TBB_Classes__c)",,EX-000028,,,,Quote Line,,
+EX-0230638,Price_Rule_Audit_Rich_Text__c,"Price_Rule_Audit_Rich_Text__c & BR() & ""Set Configured Package Code on Parent""",,EX-000030,,,,Quote Line,,
+EX-0230639,SBQQ__ListPrice__c,"DCC_Geo_List_Price__c * 
+
+IF((Project_Type_Multiplier__c + Project_Category_Multiplier__c > 1) || (Project_Type_Multiplier__c + Project_Category_Multiplier__c = 0), 1, 
+Project_Type_Multiplier__c + Project_Category_Multiplier__c)",,EX-000021,,,,Quote Line,,
+EX-0230640,Project_Type_Multiplier__c,"IF(ISBLANK(Project_Type__c), 1,
+IF(INCLUDES(Project_Type__c,""GB - Office Building""),0.3,0)+
+IF(INCLUDES(Project_Type__c,""GB - Retail""),0.3,0)+
+IF(INCLUDES(Project_Type__c,""GB - Industrial Facilities""),0.3,0)+
+IF(INCLUDES(Project_Type__c,""GB - Warehouses""),0.3,0)+
+IF(INCLUDES(Project_Type__c,""GB - Leisure/Other""),0.3,0)+
+IF(INCLUDES(Project_Type__c,""GB - Medical Facilities""),0.3,0)+
+IF(INCLUDES(Project_Type__c,""GB - Multi-family""),0.3,0)+
+IF(INCLUDES(Project_Type__c,""GB - Hotel/Motel/Dormitories""),0.3,0)+
+IF(INCLUDES(Project_Type__c,""GB - Government Facilities""),0.3,0)+
+IF(INCLUDES(Project_Type__c,""GB - Educational Facilities""),0.3,0)+
+IF(INCLUDES(Project_Type__c,""GB - Transportation""),0.3,0)+
+IF(INCLUDES(Project_Type__c,""Eng - Streets & Bridges""),0.3,0)+
+IF(INCLUDES(Project_Type__c,""Eng - Engineering Other""),0.3,0)+
+IF(INCLUDES(Project_Type__c,""Utilities - Public Works""),0.3,0)+
+IF(INCLUDES(Project_Type__c,""Utilities - Power Generation""),0.3,0)+
+IF(INCLUDES(Project_Type__c,""H - Single Family""),0.3,0)
+
+
+)",,EX-000013,,,,Quote Line,,
+EX-0230641,SBQQ__ListPrice__c,"IF(SBQQ__RequiredBy__r.SBQQ__ProductCode__c = ""NETNP-WRAPPER"", 
+SBQQ__Product__r.USD_News_and_Plans_Price__c,
+SBQQ__Product__r.USD_News_Price_or_Plans_Price__c)",,EX-000008,,,,Quote Line,,
+EX-0230642,History_or_Forecast_Multiplier__c,"IF(TEXT(History_or_Forecast__c) = ""History & Forecast"", 1.25, 1)",,EX-000013,,,,Quote Line,,
+EX-0230643,Price_Rule_Audit_Rich_Text__c,"Price_Rule_Audit_Rich_Text__c & BR() & ""Set Multiple Ship To Addresses""",,EX-000024,,,,Quote Line,,
+EX-0230644,Invoice_Description__c,"Invoice_Description__c & BR() & 
+""Ad #: "" & Ad__c & BR() &
+
+""Ad Caption: "" & Ad_Caption__c & BR() &
+
+""Ad Size: "" & Ad_Inches__c & "" "" & Ad_Size__c & BR() &
+
+""Issue Date: "" & Issue_Date_Text__c",,EX-000038,,,,Quote Line,,
+EX-0230645,Invoice_Comments__c,"""Ad Caption: "" & Ad_Caption__c",,EX-000016,,,,Quote Line,,
+EX-0230646,AVA_SFCPQ__Quote_AutomateTaxCalculation__c,,,EX-000015,,,,Quote,True,
+EX-0230647,Project_Category_Multiplier__c,"IF(ISBLANK(TEXT(Project_Category__c)), 1, 0.8)",,EX-000013,,,,Quote Line,,
+EX-0230648,Price_Rule_Audit_Rich_Text__c,"Price_Rule_Audit_Rich_Text__c & BR() & ""Media Invoice Descriptions""",,EX-000038,,,,Quote Line,,
+EX-0230649,Price_Rule_Audit_Rich_Text__c,"Price_Rule_Audit_Rich_Text__c & BR() & ""Set DCC Geo List Price from List 2  : "" & Text(SBQQ__ListPrice__c ) & ""GEO : "" & Text(DCC_Geo_List_Price__c)",100,EX-000025,,,,Quote Line,,
+EX-0230650,Horizon_Contract_Number__c,Parent_Horizon_Contract_Number__c,,EX-000029,,,,Quote Line,,
+EX-0230651,SBQQ__NetPrice__c,"(SBQQ__UpgradedSubscription__r.SBQQ__NetPrice__c*SBQQ__ProrateMultiplier__c)*IF(SBQQ__Quantity__c < SBQQ__PriorQuantity__c, -1, 1)",30,EX-000010,,,,Quote Line,,
+EX-0230652,Price_Rule_Audit_Rich_Text__c,,500,EX-000022,,,,Quote Line,'Start' +br(),
+EX-0230653,Price_Rule_Audit_Rich_Text__c,"Price_Rule_Audit_Rich_Text__c & BR() & ""Set Initial ARR""",10,EX-000019,,,,Quote Line,,
+EX-0230654,Package_Code_Number__c,,,EX-000004,,,EX-000009,Quote Line,,
+EX-0230655,Project_Level_of_Detail_Multiplier__c,"IF(ISBLANK(Project_Level_of_Detail__c), 1,
+
+CASE(TEXT(Project_Level_of_Detail__c), 
+""Summary only"", 0.4, 
+""By Project Type"", 1,
+1)
+
+)",,EX-000013,,,,Quote Line,,
+EX-0230656,SBQQ__ListPrice__c,"IF(TEXT(SBQQ__BillingFrequency__c) = ""Quarterly"" , SBQQ__ListPrice__c * 1.05,
+    IF(TEXT(SBQQ__BillingFrequency__c) = ""Monthly"", SBQQ__ListPrice__c * 1.1,
+    1))",,EX-000012,,,,Quote Line,,
+EX-0230657,Price_Rule_Audit_Rich_Text__c,"Price_Rule_Audit_Rich_Text__c & BR() & ""Set Configured Package Code on Standalone""",,EX-000006,,,,Quote Line,,
+EX-0230658,Price_Rule_Audit_Rich_Text__c,"Price_Rule_Audit__c & BR() & ""Media Invoice Comments""",,EX-000016,,,,Quote Line,,
+EX-0230659,SBQQ__Discount__c,"IF(AND(SBQQ__ListPrice__c =0,SBQQ__NetTotal__c= 0, NOT(SBQQ__TotalDiscountRate__c= 100)),
+null,
+SBQQ__Quote__r.Additional_Discount__c)",20,EX-000033,,,,Quote Line,,
+EX-0230660,Invoice_Comments__c,Ad_Caption__c,,EX-000038,,,,Quote Line,,
+EX-0230661,Price_Rule_Audit_Rich_Text__c,"Price_Rule_Audit_Rich_Text__c & BR() & ""Slab Pricing Cancellation""",,EX-000010,,,,Quote Line,,
+EX-0230662,Price_Rule_Audit_Rich_Text__c,"Price_Rule_Audit_Rich_Text__c & BR() & ""Refresh Prices"" + TExt(List_Price_Option_PriceBook__c)",500,EX-20230328.02,,,,Quote Line,,
+EX-0230663,Price_Rule_Audit_Rich_Text__c,"Price_Rule_Audit_Rich_Text__c & BR() & ""Set Analytics Geo List Price 2:"" & text(SBQQ__ListPrice__c)",100,EX-000026,,,,Quote Line,,
+EX-0230664,Price_Rule_Audit_Rich_Text__c,"Price_Rule_Audit_Rich_Text__c & BR() & ""Set DCC Geo List Price from List 1  : "" & Text(SBQQ__ListPrice__c ) & ""GEO : "" & Text(DCC_Geo_List_Price__c)",10,EX-000025,,,,Quote Line,,
+EX-0230665,Account__c,SBQQ__Quote__r.SBQQ__Account__c,,EX-000018,,,,Product Option,,
+EX-20230328.01,SBQQ__UpliftAmount__c,,10,EX-20230320.4,,,,Quote Line,,
+EX-20230328.05,SBQQ__ListPrice__c,List_Price_Option_PriceBook__c,10,EX-20230328.02,,,,Quote Line,,
+EX-20230328.07,SBQQ__Uplift__c,,20,EX-20230320.4,,,,Quote Line,,
+EX-20230328.20,SBQQ__AdditionalDiscountAmount__c,,10,EX-20230320.2,,,,Quote Line,,
+EX-20230328.21,Discount (Amt),,10,EX-20230320.2,,,,Quote Line,,
+EX-20230328.22,SBQQ__Discount__c,,30,EX-20230320.2,,,,Quote Line,,
+EX-20230401.01,SBQQ__Quantity__c,,,EX-20230328.01,,,,Quote Line,0,
+EX-20230401.04,SBQQ__Quantity__c,,,EX-20230320.30,,,,Quote Line,0,
+EX-20230401.20,Geo__c,,10,EX-20230320.3,,,,Quote Line,,
+EX-20230401.22,Geo__c,,10,EX-20230302.0,,,,Quote Line,NBD,
+EX-20230405.05,Count_of_Invalid_Seats__c,,,EX-20230505.02,,,,Quote,true,
+EX-20230505.04,Count_Of_Missing_GEOs__c,,,EX-20230505.01,,,EX-20230505.02,Quote,,
+EX-20230511.06,SPV__c,""";"" & TEXT(  SBQQ__RequiredBy__r.States__c  ) & "";""",10,EX-20230511.01,,,,Quote Line,,
+EX-20230511.10,PDF_Sub_Line_Description__c,State_Picklist_Label_Values__c,20,EX-20230511.01,,,,Quote Line,,
+EX-20230515.055,Count_Of_Missing_GEOs__c,,10,EX-000005,,,EX-20230505.02,Quote,,
+EX-20230515.35,Count_of_Invalid_Seats__c,,10,EX-000005,,,EX-20230523.05,Quote,,
+EX-20230517.01,PR_Counter__c,"blankvalue ( PR_Counter__c,0)  + 1",10,EX-20230517.01,,,,Quote Line,,
+EX-20230518.10,SBQQ__Discount__c,SBQQ__Group__r.Group_Discount_Rate__c,30,EX-20230518.01,,,,Quote Line,,
+EX-20230518.35,SBQQ__Discount__c,SBQQ__Quote__r.Quote_Discount_Rate__c,30,EX-20230526.60,,,,Quote Line,,
+EX-20230524.11,SBQQ__AdditionalDiscountAmount__c,,20,EX-20230526.03,,,,Quote Line,,
+EX-20230524.16,Discount (Amt),,30,EX-20230526.03,,,,Quote Line,,
+EX-20230524.31,SBQQ__Discount__c,,40,EX-20230526.03,,,,Quote Line,,
+EX-20230525,SBQQ__BillingFrequency__c,"if( text(SBQQ__BillingFrequency__c ) ='One Time',
+ text(SBQQ__BillingFrequency__c) ,
+  text(SBQQ__Quote__r.SBQQ__BillingFrequency__c )
+)",,EX-000005,,,,Quote Line,,
+EX-20230526.01,Quote_Discount_Rate__c,,10,EX-20230526.01,,,EX-20230530.01,Quote,,
+EX-20230529.152,SBQQ__Discount__c,"SBQQ__Discount__c +   
+if( SBQQ__Quote__r.Bump_Line__c >0,  0.00001,- 0.00001)",,EX-20230526.61,,,,Quote Line,,
+EX-20230605.01,PDF_Sub_Line_Description__c,SBQQ__Product__r.Description,10,EX-20230605.01,,,,Quote Line,,
+EX-20230605.10,PDF_Sub_Line_Description__c,,,EX-000002,,,,Quote Line,,
+EX-20230605.30,Discount_Rate__c,SBQQ__TotalDiscountRate__c * SBQQ__ProrateMultiplier__c,10,EX-20230605.10,,,,Quote Line,,
+EX-20230605.35,SBQQ__AdditionalDiscountAmount__c,,20,EX-20230605.10,,,,Quote Line,,
+EX-20230605.50,SBQQ__Discount__c,Discount_Rate__c,50,EX-20230605.20,,,,Quote Line,,
+EX-20230605.75,Discount (Amt),,40,EX-20230605.10,,,,Quote Line,,
+EX-20230606.15,SBQQ__Discount__c,,40,EX-20230605.10,,,,Quote Line,,
+EX-20230607,Count_of_Quote_Line_Errors__c,,,EX-000005,,,EX-20230515.01,Quote,,
+EX-20230615.10,Discount (Amt),,10,EX-20230615.10,,,,Quote Line,,
+EX-20230615.11,Discount (%),,10,EX-20230615.10,,,,Quote Line,100,
+EX-20230615.12,SBQQ__ListPrice__c,,10,EX-20230615.10,,,,Quote Line,0,
+EX-20230615.14,Discount_Rate__c,,10,EX-20230615.10,,,,Quote Line,,
+EX-20230619.50,TBB_Class__c,,20,EX-20230619.01,,,,Quote Line,,
+EX-20230619.51,Geo__c,,10,EX-20230619.01,,,,Quote Line,,
+EX-20230619.52,TBB_Region__c,,30,EX-20230619.01,,,,Quote Line,,
+EX-20230715.05,SBQQ__SegmentLabel__c,'Year  '+ text(SBQQ__SegmentIndex__c),10,EX-20230715.01,,,,Quote Line,,
+EX-20230808,Opportunity_Type__c,SBQQ__Quote__r.Opportunity_Type__c,40,EX-000022,,,,Quote Line,,
+EX-20230808.01,HasConfigurationAttributes__c,SBQQ__Product__r.SBQQ__HasConfigurationAttributes__c,40,EX-000022,,,,Quote Line,,
+EX-20230808.02,Is_Component__c,( SBQQ__Product__r.Is_Component_Dynamic__c ||  SBQQ__Product__r.SBQQ__Component__c ),40,EX-000022,,,,Quote Line,,
+EX-20230808.10,Is_Renewal_Subscription__c,!isblank( SBQQ__RenewedSubscription__c),60,EX-000022,,,,Quote Line,,
+EX-20230808.11,Is_Upgraded_Subscription__c,!isblank( SBQQ__UpgradedSubscription__c),70,EX-000022,,,,Quote Line,,
+EX-20230808.12,Is_Required_By__c,!isblank( SBQQ__RequiredBy__c ),60,EX-000022,,,,Quote Line,,
+EX-20230808.15,Is_Dimension__c,!isblank( SBQQ__Dimension__c ),60,EX-000022,,,,Quote Line,,
+EX-20230808.30,Quote_Type__c,text( SBQQ__Quote__r.SBQQ__Type__c ),40,EX-000022,,,,Quote Line,,
+EX-20230808.31,Is_Account_Sequence__c,!isblank( Account_Sequence__c ),40,EX-000022,,,,Quote Line,,
+EX-20230808.32,Product_Name__c,SBQQ__ProductName__c,40,EX-000022,,,,Quote Line,,
+EX-20230808.40,Is_Ship_Product_Address_Valid__c,"!isblank ( Shipping_Address__c) &&
+Shipping_Address__r.Is_valid_for_Ship_Product_Line__c",40,EX-000022,,,,Quote Line,,
+EX-20230830.02,Summary_Line__c,,10,EX-20230830.01,,,,Quote Line,false,
+EX-20230915.30,Is_Missing_BI_Seats_AIACC__c,,100,EX-000022,,,,Quote,FALSE,
+EX-20230915.4,Is_Missing_BI_Seats_AIACC__c,,,EX-20230915.1,,,,Quote,TRUE,
+EX-20230915.8,Is_Missing_BI_Seats_AIACC__c,,,EX-20230915.5,,,,Quote,FALSE,
+EX-20231003.01,Wrappers_With_Bad_Start_Dates__c,,40,EX-000022,,,,Quote,false,
+EX-20231003.02,SBQQ__StartDate__c,,,EX-20231004.05,,,,Quote Line,,
+EX-20231016.01,SBQQ__Discount__c,SBQQ__Quote__r.Target_ARCV_Amendment_Percent__c,10,EX-20231016.05,,,,Quote Line,,
+EX-20231016.10,Prorate_Multiplier__c,,100,EX-000022,,,EX-20231016.04,Quote,,
+EX-20231016.11,Prorate_Multiplier__c,,100,EX-000005,,,EX-20231016.04,Quote,,
+EX-20231016.13,Amend_List_Price__c,,100,EX-000005,,,,Quote,,
+EX-20231016.15,Amend_Net_Total__c,,100,EX-000005,,,,Quote,,
+EX-20231130.055,Ad_Caption__c,SBQQ__Quote__r.SBQQ__Opportunity2__r.Name,500,EX-20231201.22,,,,Quote Line,,
+EX-20231130.33,Ad__c,SBQQ__Quote__r.Name,500,EX-20231201.22,,,,Quote Line,,
+EX-20231206.01,Effective_Quantity__c,SBQQ__EffectiveQuantity__c,100,EX-000022,,,,Quote Line,,

@@ -1,0 +1,5 @@
+External_Id__c,SBQQ__FilterField__c,SBQQ__FilterValue__c,SBQQ__Operator__c,SBQQ__Product__r.External_ID__c,SBQQ__Required__c,SBQQ__Rule__r.External_Id__c,SBQQ__Type__c,SBQQ__ValueAttribute__r.External_Id__c,SBQQ__ValueField__c,SBQQ__ValueObject__c
+EX-0230607,,,,EX-0000027,false,EX-0230613,Show & Add,,,
+EX-0230608,,,,EX-0010758,false,EX-0230614,Add,,,
+EX-0230609,,,,EX-0000027,false,EX-0230615,Hide & Remove,,,
+EX-0230610,Zone_Type__c,DCC County,equals,,false,EX-0230609,Default Filter,,,

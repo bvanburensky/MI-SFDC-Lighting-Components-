@@ -1,0 +1,20 @@
+<aura:event type="APPLICATION" description="DI Event " >
+  <!-- Events between componets-->  
+ <aura:attribute name="ctrlMethod" type="String"/>
+ <aura:attribute name="component" type="Object" />
+ <aura:attribute name="Objects" type="Object" />
+ <aura:attribute name="recordId" type="Object" description="recordid" />
+ <aura:attribute name="sObject" type="String"  description="sObject Name "/>
+ <aura:attribute name="isCancel" type="boolean" description="is a cancel message"/>
+ <aura:attribute name="command" type="String" description="the action to perform"/> 
+ <aura:attribute name="commandGlobal" type="String" description="the action to perform that may be registered by other DI componens
+   ie refresh on a list thet requires a refresh on a associated component
+ "/> 
+ <aura:attribute name="pageKey" type="String" description="pageKey that ties multiple instances on a page together for interaction like refreshes"/> 
+ 
+ <aura:attribute name="componentName" type="String" description="the component "/> 
+ <aura:attribute name="globalId" type="String" description="global id assigned a specific instance of a componemt.  Test to insure handlers part of the same component that fired "/> 
+ 
+ <aura:attribute name="selectedRows" type="Object" description="from DataTable rows selected using the checkbox "/> 
+
+</aura:event>

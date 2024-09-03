@@ -1,0 +1,40 @@
+.THIS lightning-button-icon-stateful.kbutton button {
+  box-sizing:border-box;
+	box-shadow: 0 0 .5px;
+  border-color:rgb(221, 219, 218);
+  background-color:inherit;
+  border: 1px solid;
+  border-radius: 50%;
+	height: 32px;
+  width: 32px;
+  transform: rotate(-90deg);
+	transition-duration: .75s;
+  transition-property: all;
+}
+.THIS lightning-button-icon-stateful.kbutton  button:hover {
+   border: 2px solid;
+	 transition-duration: .1s;
+	  
+}
+.THIS lightning-button-icon-stateful.kbutton button.slds-button_icon-border.slds-is-selected {
+  background-color:transparent;
+  border-color:rgba(0, 68, 135, 1.0);
+	}
+.THIS lightning-button-icon-stateful.kbutton button.slds-button_icon-border.slds-is-selected svg {
+  fill:inherit;
+ }
+ 
+.THIS lightning-button-icon-stateful.kbutton  button.slds-is-selected  {
+   transform: rotate(0deg);
+
+}
+
+.THIS #sectionBody {
+	transition-duration: .5s;
+  transition-property: all;
+}
+
+/*.slds-button_icon-border.slds-is-selected */
+
+
+/*slds-button slds-button--stateful slds-not-selected kbutton slds-float_left */

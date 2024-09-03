@@ -1,0 +1,27 @@
+External_Id__c,Name,SBQQ__Active__c,SBQQ__ConditionsMet__c,SBQQ__ErrorMessage__c,SBQQ__EvaluationEvent__c,SBQQ__EvaluationOrder__c,SBQQ__LookupMessageField__c,SBQQ__LookupObject__c,SBQQ__LookupProductField__c,SBQQ__LookupRequiredField__c,SBQQ__LookupTypeField__c,SBQQ__Scope__c,SBQQ__Type__c
+,Segment 4 Quantity Equals Segment 5 Quantity,false,All,The product quantity for Year 4 does not match the product quantity for Year 5,Always,400,,,,,,Quote,Alert
+,Segment 1 Quantity Equals Segment 3 Quantity,false,All,The product quantity for Year 1 does not match the product quantity for year 3,Always,100,,,,,,Quote,Alert
+,Segment 1 Quantity Equals Segment 4 Quantity,false,All,The product quantity for Year 1 does not match the product quantity for year 4,Always,100,,,,,,Quote,Alert
+,Segment 1 Quantity Equals Segment 5 Quantity,false,All,The product quantity for Year 1 does not match the product quantity for year 5,Always,100,,,,,,Quote,Alert
+,Segment 2 Quantity Equals Segment 3 Quantity,false,All,The product quantity for Year 2 does not match the product quantity for Year 3,Always,200,,,,,,Quote,Alert
+,Segment 2 Quantity Equals Segment 4 Quantity,false,All,The product quantity for Year 2 does not match the product quantity for Year 4,Always,200,,,,,,Quote,Alert
+,Segment 2 Quantity Equals Segment 5 Quantity,false,All,The product quantity for Year 2 does not match the product quantity for Year 5,Always,200,,,,,,Quote,Alert
+,Segment 3 Quantity Equals Segment 4 Quantity,false,All,The product quantity for Year 3 does not match the product quantity for Year 4,Always,300,,,,,,Quote,Alert
+,Segment 3 Quantity Equals Segment 5 Quantity,false,All,The product quantity for Year 3 does not match the product quantity for Year 5,Always,310,,,,,,Quote,Alert
+EX-0230607,Product Segmentation Validation,true,All,"Product Configuration Error!
+ <br>
+Products Must be segmented to print, send, or close this Quote.
+ <br>
+Check for any Lines in the ""Standard Products"" section that have a Magic Wand Icon and click the Icon to Segment the Line.",Save,,,,,,,Quote,Alert
+EX-0230608,Set Account on Options for BB,false,All,,Always,,,,,,,Quote,Selection
+EX-0230609,County Filter,true,Any,,Load,20,,,,,,Product,Filter
+EX-0230610,Fix This Blue Book Without Account Sequence,true,All,Blue Book products must have an Account Sequence on the Quote Line.,Save,,,,,,,Quote,Validation
+EX-0230611,Proview Product Validation,true,All,The Proview Product must be added to the Quote when a Blue Book product is present.,Save,,,,,,,Quote,Validation
+EX-0230612,Print Product Without Address Validation,true,All,Print products must have a Shipping Address on the Quote Line.,Save,,,,,,,Quote,Validation
+EX-0230613,Show and Add Seats Options,false,All,,Load,30,,,,,,Product,Selection
+EX-0230614,Select News Only Platform Option,false,All,,Always,,,,,,,Product,Selection
+EX-0230615,Hide and Remove Seats Options,true,All,,Always,35,,,,,,Product,Selection
+EX-20230915.10,Is Missing BI Seats / AIACC Alert,true,All,Some Product(s) on this Quote Require BI Seats / AIACC. Please add it to the Quote.,Always,,,,,,,Quote,Alert
+EX-20231001.20,Segment Quantities Are Not Equal,true,Custom,The product quantity for each year does match.  Please check the quantities to ensure they are the same in every period.,Always,100,,,,,,Quote,Alert
+EX-20240222,MileSoneProjectPct,true,All,The percent complete on the milestone project must total to 100%,Save,,,,,,,Quote,Alert
+EX-20240222.01,MileSoneProjectAmounts,true,All,The total of the milestone allocation amounts must equal the project/bundle list unit price,Save,,,,,,,Quote,Alert
