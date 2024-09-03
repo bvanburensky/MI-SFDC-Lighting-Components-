@@ -1,5 +1,6 @@
 # MI-SFDC-Lighting-Components-
 Salesforce lightning 
+Aura
 MIRelated List 
  Lightning Component 
  No field limit
@@ -10,7 +11,16 @@ MI Field Highlight
   Show message configured in custom field  
   warning message
   Ok 
-  errorr
+  error
+
+LWC
+PDFViewer 
+  Display PDF widget displaye pdf files. no need to click or download 
+
+
+  --- download project open in VsCode 
+  --- connect to org
+  --- deploy class,aurra,lwc 
 
  
  
